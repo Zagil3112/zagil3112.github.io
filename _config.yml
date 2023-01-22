@@ -1,0 +1,5 @@
+remote_theme: chrisrhymes/bulma-clean-theme
+lang: "es"
+layout: page
+fixed_navbar: top
+permalink: pretty
