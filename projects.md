@@ -1,6 +1,6 @@
 ---
 title: Proyectos
-subtitle: Estos son nuestros proyectos en curso
+subtitle: Estos son nuestros proyectos y competencias en curso
 
 gallery: projects
 ---
