@@ -17,6 +17,3 @@ Descripcion del semillero
 
 ## Actualidad
 Actualidad del semillero, proyectos en curso, etc.
-
-### Coordinadores
-Coordinadores actuales etc, todos los miembros? que hacer?

@@ -34,6 +34,7 @@ Zagi AESS Race consistió en diseñar, construir y volar un ala tipo zagi que fu
     <figcaption><small><i>Equipo 'Galeata'</i></small></figcaption>
 </div>
 
+
 ### Barcelona ZeroG Challenge | **Equipo 'Vera Gravitas'**
 El Barcelona ZeroG Challenge es una competencia internacional que propone diseñar y construir un experimento para probarlo en microgravedad, la cual se logra mediante un vuelo parabólico. El experimento del equipo *Vera Gravitas* consistió en estudiar la microestructura, y otras propiedades, de una gota de estaño fundido en condiciones de microgravedad, esta gota se verá sometida a diferentes estímulos químicos y físicos que mejorarán su comportamiento y optimizarán procesos de soldadura en estos ambientes. Finalmente, el equipo *Vera Gravitas* obtuvo el **primer** puesto en la competencia, ganando la posibilidad de probar su experimento en microgravedad. [<u>Ver más</u>](https://portal.udea.edu.co/wps/portal/udea/web/inicio/udea-noticias/udea-noticia/!ut/p/z0/fY6xDoJADIZfxYXR9EQ8dSQOJsbBwRjoYhq4YBWucJzE-PQeOhgXl-b__nxtCggZoKWBK_IslurAOerzar2JZ2mi9konWqX6kCyW8XZ-PCnYAf4XwgW-dh2mgIVYbx4eslacp_peGooU9b90kcZ88jgnVjwXTH2k3tuWSxmtb00Flabh4A_GUeXC95766dM4qaC9Yf4CeBH8wQ!!/).
 
@@ -44,6 +45,7 @@ En octubre de 2022, *Vera Gravitas* presentó y probó su experimento en la ciud
     <figcaption><small><i>Equipo 'Vera Gravitas'</i></small></figcaption>
 </div>
 
+
 ### CanSat Latin America | **Equipos 'Red Floyd' y 'Omicron'**
 Participación en la categoría 'Condores' del CanSat Latin America, esta consistía en el desarrollo de un CanSat con la capacidad de medir temperatura, presión atmosférica, altitud y posición por medio de módulos GPS. [<u>Ver más</u>](https://aesscolombia.blogspot.com/p/cansat-2021.html).
 
@@ -53,6 +55,16 @@ El equipo *Omicron* se caracterizó por su enfoque en aplicaciones de análisis 
 <div align="center"> 
     <img src="../img/cansatomicron.jpg" width="45%" height="45%">
     <figcaption><small><i>CanSat del equipo 'Omicron'</i></small></figcaption>
+</div>
+
+
+### ROVER Latin America | **Equipo 'EVA²'**
+Descripcion del challenge. [<u>Ver más</u>](https://aesscolombia.blogspot.com/2021/11/asi-ganaron-el-primer-puesto-en-el-mas.html).
+<!-- !Descripcion del proyecto -->
+El equipo *EVA²* [<u>Ver más</u>](https://drive.google.com/file/d/1vZoX4HR0CN918DbRY3gSkgvxhDe7pOdQ/view?usp=sharing).
+<div align="center"> 
+    <img src="../img/rovereva.jpg" width="45%" height="45%">
+    <figcaption><small><i>Equipo EVA² con su rover S.A.R.A. 1492</i></small></figcaption>
 </div>
 
 ---

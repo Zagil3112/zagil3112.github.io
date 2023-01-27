@@ -12,7 +12,7 @@
     - name: Publicaciones
       link: /DeltaV/publications
 
-- label: Proyectos
+- label: Proyectos de investigación
   items:
     - name: Turbina Boeing
       link: /DeltaV/projects/turbinaboeing/

@@ -12,11 +12,9 @@
     - name: Publicaciones
       link: /Voyager/publications
 
-- label: Proyectos
+- label: Proyectos de investigación
   items:
     - name: Estación terrena
       link: /Voyager/projects/estacionterrena/
     - name: Jaula de Helmholtz
       link: /Voyager/projects/jauladehelmholtz/
-    - name: Rover S.A.R.A
-      link: /Voyager/projects/roversara/

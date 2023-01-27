@@ -15,10 +15,10 @@ toc_title: Contenido
 Voyager, es un semillero de investigación creado por un grupo de estudiantes de Ingeniería Aeroespacial de la Universidad de Antioquia.
 
 Movidos por la idea de construir conocimiento desde el aprender haciendo, le hemos dado vida a algunas iniciativas de investigación y divulgación, buscando explorar otros escenarios y participar en retos involucrados en el desarrollo y aplicación de tecnologías aeroespaciales a la solución de problemáticas y necesidades de la región. 
+<figure align="center"> 
+    <img src="/img/voyager.jpg" width="100%" height="100%">
+</figure>
 
 
 ## Actualidad
 Actualidad del semillero, proyectos en curso, etc.
-
-### Coordinadores
-Coordinadores actuales etc, todos los miembros? que hacer?

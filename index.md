@@ -1,7 +1,7 @@
 ---
 title: 
-subtitle: 
 description: Página principal de la web del grupo de investigación Astra y sus semilleros, Delta V y Voyager.
+image: icons/astra.png
 callouts: callout_home
 
 hero_image: icons/astragif.gif
