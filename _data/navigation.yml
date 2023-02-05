@@ -2,8 +2,8 @@
   link: /DeltaV
 - name: Voyager
   link: /Voyager
-- name: Proyectos
-  link: projects
+# - name: En curso
+#   link: inprogress
 - name: AeroHub
   link: /AeroHub
 - name: Contacto

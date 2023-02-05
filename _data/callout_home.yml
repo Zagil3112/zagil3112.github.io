@@ -5,15 +5,14 @@ items:
   - title: <img src="icons/deltav.png"><br><br>
             Delta V
     subtitle: Semillero de cohetería y propulsión
-    description: >
-      Agregar una pequeña descripcion del semillero
+    description: 
     call_to_action_name: Conócenos
     call_to_action_link: /DeltaV
 
-  - title: <img src="icons/voyager.png"><br><br>
+
+  - title: <img src="icons/voyager.png" height="210px" width="210px"><br><br>
             Voyager
     subtitle: Semillero de aeronáutica y astronáutica
-    description: >
-      Agregar una pequeña descripcion del semillero
+    description: 
     call_to_action_name: Conócenos
     call_to_action_link: /Voyager

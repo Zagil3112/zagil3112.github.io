@@ -6,17 +6,20 @@ title: Competencias
 hero_image: ../../icons/voyagerhero.png
 
 toc: true
-toc_title: Competencias por año
+toc_title: Línea de tiempo
 ---
+<link href="../../assets/css/custom.css" rel="stylesheet" type="text/css">
 <!-- Pequeña descripcion de la competencia, el proyecto realizado y el puesto logrado (debe estar escrito al final). -->
 
 Aquí puedes encontrar información sobre los concursos en los que Voyager ha participado y los proyectos respectivos realizados.
 
+---
+
 ## 2022
 <!-- !### Design/Build/Fly | **Equipo 'X'** -->
 
-### Zagi AESS Race | **Equipo 'Zauton'**
-Zagi AESS Race consistió en diseñar, construir y volar un ala tipo zagi que fuera capaz de tomar decisiones a través de inteligencia artificial para realizar un vuelo automático a traves de varios obstáculos, a diferencia de la participación en el 2021, este año se hizo en conjunto con la Universidad del Cauca. El equipo *Zauton* realizó un diseño similar al usado en el 2021 pero con nuevos materiales, como icopor y fibra de carbono, el sistema de electronica se basó en el uso de tecnología iNav incorporada con gps, cámara y computadora de vuelo. En esta competencia se alcanzó el **primer** puesto en la categoría profesional.
+### Zagi Race | **Equipo 'Zauton'**
+La competencia Zagi Race, organizada por AESS, consistió en diseñar, construir y volar un ala tipo zagi que fuera capaz de tomar decisiones a través de inteligencia artificial para realizar un vuelo automático a traves de varios obstáculos, a diferencia de la participación en el 2021, este año se hizo en conjunto con la Universidad del Cauca. El equipo *Zauton* realizó un diseño similar al usado en el 2021 pero con nuevos materiales, como icopor y fibra de carbono, el sistema de electronica se basó en el uso de tecnología iNav incorporada con gps, cámara y computadora de vuelo. En esta competencia se alcanzó el **primer** puesto en la categoría profesional.
 <!-- ![<u>Ver más</u>](LINK AL ARTICULO). -->
 <div align="center"> 
     <img src="../img/zagizauton.jpg" width="50%" height="50%">
@@ -26,8 +29,8 @@ Zagi AESS Race consistió en diseñar, construir y volar un ala tipo zagi que fu
 ---
  
 ## 2021
-### Zagi AESS Race | **Equipo 'Galeata'**
-Zagi AESS Race consistió en diseñar, construir y volar un ala tipo zagi que fuera capaz de tomar decisiones a través de inteligencia artificial para realizar un vuelo automático a traves de varios obstáculos. El equipo *Galeata* se caracterizó por el uso de impresión 3d en su fuselaje y fibra de vidrio en su estructura general, para el sistema de control se hizo uso de una computadora Rasbperry Pi y librerías de código abierto como ArduPilot, OpenCV y DroneKit. En esta competencia se alcanzó el **segundo** puesto en la categoría profesional. 
+### Zagi Race | **Equipo 'Galeata'**
+La competencia Zagi Race, organizada por AESS, consistió en diseñar, construir y volar un ala tipo zagi que fuera capaz de tomar decisiones a través de inteligencia artificial para realizar un vuelo automático a traves de varios obstáculos. El equipo *Galeata* se caracterizó por el uso de impresión 3d en su fuselaje y fibra de vidrio en su estructura general, para el sistema de control se hizo uso de una computadora Rasbperry Pi y librerías de código abierto como ArduPilot, OpenCV y DroneKit. En esta competencia se alcanzó el **segundo** puesto en la categoría profesional. 
 <!-- ![<u>Ver más</u>](LINK AL ARTICULO). -->
 <div align="center"> 
     <img src="../img/zagigaleata.jpg" width="65%" height="65%">
@@ -49,12 +52,17 @@ En octubre de 2022, *Vera Gravitas* presentó y probó su experimento en la ciud
 ### CanSat Latin America | **Equipos 'Red Floyd' y 'Omicron'**
 Participación en la categoría 'Condores' del CanSat Latin America, esta consistía en el desarrollo de un CanSat con la capacidad de medir temperatura, presión atmosférica, altitud y posición por medio de módulos GPS. [<u>Ver más</u>](https://aesscolombia.blogspot.com/p/cansat-2021.html).
 
-<!-- !Descripcion de Red Floyd -->
+El equipo *Red Floyd* centró el desarrollo de su CanSat alrededor del análisis de imagen por medio de visión infrarroja para estudiar el indice de vegetación del suelo. Adicionalmente, el CanSat tenía la capacidad de recolectar datos de altitud, humedad y temperatura. *Red Floyd* alcanzó el **segundo** puesto en la competencia. [<u>Ver más</u>](https://drive.google.com/file/d/13Vc10De00j2n3DxG-Gd-NxbxkhAD5PGP/view?usp=sharing).
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_yI-GVVZa6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <figcaption><small><i>Video presentación del CanSat de 'Red Floyd'</i></small></figcaption>
+</div>
+<br>
 
 El equipo *Omicron* se caracterizó por su enfoque en aplicaciones de análisis de terreno como la ganadería, topografía, etc. Este CanSat tenia la capacidad de obtener datos de temperatura, humedad relativa, monóxido y dióxido de carbono, lo que les permitió alcanzar el **tercer** puesto en la competencia. [<u>Ver más</u>](https://drive.google.com/file/d/1zzsPFg6ctUjAotDIq9tdxw9bcstEcTN6/view?usp=sharing).
-<div align="center"> 
-    <img src="../img/cansatomicron.jpg" width="45%" height="45%">
-    <figcaption><small><i>CanSat del equipo 'Omicron'</i></small></figcaption>
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/aq6doWf1BmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <figcaption><small><i>Video presentación del CanSat de 'Omicron'</i></small></figcaption>
 </div>
 
 

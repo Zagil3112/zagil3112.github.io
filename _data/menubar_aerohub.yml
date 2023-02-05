@@ -1,6 +1,6 @@
 - label: Información
   items:
-    - name: Ing. Aeroespacial
+    - name: Laboratorio y semilleros
       link: /AeroHub
-    - name: Semilleros y laboratorio
-      link: /AeroHub/groups
+    - name: Ing. Aeroespacial
+      link: /AeroHub/aerospace

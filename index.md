@@ -7,12 +7,14 @@ callouts: callout_home
 hero_image: icons/astragif.gif
 hero_height: is-fullheight-with-navbar
 
-toc: true
+toc: false      # Cuando se defina que ira en esta pagina se cambia a true
 toc_title: Contenido
 ---
 <!-- https://bulma.io/ -->
 <!-- http://www.csrhymes.com/bulma-clean-theme/ -->
+---
 
+<!--
 ## ¿Quiénes somos?
 Informacion general del grupo de investigacion y del pregrado.
 
@@ -29,3 +31,4 @@ Informacion basica sobre los semilleros, sus lineas de investigacion y proyectos
 
 ### Pregrado de Ing. Aeroespacial
 Informacion sobre el pregrado.
+-->
