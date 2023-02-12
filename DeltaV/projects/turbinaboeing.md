@@ -8,9 +8,9 @@ hero_image: ../../../icons/deltavhero.png
 toc: true
 toc_title: Contenido
 ---
-
+<link href="../../../assets/css/custom.css" rel="stylesheet" type="text/css">
 <figure align="center"> 
-    <img src="../../img/.jpg" width="100%" height="100%">
+    <img src="../../img/Turbina-Integrantes.jpg" width="70%" height="70%">
 </figure>
 
 
@@ -19,7 +19,7 @@ toc_title: Contenido
 
 El desarrollo y uso de nuevas tecnologías en el campo de las energías renovables como los biocombustibles (biodiesel) ha mostrado la necesidad de un estudio detallado de sus características. El uso de biodiesel en la industria aeronáutica es una propuesta vigente y requiere investigación en diversos aspectos, entre ellos las emisiones de gases generadas por los motores que consumen este tipo de combustibles. 
 
-Si deseas conocer más información sobre el proyecto, contacta con **Mario Silva** al correo [<u>mario.silva@udea.edu.co</u>](mailto:mario.silva@udea.edu.co)
+Si deseas conocer más información sobre el proyecto, contacta con **Mario Silva** al correo [<u>mario.silva@udea.edu.co</u>](mailto:mario.silva@udea.edu.co).
 
 ---
 
@@ -28,4 +28,4 @@ El foco de este proyecto es el estudio del consumo de biocombustibles en los tur
 
 
 ## Objetivos del proyecto
-* Evaluar la viabilidad en aplicación del desarrollo de combustibles de bajas emisiones contaminantes en la industria aeronáutica en Colombia y otros posibles mercados
+* Evaluar la viabilidad en aplicación del desarrollo de combustibles de bajas emisiones contaminantes en la industria aeronáutica en Colombia y otros posibles mercados.

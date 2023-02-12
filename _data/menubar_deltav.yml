@@ -14,7 +14,7 @@
 
 - label: Proyectos de investigación
   items:
-    - name: Turbina Boeing
-      link: /DeltaV/projects/turbinaboeing/
     - name: Motores de propelente sólido
       link: /DeltaV/projects/motoresdepropelentesolido/
+    - name: Turbina Boeing
+      link: /DeltaV/projects/turbinaboeing/

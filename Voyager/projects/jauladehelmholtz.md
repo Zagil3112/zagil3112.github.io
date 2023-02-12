@@ -19,7 +19,7 @@ toc_title: Contenido
 
 Actualmente, el equipo de trabajo se encuentra desarrollando un manual de uso y un articulo científico basado en el diseño y construcción de la Jaula de Helmholtz. 
 
-Si deseas conocer mas información sobre el proyecto, contacta con **NOMBRE** al correo [<u>correo</u>](mailto:correo).
+Si deseas conocer mas información sobre el proyecto, contacta con **Simón Zuluaga Henao** al correo [<u>simon.zuluagah@udea.edu.co</u>](mailto:simon.zuluagah@udea.edu.co).
 
 ---
 

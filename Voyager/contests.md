@@ -18,6 +18,7 @@ Aquí puedes encontrar información sobre los concursos en los que Voyager ha pa
 ## 2022
 <!-- !### Design/Build/Fly | **Equipo 'X'** -->
 
+
 ### Zagi Race | **Equipo 'Zauton'**
 La competencia Zagi Race, organizada por AESS, consistió en diseñar, construir y volar un ala tipo zagi que fuera capaz de tomar decisiones a través de inteligencia artificial para realizar un vuelo automático a traves de varios obstáculos, a diferencia de la participación en el 2021, este año se hizo en conjunto con la Universidad del Cauca. El equipo *Zauton* realizó un diseño similar al usado en el 2021 pero con nuevos materiales, como icopor y fibra de carbono, el sistema de electronica se basó en el uso de tecnología iNav incorporada con gps, cámara y computadora de vuelo. En esta competencia se alcanzó el **primer** puesto en la categoría profesional.
 <!-- ![<u>Ver más</u>](LINK AL ARTICULO). -->
@@ -29,6 +30,16 @@ La competencia Zagi Race, organizada por AESS, consistió en diseñar, construir
 ---
  
 ## 2021
+### AIAA Undergraduate Space Design Competition | **Equipo 'Haba-Sulue'**
+El AIAA Undergraduate Space Design Competition es una competencia internacional que consta en desarrollar por completo una misión espacial previamente definida por la AIAA. [<u>Ver más</u>](https://www.aiaa.org/get-involved/students-educators/Design-Competitions). En este caso, el objetivo era diseñar una misión no tripulada a Marte para traer muestras de vuelta a la Tierra. Esta fue la primera vez que el pregrado de Ing. Aeroespacial participó del proyecto, alcanzando el **tercer puesto** en la competencia. Puedes revisar el proyecto del equipo *Haba-Sulue* [<u>aquí</u>](https://drive.google.com/file/d/1dpR_UPeQv-pbzgoMHZMan5c16X8vk4gf/view?usp=share_link).
+
+*El equipo participante estuvo compuesto por miembros de los semilleros de investigación Delta V y Voyager.*
+<div align="center"> 
+    <img src="../../DeltaV/img/Haba-Sulue.jpg" width="60%" height="60%">
+    <figcaption><small><i>Parche del equipo 'Haba-Sulue'</i></small></figcaption>
+</div>
+
+
 ### Zagi Race | **Equipo 'Galeata'**
 La competencia Zagi Race, organizada por AESS, consistió en diseñar, construir y volar un ala tipo zagi que fuera capaz de tomar decisiones a través de inteligencia artificial para realizar un vuelo automático a traves de varios obstáculos. El equipo *Galeata* se caracterizó por el uso de impresión 3d en su fuselaje y fibra de vidrio en su estructura general, para el sistema de control se hizo uso de una computadora Rasbperry Pi y librerías de código abierto como ArduPilot, OpenCV y DroneKit. En esta competencia se alcanzó el **segundo** puesto en la categoría profesional. 
 <!-- ![<u>Ver más</u>](LINK AL ARTICULO). -->

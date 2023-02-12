@@ -62,5 +62,8 @@ subtitle: Si tienes alguna inquietud puedes ponerte en contacto con nosotros
       <br><br>
       <a href="mailto:voyagerudea@gmail.com"><i class="fa fa-envelope fa-4x"></i></a> <br>
       voyagerudea@gmail.com
+      <br><br>
+      <a href="https://www.youtube.com/@semillerodeinvestigacionvo6324"><i class="fab fa-youtube fa-4x"></i></a> <br>
+      Semillero de Investigación - Voyager
   </div>
 </div>
