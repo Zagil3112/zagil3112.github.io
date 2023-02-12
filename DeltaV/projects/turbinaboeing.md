@@ -9,18 +9,17 @@ toc: true
 toc_title: Contenido
 ---
 
-
 <figure align="center"> 
     <img src="../../img/.jpg" width="100%" height="100%">
 </figure>
 
-![](https://img.shields.io/badge/-En%20curso-FFDD56)
-
 
 ## Actualidad
+<img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56">
+
 El desarrollo y uso de nuevas tecnologías en el campo de las energías renovables como los biocombustibles (biodiesel) ha mostrado la necesidad de un estudio detallado de sus características. El uso de biodiesel en la industria aeronáutica es una propuesta vigente y requiere investigación en diversos aspectos, entre ellos las emisiones de gases generadas por los motores que consumen este tipo de combustibles. 
 
-Si deseas conocer más información sobre el proyecto, contacta con Mario Silva al correo mario.silva@udea.edu.co .
+Si deseas conocer más información sobre el proyecto, contacta con **Mario Silva** al correo [<u>mario.silva@udea.edu.co</u>](mailto:mario.silva@udea.edu.co)
 
 ---
 
@@ -29,4 +28,4 @@ El foco de este proyecto es el estudio del consumo de biocombustibles en los tur
 
 
 ## Objetivos del proyecto
-Evaluar la viabilidad en aplicación del desarrollo de combustibles de bajas emisiones contaminantes en la industria aeronáutica en Colombia y otros posibles mercados
+* Evaluar la viabilidad en aplicación del desarrollo de combustibles de bajas emisiones contaminantes en la industria aeronáutica en Colombia y otros posibles mercados

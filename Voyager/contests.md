@@ -39,12 +39,13 @@ La competencia Zagi Race, organizada por AESS, consistió en diseñar, construir
 
 
 ### Barcelona ZeroG Challenge | **Equipo 'Vera Gravitas'**
-El Barcelona ZeroG Challenge es una competencia internacional que propone diseñar y construir un experimento para probarlo en microgravedad, la cual se logra mediante un vuelo parabólico. El experimento del equipo *Vera Gravitas* consistió en estudiar la microestructura, y otras propiedades, de una gota de estaño fundido en condiciones de microgravedad, esta gota se verá sometida a diferentes estímulos químicos y físicos que mejorarán su comportamiento y optimizarán procesos de soldadura en estos ambientes. Finalmente, el equipo *Vera Gravitas* obtuvo el **primer** puesto en la competencia, ganando la posibilidad de probar su experimento en microgravedad. [<u>Ver más</u>](https://portal.udea.edu.co/wps/portal/udea/web/inicio/udea-noticias/udea-noticia/!ut/p/z0/fY6xDoJADIZfxYXR9EQ8dSQOJsbBwRjoYhq4YBWucJzE-PQeOhgXl-b__nxtCggZoKWBK_IslurAOerzar2JZ2mi9konWqX6kCyW8XZ-PCnYAf4XwgW-dh2mgIVYbx4eslacp_peGooU9b90kcZ88jgnVjwXTH2k3tuWSxmtb00Flabh4A_GUeXC95766dM4qaC9Yf4CeBH8wQ!!/).
+*Vera Gravitas* es un equipo de estudiantes de ingeniería de la universidad de Antioquia, este se conformó en un principio con la intención de participar en el Barcelona ZeroG Challenge 2021-2022 y paralelamente al ser conformado únicamente por mujeres, con razón social de incentivar a las niñas y jóvenes colombianas a hacer parte del campo STEM a través de talleres y charlas. El Barcelona ZeroG Challenge es una competencia internacional que propone diseñar y construir un experimento para probarlo en microgravedad, la cual se logra mediante un vuelo parabólico. El equipo *Vera Gravitas* obtuvo el **primer** puesto en la competencia, ganando la oportunidad de probar su experimento en microgravedad. [<u>Ver más</u>](https://www.ieec.cat/content/media/news/es/1004).
 
+Actualmente el equipo le apuesta a la manufactura en el espacio a través de la investigación del comportamiento de la soldadura de componentes electrónicos en ambientes de microgravedad a través de un sistema autónomo en desarrollo que permita realizar uniones de soldadura de buena calidad en circuitos impresos. El proyecto se encuentra en una fase inicial de caracterización del comportamiento del metal contribuyente y los posibles cambios en sus propiedades físicas y químicas para poder ir ajustando el sistema a las condiciones necesarias, esto ha sido posible gracias a diversas plataformas donde se puede obtener microgravedad como lo fue el vuelo parabólico realizado en Sabadell el pasado 5 de octubre del 2022. Para conocer mas información sobre la actualidad del proyecto y el equipo visita su perfil de Instagram. [<u>Ver perfil</u>](https://www.instagram.com/veragravitas/).
 <!-- !FALTA -->
-En octubre de 2022, *Vera Gravitas* presentó y probó su experimento en la ciudad de Barcelona, además, publicaron un proceedings que puedes visualizar [<u>aquí</u>]() o en la sección de [<u>publicaciones</u>](/publications.md).
+<!-- En octubre de 2022, *Vera Gravitas* presentó y probó su experimento en la ciudad de Barcelona, además, publicaron un proceedings que puedes visualizar [<u>aquí</u>]() o en la sección de [<u>publicaciones</u>](/publications.md). -->
 <div align="center"> 
-    <img src="../img/veragravitas.jpg" width="60%" height="60%">
+    <img src="../img/veragravitas.jpg" width="65%" height="65%">
     <figcaption><small><i>Equipo 'Vera Gravitas'</i></small></figcaption>
 </div>
 
@@ -67,12 +68,13 @@ El equipo *Omicron* se caracterizó por su enfoque en aplicaciones de análisis 
 
 
 ### ROVER Latin America | **Equipo 'EVA²'**
-Descripcion del challenge. [<u>Ver más</u>](https://aesscolombia.blogspot.com/2021/11/asi-ganaron-el-primer-puesto-en-el-mas.html).
-<!-- !Descripcion del proyecto -->
-El equipo *EVA²* [<u>Ver más</u>](https://drive.google.com/file/d/1vZoX4HR0CN918DbRY3gSkgvxhDe7pOdQ/view?usp=sharing).
-<div align="center"> 
-    <img src="../img/rovereva.jpg" width="45%" height="45%">
-    <figcaption><small><i>Equipo EVA² con su rover S.A.R.A. 1492</i></small></figcaption>
+Participación en el Reto de Innovación Rover Latinoamerica 2021 organizado por la AESS. El equipo EVA² desarrolló un prototipo de rover agricultor llamado SARA, el cual integra un sistema guiado de geolocalización, sistema de siembra de maíz, sistema de detección de variables climáticas y fitosanitarias, automatización de procesos de labranza y agricultura, entre otras posibles aplicaciones en ambientes terrestres y marcianos. SARA, adicionalmente busca tener un impacto ecológico positivo, de esta manera el suministro y almacenamiento energético cuenta con paneles solares, así como materiales reutilizados o reciclables en su estructura, la cual tiene un desempeño estable en terrenos hostiles. Puedes conocer más acerca del Rover [<u>aquí</u>](https://drive.google.com/file/d/1vZoX4HR0CN918DbRY3gSkgvxhDe7pOdQ/view?usp=sharing).
+
+En esta competencia, el equipo EVA² consiguió el **primer** puesto en la categoría 'Cóndores'. [<u>Ver más</u>](https://aesscolombia.blogspot.com/2021/11/asi-ganaron-el-primer-puesto-en-el-mas.html).
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LchocC_K-V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <figcaption><small><i>Video presentación del Rover SARA del equipo 'EVA²'</i></small></figcaption>
 </div>
 
 ---

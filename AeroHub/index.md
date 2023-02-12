@@ -13,7 +13,7 @@ toc_title: Contenido
 ## Laboratorio 'La Finca'
 La disponibilidad actual de los espacios del laboratorio se encuentra distribuida de la siguiente manera:
 <div align="center">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBgNBpDLhdWaWTXhBcgzqBLaR6bvKGmzqTvpkVMfhoLlR0UipJsh-9NVL7jHCOB8s44uYOhgXSqKV4/pubhtml?gid=0&single=true" width="815" height="310"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBgNBpDLhdWaWTXhBcgzqBLaR6bvKGmzqTvpkVMfhoLlR0UipJsh-9NVL7jHCOB8s44uYOhgXSqKV4/pubhtml?gid=0&single=true" width="715" height="310"></iframe>
 </div>
 <br>
 

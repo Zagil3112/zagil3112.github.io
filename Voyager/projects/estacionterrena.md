@@ -8,14 +8,15 @@ hero_image: ../../../icons/voyagerhero.png
 toc: true
 toc_title: Contenido
 ---
+
 <figure align="center"> 
     <img src="../../img/.jpg" width="100%" height="100%">
 </figure>
 
-<!-- ![](https://img.shields.io/badge/-En%20curso-FFDD56) -->
-
 
 ## Actualidad
+<img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56">
+
 Actualidad del proyecto
 
 Si deseas conocer mas informacion sobre el proyecto, contacta con NOMBRE al correo CORREO.
@@ -31,5 +32,5 @@ Descripcion del proyecto
 - Objetivo 2
 
 
-## Documentación
-(si aplicable) Descarga de manual, articulos, etc.
+<!-- ## Documentación
+(si aplicable) Descarga de manual, articulos, etc. -->

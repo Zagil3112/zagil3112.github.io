@@ -13,13 +13,13 @@ toc_title: Contenido
     <img src="../../img/jauladehelmholtz.jpg" width="60%" height="60%">
 </figure>
 
-<!-- ![](https://img.shields.io/badge/-En%20curso-FFDD56) -->
-
 
 ## Actualidad
+<img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56">
+
 Actualmente, el equipo de trabajo se encuentra desarrollando un manual de uso y un articulo científico basado en el diseño y construcción de la Jaula de Helmholtz. 
 
-Si deseas conocer mas información sobre el proyecto, contacta con **NOMBRE** al correo *CORREO*.
+Si deseas conocer mas información sobre el proyecto, contacta con **NOMBRE** al correo [<u>correo</u>](mailto:correo).
 
 ---
 

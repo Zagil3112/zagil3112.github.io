@@ -1,5 +1,8 @@
+description: >
+  The 
 remote_theme: chrisrhymes/bulma-clean-theme
 lang: "es"
 layout: page
 fixed_navbar: top
 permalink: pretty
+google_analytics: G-BJW62XH43P

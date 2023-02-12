@@ -21,6 +21,10 @@
     transition: 0.5s ease;
 }
 
+.badges {
+    width: auto;
+}
+
 
 @media (max-width: 1366px) {
     .columnas {

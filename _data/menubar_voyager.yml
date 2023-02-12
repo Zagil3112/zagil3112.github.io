@@ -14,7 +14,11 @@
 
 - label: Proyectos de investigación
   items:
-    - name: Estación terrena
-      link: /Voyager/projects/estacionterrena/
+    # - name: Ala Zagi
+    #   link: /Voyager/projects/alazagi/
+    # - name: CubeSat
+    #   link: /Voyager/projects/cubesat/
+    # - name: Estación terrena
+    #   link: /Voyager/projects/estacionterrena/
     - name: Jaula de Helmholtz
       link: /Voyager/projects/jauladehelmholtz/

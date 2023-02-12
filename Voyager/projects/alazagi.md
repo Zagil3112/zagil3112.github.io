@@ -1,9 +1,9 @@
 ---
-menubar: menubar_deltav
+menubar: menubar_voyager
 
-title: Motores de propelente sólido
+title: Ala Zagi
 
-hero_image: ../../../icons/deltavhero.png
+hero_image: ../../../icons/voyagerhero.png
 
 toc: true
 toc_title: Contenido
@@ -19,9 +19,9 @@ toc_title: Contenido
 
 Actualidad del proyecto
 
-Si deseas conocer más información sobre el proyecto, contacta con NOMBRE al correo CORREO.
+Si deseas conocer mas informacion sobre el proyecto, contacta con NOMBRE al correo CORREO.
 
----
+<!-- ---
 
 ## Descripción
 Descripcion del proyecto
@@ -29,8 +29,8 @@ Descripcion del proyecto
 
 ## Objetivos del proyecto
 - Objetivo 1
-- Objetivo 2
+- Objetivo 2 -->
 
 
-## Documentación
-(si aplicable) Descarga de manual, articulos, etc.
+<!-- ## Documentación
+(si aplicable) Descarga de manual, articulos, etc. -->

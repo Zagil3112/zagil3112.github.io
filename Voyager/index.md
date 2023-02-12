@@ -21,22 +21,28 @@ Voyager, es un semillero de investigación creado por un grupo de estudiantes de
 Actualidad del semillero, proyectos en curso, etc.
 
 
+### ¿Deseas pertenecer al semillero?
+<!-- Actualmente **no tenemos ninguna** convocatoria activa. Estas se realizan a inicio de semestre por lo que debes estar atento a nuestras redes sociales. -->
+
+En estos momentos **nos encontramos** realizando convocatoria para nuevos integrantes, en caso de estar interesado en pertenecer a *Voyager* ingresa a este [link](https://forms.gle/iwFSQSoV8WNKQJgD8).
+
+
 ## Coordinadores
 <div style="width:100%" align="center">
   <div class="columnas">
-      <a href="https://www.linkedin.com/in/mateo-lezama-fuentes-5ab4721b2/"><img src="../icons/user.jpg" class="imagen-coordinadores"></a><br>
+      <a href="https://www.linkedin.com/in/mateo-lezama-fuentes-5ab4721b2/"><img src="../Voyager/img/coordmateo.jpg" class="imagen-coordinadores"></a><br>
       <b>Mateo Lezama Fuentes</b><br>
       Estudiante de Ing. Aeroespacial<br>
       <i>mateo.lezamaf@udea.edu.co</i>
   </div>
   <div class="columnas">
-      <a href=""><img src="../icons/user.jpg" class="imagen-coordinadores"></a><br>
+      <a><img src="../Voyager/img/coordpaula.jpg" class="imagen-coordinadores"></a><br>
       <b>Paula Andrea García Suárez</b><br>
       Estudiante de Ing. Aeroespacial<br>
       <i>andrea.garcia4@udea.edu.co</i>
   </div>
   <div class="columnas">
-      <a href="https://www.linkedin.com/in/sizuhe/"><img src="../icons/user.jpg" class="imagen-coordinadores"></a><br>
+      <a href="https://www.linkedin.com/in/sizuhe/"><img src="../Voyager/img/coordsimon.jpg" class="imagen-coordinadores"></a><br>
       <b>Simón Zuluaga Henao</b><br>
       Estudiante de Ing. Aeroespacial<br>
       <i>simon.zuluagah@udea.edu.co</i>
