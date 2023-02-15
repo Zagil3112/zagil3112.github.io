@@ -13,7 +13,7 @@ toc_title: Contenido
 ## Laboratorio 'La Finca'
 La disponibilidad actual de los espacios del laboratorio se encuentra distribuida de la siguiente manera:
 <div align="center">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBgNBpDLhdWaWTXhBcgzqBLaR6bvKGmzqTvpkVMfhoLlR0UipJsh-9NVL7jHCOB8s44uYOhgXSqKV4/pubhtml?gid=0&single=true" width="715" height="310"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTBgNBpDLhdWaWTXhBcgzqBLaR6bvKGmzqTvpkVMfhoLlR0UipJsh-9NVL7jHCOB8s44uYOhgXSqKV4/pubhtml?widget=true" width="715" height="280"></iframe>
 </div>
 <br>
 
@@ -27,7 +27,7 @@ Para hacer uso de los espacios del laboratorio y sus equipos, debes llenar el si
 ## Componentes y material bibliográfico
 Aquí puedes visualizar los componentes y el material bibliográfico disponible para préstamo.
 <div align="center">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRA6kWar4EBXKLN4REIfc1wzqKwieSi_3wysSiZQaf2YRA5qXbpmpPs2SXZijZVYNi3c7mXXVg9p7Pg/pubhtml?widget=true&amp;headers=false" width="715" height="310"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRA6kWar4EBXKLN4REIfc1wzqKwieSi_3wysSiZQaf2YRA5qXbpmpPs2SXZijZVYNi3c7mXXVg9p7Pg/pubhtml?widget=true&amp;headers=false" width="715" height="280"></iframe>
 </div>
 <br>
 
