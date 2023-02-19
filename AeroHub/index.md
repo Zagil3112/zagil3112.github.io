@@ -24,7 +24,8 @@ Para hacer uso de los espacios del laboratorio y sus equipos, debes llenar el si
 
 ---
 
-## Componentes y material bibliográfico
+## Voyager
+### Componentes y material bibliográfico
 Aquí puedes visualizar los componentes y el material bibliográfico disponible para préstamo.
 <div align="center">
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRA6kWar4EBXKLN4REIfc1wzqKwieSi_3wysSiZQaf2YRA5qXbpmpPs2SXZijZVYNi3c7mXXVg9p7Pg/pubhtml?widget=true&amp;headers=false" width="715" height="280"></iframe>
@@ -36,7 +37,5 @@ Para realizar el préstamo de componentes o libros debes llenar el siguiente for
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfHR-1LM-1b5mCKOk079vttVCPIyQGhvT-_KTcUOignhYoDYQ/viewform?embedded=true" width="640" height="360"></iframe>
 </div>
 
----
-
-## Voyager
-Para ir a **Sharepoint** ingresa a este [<u>link</u>](https://udeaeduco.sharepoint.com/sites/Voyager2) con tu correo institucional.
+### Sharepoint
+Para ir a **Sharepoint** ingresa a este <a href="https://udeaeduco.sharepoint.com/sites/Voyager2" target="_blank"><u>link</u></a> con tu correo institucional.

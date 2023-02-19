@@ -73,6 +73,10 @@
                     
                 
                     
+                    <a href="/inprogress" class="navbar-item ">En curso</a>
+                    
+                
+                    
                     <a href="/AeroHub" class="navbar-item ">AeroHub</a>
                     
                 
@@ -114,172 +118,106 @@
                     
                     
                     
-    
-    
-    <div class="columns is-multiline">
-        <div class="column is-12">
-            <p class="title is-3 has-text-centered"></p>
-        </div>
-        
-        <div class="column is-4-desktop is-6-tablet">
-            <div class="card">
-                <div class="card-image">
-                    <div x-data="{ open: false }" markdown="0">
-    <a x-on:click="open = true" title="View large image">
-        <figure class="image is-256x256">
-            <img src="http://0.0.0.0:4000/Voyager/img/dbf.jpg" alt="">
-        </figure>
-    </a>
-    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
-        <div class="modal-background" x-on:click="open = false"></div>
-        <div class="modal-content">
-            
-                <img src="http://0.0.0.0:4000/Voyager/img/dbf.jpg" alt="">
-            
-        </div>
-        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
-    </div>
-</div>
-
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 id="designbuildfly">Design/Build/Fly</h3>
-<p>Descripcion del proyecto.</p>
-
-<p>¿Las competencias deberian tener un ver mas?
-<a href="../Voyager/contests/#designbuildfly--equipo-x"><u>Ver más</u></a></p>
-
-<p><img src="https://img.shields.io/badge/-Voyager-1D4B73" alt="" /> <img src="https://img.shields.io/badge/-Competencia-blueviolet" alt="" /></p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-        <div class="column is-4-desktop is-6-tablet">
-            <div class="card">
-                <div class="card-image">
-                    <div x-data="{ open: false }" markdown="0">
-    <a x-on:click="open = true" title="View large image">
-        <figure class="image is-256x256">
-            <img src="http://0.0.0.0:4000/Voyager/img/estacionterrena.jpg" alt="">
-        </figure>
-    </a>
-    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
-        <div class="modal-background" x-on:click="open = false"></div>
-        <div class="modal-content">
-            
-                <img src="http://0.0.0.0:4000/Voyager/img/estacionterrena.jpg" alt="">
-            
-        </div>
-        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
-    </div>
-</div>
-
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 id="estacion-terrena">Estacion terrena</h3>
-<p>Descripcion del proyecto.</p>
-
-<p><a href="../Voyager/projects/estacionterrena"><u>Ver más</u></a></p>
-
-<p><img src="https://img.shields.io/badge/-Voyager-1D4B73" alt="" /></p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-        <div class="column is-4-desktop is-6-tablet">
-            <div class="card">
-                <div class="card-image">
-                    <div x-data="{ open: false }" markdown="0">
-    <a x-on:click="open = true" title="View large image">
-        <figure class="image is-256x256">
-            <img src="http://0.0.0.0:4000/Voyager/img/jauladehelmholtz.jpg" alt="">
-        </figure>
-    </a>
-    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
-        <div class="modal-background" x-on:click="open = false"></div>
-        <div class="modal-content">
-            
-                <img src="http://0.0.0.0:4000/Voyager/img/jauladehelmholtz.jpg" alt="">
-            
-        </div>
-        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
-    </div>
-</div>
-
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 id="jaula-de-helmholtz">Jaula de Helmholtz</h3>
-<p>Descripcion del proyecto.</p>
-
-<p><a href="../Voyager/projects/jauladehelmholtz"><u>Ver más</u></a></p>
-
-<p><img src="https://img.shields.io/badge/-Voyager-1D4B73" alt="" /></p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-        <div class="column is-4-desktop is-6-tablet">
-            <div class="card">
-                <div class="card-image">
-                    <div x-data="{ open: false }" markdown="0">
-    <a x-on:click="open = true" title="View large image">
-        <figure class="image is-256x256">
-            <img src="http://0.0.0.0:4000/Voyager/img/turbinaboeing.jpg" alt="">
-        </figure>
-    </a>
-    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
-        <div class="modal-background" x-on:click="open = false"></div>
-        <div class="modal-content">
-            
-                <img src="http://0.0.0.0:4000/Voyager/img/turbinaboeing.jpg" alt="">
-            
-        </div>
-        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
-    </div>
-</div>
-
-                </div>
-                <div class="card-content">
-                    <div class="content">
-                        <h3 id="turbina-boeing">Turbina Boeing</h3>
-<p>Descripcion del proyecto.</p>
-
-<p><a href="../DeltaV/projects/turbinaboeing"><u>Ver más</u></a></p>
-
-<p><img src="https://img.shields.io/badge/-Delta%20V-FF4800" alt="" /></p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    
-
                     
 <div class="content">
-    <!-- SE DEJA VACIO -->
-
-<!-- 
-![](https://img.shields.io/badge/-Completado-47C674)
-![](https://img.shields.io/badge/-En%20curso-FFDD56) 
-![](https://img.shields.io/badge/-Competencia-blueviolet)
-![](https://img.shields.io/badge/-Voyager-1D4B73)
-![](https://img.shields.io/badge/-Delta%20V-FF4800)
+    <!-- 
+https://img.shields.io/badge/-Completado-47C674
+https://img.shields.io/badge/-En%20curso-FFDD56
+https://img.shields.io/badge/-Competencia-blueviolet
+https://img.shields.io/badge/-Voyager-1D4B73
+https://img.shields.io/badge/-Delta%20V-FF4800
 -->
+
+<div class="columns is-multiline">
+  <!--  -->
+  <!--  -->
+  <div class="column is-one-third-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <div class="card-content is-overlay is-clipped">
+              <img src="https://img.shields.io/badge/-Voyager-1D4B73" />
+            </div>
+            <figure class="fill">
+              <img src="/Voyager/img/jaulaensamble.png" />
+            </figure>
+        </div>
+        <div class="card-content">
+            <h3>Jaula de Helmholtz</h3>
+            Conjunto de tres pares de bobinas dispuestas en una configuración de 3 ejes independientes que tiene la capacidad de generar un campo electromagnético estable.
+        </div>
+        <footer class="card-footer">
+            <a href="/Voyager/projects/jauladehelmholtz" target="_blank" class="card-footer-item"><u>Ver más</u></a>
+        </footer>
+    </div>
+  </div>
+  <!--  -->
+  <!--  -->
+  <div class="column is-one-third-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <div class="card-content is-overlay is-clipped">
+              <img src="https://img.shields.io/badge/-Delta%20V-FF4800" />
+              <img src="https://img.shields.io/badge/-Voyager-1D4B73" />
+              <img src="https://img.shields.io/badge/-Competencia-blueviolet" />
+            </div>
+            <figure class="fill">
+              <img src="/img_shared/Volta.png" />
+            </figure>
+        </div>
+        <div class="card-content">
+            <h3>Latin American Space Challenge</h3>
+            El equipo <i>Volta</i> se encuentra participando en esta competencia internacional con su cohete <i>Delta 1</i> y su cansat <i>Voyager 1</i>.
+        </div>
+        <footer class="card-footer">
+          <a href="https://www.lasc.space/home" target="_blank" class="card-footer-item"><u>Sitio oficial</u></a>
+            <!-- <a href="/Voyager/projects/jauladehelmholtz" class="card-footer-item"><u>Ver más</u></a> -->
+        </footer>
+    </div>
+  </div>
+  <!--  -->
+  <!--  -->
+  <div class="column is-one-third-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <div class="card-content is-overlay is-clipped">
+              <img src="https://img.shields.io/badge/-Delta%20V-FF4800" />
+            </div>
+            <figure class="fill">
+              <img src="/DeltaV/img/Proyecto-Candy.jpg" />
+            </figure>
+        </div>
+        <div class="card-content">
+            <h3>Motores de propelente solido</h3>
+            En este proyecto investigamos y manufacturamos propelentes sólidos para cohetes amateur.
+        </div>
+        <footer class="card-footer">
+            <a href="/DeltaV/projects/motoresdepropelentesolido" target="_blank" class="card-footer-item"><u>Ver más</u></a>
+        </footer>
+    </div>
+  </div>
+  <!--  -->
+  <!--  -->
+  <div class="column is-one-third-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <div class="card-content is-overlay is-clipped">
+              <img src="https://img.shields.io/badge/-Delta%20V-FF4800" />
+            </div>
+            <figure class="fill">
+              <img src="/DeltaV/img/Turbina-Integrantes.jpg" />
+            </figure>
+        </div>
+        <div class="card-content">
+            <h3>Turbina Boeing</h3>
+            El foco de este proyecto es el estudio del consumo de biocombustibles en los turborreactores y su rendimiento en términos de la caracterización frente al consumo de combustibles tradicionales.
+        </div>
+        <footer class="card-footer">
+            <a href="/DeltaV/projects/turbinaboeing" target="_blank" class="card-footer-item"><u>Ver más</u></a>
+        </footer>
+    </div>
+  </div>
+<!--  -->
+</div>
 
 </div>
                 </div>
@@ -294,7 +232,8 @@
         
 
         <div class="content is-small has-text-centered">
-            <p class="">Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Theme built by <a href="https://www.csrhymes.com/">C.S. Rhymes</a></p>            
         </div>
     </div>
 </footer>

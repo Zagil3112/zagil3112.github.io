@@ -24,15 +24,15 @@ Actualidad del semillero, proyectos en curso, etc. -->
 
 
 ### ¿Deseas pertenecer al semillero?
-<!-- A día de hoy **no tenemos ninguna** convocatoria activa. Normalmente, estas se realizan a inicio de semestre por lo que debes estar atento a nuestras redes sociales. -->
+A día de hoy **no tenemos ninguna** convocatoria activa. Normalmente, estas se realizan a inicio de semestre por lo que debes estar atento a nuestras redes sociales.
 
-En estos momentos **nos encontramos** realizando convocatoria para nuevos integrantes, en caso de estar interesado en pertenecer a *Voyager* ingresa a este [<u>link</u>](https://forms.gle/iwFSQSoV8WNKQJgD8).
+<!-- En estos momentos **nos encontramos** realizando convocatoria para nuevos integrantes, en caso de estar interesado en pertenecer a *Voyager* ingresa a este <a href="https://forms.gle/iwFSQSoV8WNKQJgD8" target="_blank"><u>link</u></a>. -->
 
 
 ## Coordinadores
 <div style="width:100%" align="center">
   <div class="columnas">
-      <a href="https://www.linkedin.com/in/mateo-lezama-fuentes-5ab4721b2/"><img src="../Voyager/img/coordmateo.jpg" class="imagen-coordinadores"></a><br>
+      <a href="https://www.linkedin.com/in/mateo-lezama-fuentes-5ab4721b2/" target="_blank"><img src="../Voyager/img/coordmateo.jpg" class="imagen-coordinadores"></a><br>
       <b>Mateo Lezama Fuentes</b><br>
       <small>Estudiante de Ing. Aeroespacial<br>
       <a href="mailto:mateo.lezamaf@udea.edu.co"><u>mateo.lezamaf@udea.edu.co</u></a></small>
@@ -44,7 +44,7 @@ En estos momentos **nos encontramos** realizando convocatoria para nuevos integr
       <a href="mailto:andrea.garcia4@udea.edu.co"><u>andrea.garcia4@udea.edu.co</u></a></small>
   </div>
   <div class="columnas">
-      <a href="https://www.linkedin.com/in/sizuhe/"><img src="../Voyager/img/coordsimon.jpg" class="imagen-coordinadores"></a><br>
+      <a href="https://www.linkedin.com/in/sizuhe/" target="_blank"><img src="../Voyager/img/coordsimon.jpg" class="imagen-coordinadores"></a><br>
       <b>Simón Zuluaga Henao</b><br>
       <small>Estudiante de Ing. Aeroespacial<br>
       <a href="mailto:simon.zuluagah@udea.edu.co"><u>simon.zuluagah@udea.edu.co</u></a></small>

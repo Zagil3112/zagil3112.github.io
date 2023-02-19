@@ -24,10 +24,10 @@ subtitle: Si tienes alguna inquietud puedes ponerte en contacto con nosotros
         <b>Astra</b><br>
         Grupo de investigación
     </p>
-      <a href="https://www.facebook.com/astraudea/"><i class="fab fa-facebook fa-4x"></i></a> <br> 
+      <a href="https://www.facebook.com/astraudea/" target="_blank"><i class="fab fa-facebook fa-4x"></i></a> <br> 
       astraudea
       <br><br>
-      <a href="https://www.instagram.com/astraudea/"><i class="fab fa-instagram fa-4x"></i></a> <br>
+      <a href="https://www.instagram.com/astraudea/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a> <br>
       astraudea
       <!-- <br><br>
       <a href="mailto:grupoastra@udea.edu.co"><i class="fa fa-envelope fa-4x"></i></a> <br>
@@ -39,13 +39,13 @@ subtitle: Si tienes alguna inquietud puedes ponerte en contacto con nosotros
         <b>Delta V</b><br>
         Semillero de investigación
     </p>
-      <a href="https://www.facebook.com/deltavudea/"><i class="fab fa-facebook fa-4x"></i></a> <br>
+      <a href="https://www.facebook.com/deltavudea/" target="_blank"><i class="fab fa-facebook fa-4x"></i></a> <br>
       deltavudea
       <br><br>
-      <a href="https://www.instagram.com/deltav_udea/"><i class="fab fa-instagram fa-4x"></i></a> <br>
+      <a href="https://www.instagram.com/deltav_udea/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a> <br>
       deltav_udea
       <br><br>
-      <a href="mailto:deltavudea@gmail.com"><i class="fa fa-envelope fa-4x"></i></a> <br>
+      <a href="mailto:deltavudea@gmail.com" target="_blank"><i class="fa fa-envelope fa-4x"></i></a> <br>
       deltavudea@gmail.com
   </div>
   <div class="columnas">
@@ -54,16 +54,16 @@ subtitle: Si tienes alguna inquietud puedes ponerte en contacto con nosotros
         <b>Voyager</b><br>
         Semillero de investigación<br>
     </p>
-      <a href="https://www.facebook.com/voyagerudea/"><i class="fab fa-facebook fa-4x"></i></a> <br>
+      <a href="https://www.facebook.com/voyagerudea/" target="_blank"><i class="fab fa-facebook fa-4x"></i></a> <br>
       voyagerudea
       <br><br>
-      <a href="https://www.instagram.com/voyager_udea/"><i class="fab fa-instagram fa-4x"></i></a> <br>
+      <a href="https://www.instagram.com/voyager_udea/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a> <br>
       voyager_udea
       <br><br>
-      <a href="mailto:voyagerudea@gmail.com"><i class="fa fa-envelope fa-4x"></i></a> <br>
+      <a href="mailto:voyagerudea@gmail.com" target="_blank"><i class="fa fa-envelope fa-4x"></i></a> <br>
       voyagerudea@gmail.com
       <br><br>
-      <a href="https://www.youtube.com/@semillerodeinvestigacionvo6324"><i class="fab fa-youtube fa-4x"></i></a> <br>
+      <a href="https://www.youtube.com/@semillerodeinvestigacionvo6324" target="_blank"><i class="fab fa-youtube fa-4x"></i></a> <br>
       Semillero de Investigación - Voyager
   </div>
 </div>
