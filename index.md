@@ -1,6 +1,6 @@
 ---
 title: 
-description: Página principal de la web del grupo de investigación Astra y sus semilleros, Delta V y Voyager.
+description: Página principal del sitio web del Grupo de investigación Astra y sus semilleros, Delta V y Voyager, pertenecientes a la Universidad de Antioquia.
 image: icons/astra.png
 callouts: callout_home
 
