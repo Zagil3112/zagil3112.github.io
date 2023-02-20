@@ -3,7 +3,7 @@ menubar: menubar_deltav
 
 title: Delta V
 subtitle: Semillero de cohetería y propulsión
-description: Página web del semillero de cohetería y propulsión Delta V, parte del grupo de investigación Astra de la Universidad de Antioquia.
+description: Página web del semillero de cohetería y propulsión Delta V, parte del Grupo de investigación Astra de la Universidad de Antioquia.
 
 hero_image: ../icons/deltavhero.png
 ---
