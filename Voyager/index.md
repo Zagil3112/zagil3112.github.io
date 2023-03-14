@@ -11,19 +11,18 @@ hero_image: ../icons/voyagerhero.png
 
 
 ## ¿Quiénes somos?
-Voyager, es un semillero de investigación con enfoques aeronáuticos y astronáuticos creado por un grupo de estudiantes de Ingeniería Aeroespacial de la Universidad de Antioquia en el año 2017, inicialmente, como un grupo de divulgación científica. Actualmente, dedicado al diseño y construcción de sistemas para vehículos aeroespaciales, tales como: sistemas de sensoramiento, comunicaciones, estructura, procesamiento de imágenes, entre otros. 
+Voyager es un semillero de investigación con enfoques aeronáuticos y astronáuticos creado por un grupo de estudiantes de Ingeniería Aeroespacial de la Universidad de Antioquia en el año 2017, inicialmente, como un grupo de divulgación científica. Actualmente, dedicado al diseño y construcción de sistemas para vehículos aeroespaciales, tales como: sistemas de sensoramiento, comunicaciones, estructura, procesamiento de imágenes, entre otros. 
 
 Con experiencia y destacada participación en concursos nacionales, en los que se han obtenido los primeros puestos con el diseño y construcción de pequeños satélites, alas zagi, rovers y demás. El semillero, constantemente está en busca de nuevos retos en los que pongamos a prueba nuestras habilidades y capacidades de ingenio, creatividad y solución de problemas, donde podamos contribuir a la sociedad y construir un mejor mañana.
-<!-- <figure align="center"> 
-    <img src="img/voyager.jpg" width="100%" height="100%">
-</figure> -->
-
+<figure align="center"> 
+    <img src="img/voyager.png" class="mainimage" width="90%" height="90%">
+</figure>
 
 <!-- ## Actualidad
 Actualidad del semillero, proyectos en curso, etc. -->
 
 
-### ¿Deseas pertenecer al semillero?
+## ¿Deseas pertenecer al semillero?
 A día de hoy **no tenemos ninguna** convocatoria activa. Normalmente, estas se realizan a inicio de semestre por lo que debes estar atento a nuestras redes sociales.
 
 <!-- En estos momentos **nos encontramos** realizando convocatoria para nuevos integrantes, en caso de estar interesado en pertenecer a *Voyager* ingresa a este <a href="https://forms.gle/iwFSQSoV8WNKQJgD8" target="_blank"><u>link</u></a>. -->

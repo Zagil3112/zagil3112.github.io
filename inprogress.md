@@ -11,6 +11,25 @@ https://img.shields.io/badge/-Delta%20V-FF4800
 -->
 
 <div class="columns is-multiline">
+  <div class="column is-one-third-desktop is-half-tablet">
+    <div class="card">
+        <div class="card-image">
+            <div class="card-content is-overlay is-clipped">
+              <img src="https://img.shields.io/badge/-Voyager-1D4B73">
+            </div>
+            <figure class="fill">
+              <img src="/Voyager/img/icarus.png">
+            </figure>
+        </div>
+        <div class="card-content">
+            <h3>Icarus</h3>
+            Linea de aeronáutica del semillero de investigación.
+        </div>
+        <footer class="card-footer">
+            <a href="/Voyager/projects/icarus" target="_blank" class="card-footer-item"><u>Ver más</u></a>
+        </footer>
+    </div>
+  </div>
   <!--  -->
   <!--  -->
   <div class="column is-one-third-desktop is-half-tablet">
@@ -40,7 +59,6 @@ https://img.shields.io/badge/-Delta%20V-FF4800
             <div class="card-content is-overlay is-clipped">
               <img src="https://img.shields.io/badge/-Delta%20V-FF4800">
               <img src="https://img.shields.io/badge/-Voyager-1D4B73">
-              <img src="https://img.shields.io/badge/-Competencia-blueviolet">
             </div>
             <figure class="fill">
               <img src="/img_shared/Volta.png">

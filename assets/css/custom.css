@@ -25,6 +25,13 @@
     width: auto;
 }
 
+.mainimage {
+    box-shadow: 
+        -50px -50px 0 -40px #273273,
+        50px 50px 0 -40px #273273;
+    border-radius: 0px 40px;
+}
+
 
 @media (max-width: 1366px) {
     .columnas {
@@ -46,6 +53,13 @@
         width: 100%;
         margin-bottom: 50px;
         float: none;
+    }
+
+    .mainimage {
+        box-shadow: 
+            -50px -50px 0 -45px #273273,
+            50px 50px 0 -45px #273273;
+        border-radius: 0px 15px;
     }
 
     iframe {

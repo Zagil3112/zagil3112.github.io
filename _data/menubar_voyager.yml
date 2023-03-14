@@ -14,8 +14,8 @@
 
 - label: Proyectos de investigación
   items:
-    # - name: Ala Zagi
-    #   link: /Voyager/projects/alazagi/
+    - name: Icarus - Linea de aeronáutica
+      link: /Voyager/projects/icarus/
     # - name: CubeSat
     #   link: /Voyager/projects/cubesat/
     # - name: Estación terrena

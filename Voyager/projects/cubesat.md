@@ -8,10 +8,10 @@ hero_image: ../../../icons/voyagerhero.png
 toc: true
 toc_title: Contenido
 ---
-
-<figure align="center"> 
-    <img src="../../img/.jpg" width="100%" height="100%">
-</figure>
+<link href="../../../assets/css/custom.css" rel="stylesheet" type="text/css">
+<!-- <figure align="center"> 
+    <img src="../../img/cubesat.jpg" width="60%" height="60%">
+</figure> -->
 
 
 ## Actualidad
