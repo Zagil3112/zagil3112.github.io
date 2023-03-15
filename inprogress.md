@@ -59,6 +59,7 @@ https://img.shields.io/badge/-Delta%20V-FF4800
             <div class="card-content is-overlay is-clipped">
               <img src="https://img.shields.io/badge/-Delta%20V-FF4800">
               <img src="https://img.shields.io/badge/-Voyager-1D4B73">
+              <img src="https://img.shields.io/badge/-Competencia-blueviolet">
             </div>
             <figure class="fill">
               <img src="/img_shared/Volta.png">
