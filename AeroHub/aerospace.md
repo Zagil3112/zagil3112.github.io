@@ -11,6 +11,8 @@ toc_title: Contenido
 
 
 ## Malla curricular del pregrado
+Accede a más información del pregrado <a href="https://ingenieria2.udea.edu.co/cursum/#/publico/programas/546/pensum" target="_blank"><u>aquí</u></a>.
+
 <div align="center">
     <iframe src="https://drive.google.com/file/d/1VQ13_AS8JSXIV2BZ0eVpTnismIpaTHlW/preview" width="1080" height="720"></iframe>
 </div>
