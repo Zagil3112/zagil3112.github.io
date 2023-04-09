@@ -14,6 +14,8 @@
 
 - label: Proyectos de investigación
   items:
+    - name: Desarrollo de software
+      link: /Voyager/projects/software/
     - name: Icarus - Linea de aeronáutica
       link: /Voyager/projects/icarus/
     # - name: CubeSat

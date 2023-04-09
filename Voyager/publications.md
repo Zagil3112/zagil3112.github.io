@@ -13,7 +13,7 @@ Artículos científicos y ponencias realizadas por el semillero de investigació
 <!-- VERA GRAVITAS -->
 - Osorio Henao, J. D., Botina Monsalve, J. J., Díaz Álvarez, D. A., Galeano Ruiz, M., Higuita Echavarría, J. P. & Burbano Mosquera, L. F. (2021). **Picosatélite diseñado para medir concentración de gases de efecto invernadero y registrar imágenes en vuelo**. Revista Ciencia y Poder Aéreo, vol. 16, núm. 1, pp. 75-86. <a href="https://www.redalyc.org/journal/6735/673570962005/html/" target="_blank"><u>Página web</u></a>. <a href="https://drive.google.com/file/d/1lSN3EKniAClQSQ-HnjXms5OjomUvlPtd/view?usp=sharing" target="_blank"><u>PDF</u></a>.
 
-- Zapata Gil, S., León Serna, S., Buriticá Isaza, N., Zamora Vélez, J., Mejía González, J. & González Jaramillo, D. (2021). **Construcción de prototipo de CANSAT para toma de imágenes aéreas para detección de zonas de vegetación en agricultura  de precisión**. Ciencia y Poder Aéreo, vol. 16, núm. 2, pp. 11-28. <a href="https://www.redalyc.org/journal/6735/673571919001/html/" target="_blank"><u>Página web</u></a>. <a href="https://drive.google.com/file/d/12X98Hn4ZOzBMPxEE-CcJ3fHt4ad3eYbG/view?usp=sharing" target="_blank"><u>PDF</u></a>.
+- Zapata Gil, S., León Serna, S., Buriticá Isaza, N., Zamora Vélez, J., Mejía González, J. & González Jaramillo, D. (2021). **Construcción de prototipo de CANSAT para toma de imágenes aéreas para detección de zonas de vegetación en agricultura  de precisión**. Revista Ciencia y Poder Aéreo, vol. 16, núm. 2, pp. 11-28. <a href="https://www.redalyc.org/journal/6735/673571919001/html/" target="_blank"><u>Página web</u></a>. <a href="https://drive.google.com/file/d/12X98Hn4ZOzBMPxEE-CcJ3fHt4ad3eYbG/view?usp=sharing" target="_blank"><u>PDF</u></a>.
 
 
 

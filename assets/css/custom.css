@@ -29,7 +29,6 @@
     box-shadow: 
         -50px -50px 0 -40px #273273,
         50px 50px 0 -40px #273273;
-    border-radius: 0px 40px;
 }
 
 
@@ -59,7 +58,6 @@
         box-shadow: 
             -50px -50px 0 -45px #273273,
             50px 50px 0 -45px #273273;
-        border-radius: 0px 15px;
     }
 
     iframe {
