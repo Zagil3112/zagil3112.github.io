@@ -19,8 +19,8 @@ toc_title: Contenido
 
 ## Actualidad
 <img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="Tag de En curso">
-<img src="https://img.shields.io/badge/-Delta%20V-FF4800" alt="Tag de Delta V">
-<img src="https://img.shields.io/badge/-Voyager-1D4B73" alt="Tag de Voyager">
+<img class="badges" src="https://img.shields.io/badge/-Delta%20V-FF4800" alt="Tag de Delta V">
+<img class="badges" src="https://img.shields.io/badge/-Voyager-1D4B73" alt="Tag de Voyager">
 
 Actualmente, el equipo de trabajo se encuentra desarrollando dos softwares con el objetivo de ser usados en los bancos de pruebas del semillero de investigación *Delta V* y en la lectura de datos de telemetría en proyectos CanSat o similares del semillero de investigación *Voyager*.
 
