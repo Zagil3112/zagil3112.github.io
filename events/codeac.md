@@ -4,7 +4,7 @@ permalink: /codeac
 
 title: CODEAC
 subtitle: Congreso de Desarrollos Aeroespaciales Colombianos
-description: Pagina web del primer congreso de desarrollos aeroespaciales CODEAC.
+description: Pagina web del primer Congreso de Desarrollos Aeroespaciales Colombianos - CODEAC.
 
 # hero_image: /events/img/codeac_logo.png
 hero_height: is-halfheight

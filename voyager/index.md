@@ -21,7 +21,7 @@ Voyager es un semillero de investigación con enfoques aeronáuticos y astronáu
 
 Con experiencia y destacada participación en concursos nacionales, en los que se han obtenido los primeros puestos con el diseño y construcción de pequeños satélites, alas zagi, rovers y demás. El semillero, constantemente está en busca de nuevos retos en los que pongamos a prueba nuestras habilidades y capacidades de ingenio, creatividad y solución de problemas, donde podamos contribuir a la sociedad y construir un mejor mañana.
 <figure align="center"> 
-    <img src="img/voyager.png" alt="Imagen de miembros de Voyager" class="mainimage" width="90%" height="90%">
+    <img src="img/voyager.png" alt="Imagen de miembros de Voyager" class="mainimage is-voyager" width="90%" height="90%">
 </figure>
 
 <!-- ## Actualidad
@@ -38,7 +38,7 @@ A día de hoy **no tenemos ninguna** convocatoria activa. Normalmente, estas se 
 <div class="columns is-multiline is-centered is-vcentered">
     <div class="column is-4 has-text-centered">
         <p class="title is-6">
-            <a href="https://www.linkedin.com/in/mateo-lezama-fuentes-5ab4721b2/" aria-label="LinkedIn de Mateo Lezama" target="_blank"><img src="../Voyager/img/coordmateo.jpg" alt="Foto de Mateo Lezama" class="imagen-coordinadores"></a><br>
+            <a href="https://www.linkedin.com/in/mateo-lezama-fuentes-5ab4721b2/" aria-label="LinkedIn de Mateo Lezama" target="_blank"><img src="../voyager/img/coordmateo.jpg" alt="Foto de Mateo Lezama" class="imagen-coordinadores"></a><br>
             <b>Mateo Lezama Fuentes</b><br><br>
         </p>
         <p class="subtitle is-6">
@@ -48,7 +48,7 @@ A día de hoy **no tenemos ninguna** convocatoria activa. Normalmente, estas se 
     </div>
     <div class="column is-4 has-text-centered">
         <p class="title is-6">
-            <a><img src="../Voyager/img/coordpaula.jpg" alt="Foto de Paula García" class="imagen-coordinadores"></a><br>
+            <a><img src="../voyager/img/coordpaula.jpg" alt="Foto de Paula García" class="imagen-coordinadores"></a><br>
             <b>Paula A. García Suárez</b><br><br>
         </p>
         <p class="subtitle is-6">
@@ -58,7 +58,7 @@ A día de hoy **no tenemos ninguna** convocatoria activa. Normalmente, estas se 
     </div>
     <div class="column is-4 has-text-centered">
         <p class="title is-6">
-            <a href="https://www.linkedin.com/in/sizuhe/" aria-label="LinkedIn de Simón Zuluaga" target="_blank"><img src="../Voyager/img/coordsimon.jpg" alt="Foto de Simón Zuluaga" class="imagen-coordinadores"></a><br>
+            <a href="https://www.linkedin.com/in/sizuhe/" aria-label="LinkedIn de Simón Zuluaga" target="_blank"><img src="../voyager/img/coordsimon.jpg" alt="Foto de Simón Zuluaga" class="imagen-coordinadores"></a><br>
             <b>Simón Zuluaga Henao</b><br><br>
         </p>
         <p class="subtitle is-6">

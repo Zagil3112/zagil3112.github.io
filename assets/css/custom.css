@@ -18,10 +18,10 @@
     width: auto;
 }
 
-.mainimage {
+.mainimage.is-voyager {
     box-shadow: 
-        -50px -50px 0 -40px #273273,
-        50px 50px 0 -40px #273273;
+        -50px -50px 0 -40px #1d4b73ff,
+        50px 50px 0 -40px #1d4b73ff;
 }
 
 .column.is-social {
@@ -46,10 +46,10 @@
   }
 
 @media (max-width: 767px) {
-    .mainimage {
+    .mainimage.is-voyager {
         box-shadow: 
-            -50px -50px 0 -45px #273273,
-            50px 50px 0 -45px #273273;
+            -50px -50px 0 -45px #1d4b73ff,
+            50px 50px 0 -45px #1d4b73ff;
     }
 
     iframe {
