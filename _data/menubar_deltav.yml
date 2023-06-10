@@ -1,20 +1,22 @@
 - label: Información
   items:
     - name: Nosotros
-      link: /DeltaV/
+      link: /deltav/
     - name: Contacto
       link: /contact/
 
 - label: Logros
   items:
     - name: Competencias
-      link: /DeltaV/contests
+      link: /deltav/contests/
     - name: Publicaciones
-      link: /DeltaV/publications
+      link: /deltav/publications/
 
-- label: Proyectos
+- label: Proyectos de investigación
   items:
-    - name: Turbina Boeing
-      link: /DeltaV/projects/turbinaboeing/
+    - name: Desarrollo de software
+      link: /deltav/projects/software/
     - name: Motores de propelente sólido
-      link: /DeltaV/projects/motoresdepropelentesolido/
+      link: /deltav/projects/motoresdepropelentesolido/
+    - name: Turbina Boeing
+      link: /deltav/projects/turbinaboeing/

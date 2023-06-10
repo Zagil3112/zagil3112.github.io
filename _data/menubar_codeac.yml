@@ -1,0 +1,14 @@
+- label: Contenido
+  items:
+    - name: Información general
+      link: /codeac/#información-general
+    - name: ¿Como participar?
+      link: /codeac/#como-participar
+    - name: Tematicas
+      link: /codeac/#tematicas
+    - name: Cronograma
+      link: /codeac/#cronograma
+    - name: Ubicación
+      link: /codeac/#ubicación
+    - name: Contacto
+      link: /contact/

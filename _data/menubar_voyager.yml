@@ -1,22 +1,26 @@
 - label: Información
   items:
     - name: Nosotros
-      link: /Voyager/
+      link: /voyager/
     - name: Contacto
       link: /contact/
 
 - label: Logros
   items:
     - name: Competencias
-      link: /Voyager/contests
+      link: /voyager/contests/
     - name: Publicaciones
-      link: /Voyager/publications
+      link: /voyager/publications/
 
-- label: Proyectos
+- label: Proyectos de investigación
   items:
-    - name: Estación terrena
-      link: /Voyager/projects/estacionterrena/
+    - name: Desarrollo de software
+      link: /voyager/projects/software/
+    - name: Icarus
+      link: /voyager/projects/icarus/
+    # - name: CubeSat
+    #   link: /voyager/projects/cubesat/
+    # - name: Estación terrena
+    #   link: /voyager/projects/estacionterrena/
     - name: Jaula de Helmholtz
-      link: /Voyager/projects/jauladehelmholtz/
-    - name: Rover S.A.R.A
-      link: /Voyager/projects/roversara/
+      link: /voyager/projects/jauladehelmholtz/

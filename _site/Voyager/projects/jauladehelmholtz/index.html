@@ -25,17 +25,26 @@
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="Jaula de Helmholtz" />
 <meta property="og:locale" content="es" />
-<link rel="canonical" href="http://localhost:4000/Voyager/projects/jauladehelmholtz/" />
-<meta property="og:url" content="http://localhost:4000/Voyager/projects/jauladehelmholtz/" />
+<meta name="description" content="Grupo ASTRA" />
+<meta property="og:description" content="Grupo ASTRA" />
+<link rel="canonical" href="http://0.0.0.0:4000/voyager/projects/jauladehelmholtz/" />
+<meta property="og:url" content="http://0.0.0.0:4000/voyager/projects/jauladehelmholtz/" />
 <meta property="og:site_name" content="grupoastra.github.io" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Jaula de Helmholtz" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Jaula de Helmholtz","url":"http://localhost:4000/Voyager/projects/jauladehelmholtz/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Grupo ASTRA","headline":"Jaula de Helmholtz","url":"http://0.0.0.0:4000/voyager/projects/jauladehelmholtz/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <!-- head scripts --></head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
+<script>
+  window['ga-disable-G-BJW62XH43P'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BJW62XH43P');
+</script><!-- head scripts --></head>
 
   <body>
     <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
@@ -52,42 +61,41 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="/" class="navbar-item ">Home</a>
+                <a href="/" class="navbar-item ">Inicio</a>
                 
                 
                     
-                    <a href="/DeltaV" class="navbar-item ">Delta V</a>
+                    <a href="/deltav/" class="navbar-item ">Delta V</a>
                     
                 
                     
-                    <a href="/Voyager" class="navbar-item ">Voyager</a>
+                    <a href="/voyager/" class="navbar-item ">Voyager</a>
                     
                 
                     
-                    <a href="/projects" class="navbar-item ">Proyectos</a>
+                    <a href="/inprogress/" class="navbar-item ">En curso</a>
                     
                 
                     
-                    <a href="/contact" class="navbar-item ">Contacto</a>
+                    <a href="/aerohub/" class="navbar-item ">AeroHub</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contacto</a>
                     
                 
                 
             </div>
-
-            <div class="navbar-end">
-                
-            </div>
-
         </div>
     </div>
 </nav>
 
     
-        <section class="hero  is-medium  is-bold is-primary"  style="background: url('../../../icons/voyagerhero.png') no-repeat center center; background-size: cover;" >
+        <section class="hero  is-halfheight  is-bold is-primary" >
     <div class="hero-body ">
         <div class="container">
             <h1 class="title is-2">Jaula de Helmholtz</h1>
-            <p class="subtitle is-3"></p>
+            <p class="subtitle is-3">Línea de dinámica de vuelo</p>
             
         </div>
     </div>
@@ -109,7 +117,7 @@
     <ul class="menu-list">
         
         <li>
-            <a href="/Voyager/" class="">Nosotros</a>
+            <a href="/voyager/" class="">Nosotros</a>
             
         </li>
         
@@ -124,32 +132,32 @@
     <ul class="menu-list">
         
         <li>
-            <a href="/Voyager/contests" class="">Competencias</a>
+            <a href="/voyager/contests/" class="">Competencias</a>
             
         </li>
         
         <li>
-            <a href="/Voyager/publications" class="">Publicaciones</a>
+            <a href="/voyager/publications/" class="">Publicaciones</a>
             
         </li>
             
     </ul>
 
-    <p class="menu-label">Proyectos</p>
+    <p class="menu-label">Proyectos de investigación</p>
     <ul class="menu-list">
         
         <li>
-            <a href="/Voyager/projects/estacionterrena/" class="">Estación terrena</a>
+            <a href="/voyager/projects/software/" class="">Desarrollo de software</a>
             
         </li>
         
         <li>
-            <a href="/Voyager/projects/jauladehelmholtz/" class="is-active">Jaula de Helmholtz</a>
+            <a href="/voyager/projects/icarus/" class="">Icarus</a>
             
         </li>
         
         <li>
-            <a href="/Voyager/projects/roversara/" class="">Rover S.A.R.A</a>
+            <a href="/voyager/projects/jauladehelmholtz/" class="is-active">Jaula de Helmholtz</a>
             
         </li>
             
@@ -161,6 +169,7 @@
                 <div class="column is-8">
                     
                     
+
                     
                     
                     
@@ -174,7 +183,6 @@
   <li><a href="#actualidad">Actualidad</a></li>
   <li><a href="#descripción">Descripción</a></li>
   <li><a href="#objetivos-del-proyecto">Objetivos del proyecto</a></li>
-  <li><a href="#documentación">Documentación</a></li>
 </ul>
     </div>
 </div>
@@ -183,34 +191,43 @@
 
 
 <div class="content">
-    <figure align="center"> 
-    <img src="../../img/jauladehelmholtz.jpg" width="60%" height="60%" />
+    <link href="../../../assets/css/custom.css" rel="stylesheet" type="text/css" />
+
+<style>
+  .hero.is-primary.is-bold {
+    background-color: #1d4b73ff;
+    background-image: none;
+  }
+</style>
+
+<figure align="center"> 
+    <img src="../../img/jauladehelmholtz.jpg" alt="Imagen de Jaula de Helmholtz" width="60%" height="60%" />
 </figure>
 
-<p><img src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="" /></p>
-
 <h2 id="actualidad">Actualidad</h2>
-<p>Actualidad del proyecto</p>
+<p><img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="Tag de En curso" /></p>
 
-<p>Si deseas conocer mas informacion sobre el proyecto, contacta con NOMBRE al correo CORREO.</p>
+<p>Actualmente, el equipo de trabajo se encuentra desarrollando un manual de uso y un articulo científico basado en el diseño y construcción de la Jaula de Helmholtz.</p>
+
+<p>Si deseas conocer mas información sobre el proyecto, contacta con <strong>Simón Zuluaga</strong> al correo <a href="mailto:simon.zuluagah@udea.edu.co"><u>simon.zuluagah@udea.edu.co</u></a>.</p>
 
 <hr />
 
 <h2 id="descripción">Descripción</h2>
-<p>Los  sistemas  espaciales  son  afectados  por  una  gran  cantidad  de  fenómenos que acontecen en el espacio  exterior. En  lo  que respecta al entornocercano a la Tierra, algunos de los efectos más destacados son aquellos generados por el campo magnético del planeta, el cualcobra gran relevancia en el vacíoy donde la influencia gravitacional se minimiza. Bajo estas condiciones,fuerzas asociadas a campos electromagnéticos priman sobre aquellas producidas por el campo gravitatorio. Poder recrear este fenómeno es necesario para poder comprender la interaccióndel campo magnético terrestre con la dinámica delosvehículos espaciales,así como de los sistemas de control basados en este principio.Para la experimentación en esta área,es necesario crear unacama de pruebas que genere campos magnéticos uniformes de intensidad similaral  producido  por  la  Tierrabajocondiciones  controladas.</p>
+<p>Los sistemas espaciales son afectados por una gran cantidad de fenómenos que acontecen en el espacio exterior. En lo que respecta al entorno cercano a la Tierra, algunos de los efectos más destacados son aquellos generados por el campo magnético del planeta, el cual cobra gran relevancia en el vacío y donde la influencia gravitacional se minimiza. Bajo estas condiciones, fuerzas asociadas a campos electromagnéticos priman sobre aquellas producidas por el campo gravitatorio. Poder recrear este fenómeno es necesario para poder comprender la interacción del campo magnético terrestre con la dinámica de los vehículos espaciales, así como de los sistemas de control basados en este principio. Para la experimentación en esta área, es necesario crear un banco de pruebas que genere campos magnéticos uniformes bajo condiciones controladas de intensidad similar al producido por la Tierra.</p>
 
-<p>Un  experimento  que reproduce  este  escenario es conocido como Jaula de Helmholtz. Ésta, es creada a partir de un conjunto de tres pares de bobinasdispuestasen configuración especial.El  suministro  de  corriente  a  estos  embobinados  se  realiza  a través  de  instrumentación  de  laboratorio  especializada mientras que su control debe ser realizado empleando electrónica y software dedicado.</p>
+<p>Un experimento que reproduce este escenario es conocido como Jaula de Helmholtz. Ésta es creada a partir de un conjunto de tres pares de bobinas dispuestas en una configuración de 3 ejes independientes. El suministro de corriente a estos embobinados se realiza a través de instrumentación de laboratorio especializada mientras que su control debe ser realizado empleando electrónica y software dedicado.</p>
 
 <h2 id="objetivos-del-proyecto">Objetivos del proyecto</h2>
 <ul>
   <li>Desarrollar un prototipo de banco experimental de pruebas de campo magnético para nanosatélites.</li>
   <li>Establecer las condiciones y requerimientos necesarios para el estudio de efectos magnéticos en pequeños satélites.</li>
-  <li>Construir una jaula de Helmholtz para la creación de campo magnético estable.</li>
-  <li>Capacitar a estudiantes de ASTRA respectoa efectos magnéticos y pruebas asociadas en sistemas de espaciales.</li>
+  <li>Construir una Jaula de Helmholtz para la creación de campo magnético estable.</li>
 </ul>
 
-<h2 id="documentación">Documentación</h2>
-<p>(si aplicable) Descarga de manual, articulos, etc.</p>
+<!-- 
+## Documentación
+(si aplicable) Descarga de manual, articulos, etc. -->
 
 </div>
                 </div>
@@ -225,7 +242,8 @@
         
 
         <div class="content is-small has-text-centered">
-            <p class="">Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Theme built by <a href="https://www.csrhymes.com/">C.S. Rhymes</a></p>            
         </div>
     </div>
 </footer>

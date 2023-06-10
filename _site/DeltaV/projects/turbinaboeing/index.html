@@ -25,17 +25,26 @@
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="Turbina Boeing" />
 <meta property="og:locale" content="es" />
-<link rel="canonical" href="http://localhost:4000/DeltaV/projects/turbinaboeing/" />
-<meta property="og:url" content="http://localhost:4000/DeltaV/projects/turbinaboeing/" />
+<meta name="description" content="Grupo ASTRA" />
+<meta property="og:description" content="Grupo ASTRA" />
+<link rel="canonical" href="http://0.0.0.0:4000/deltav/projects/turbinaboeing/" />
+<meta property="og:url" content="http://0.0.0.0:4000/deltav/projects/turbinaboeing/" />
 <meta property="og:site_name" content="grupoastra.github.io" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Turbina Boeing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Turbina Boeing","url":"http://localhost:4000/DeltaV/projects/turbinaboeing/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Grupo ASTRA","headline":"Turbina Boeing","url":"http://0.0.0.0:4000/deltav/projects/turbinaboeing/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <!-- head scripts --></head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
+<script>
+  window['ga-disable-G-BJW62XH43P'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BJW62XH43P');
+</script><!-- head scripts --></head>
 
   <body>
     <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
@@ -52,42 +61,41 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="/" class="navbar-item ">Home</a>
+                <a href="/" class="navbar-item ">Inicio</a>
                 
                 
                     
-                    <a href="/DeltaV" class="navbar-item ">Delta V</a>
+                    <a href="/deltav/" class="navbar-item ">Delta V</a>
                     
                 
                     
-                    <a href="/Voyager" class="navbar-item ">Voyager</a>
+                    <a href="/voyager/" class="navbar-item ">Voyager</a>
                     
                 
                     
-                    <a href="/projects" class="navbar-item ">Proyectos</a>
+                    <a href="/inprogress/" class="navbar-item ">En curso</a>
                     
                 
                     
-                    <a href="/contact" class="navbar-item ">Contacto</a>
+                    <a href="/aerohub/" class="navbar-item ">AeroHub</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contacto</a>
                     
                 
                 
             </div>
-
-            <div class="navbar-end">
-                
-            </div>
-
         </div>
     </div>
 </nav>
 
     
-        <section class="hero  is-medium  is-bold is-primary"  style="background: url('../../../icons/deltavhero.png') no-repeat center center; background-size: cover;" >
+        <section class="hero  is-halfheight  is-bold is-primary" >
     <div class="hero-body ">
         <div class="container">
             <h1 class="title is-2">Turbina Boeing</h1>
-            <p class="subtitle is-3"></p>
+            <p class="subtitle is-3">Linea de propulsión</p>
             
         </div>
     </div>
@@ -109,7 +117,7 @@
     <ul class="menu-list">
         
         <li>
-            <a href="/DeltaV/" class="">Nosotros</a>
+            <a href="/deltav/" class="">Nosotros</a>
             
         </li>
         
@@ -124,27 +132,32 @@
     <ul class="menu-list">
         
         <li>
-            <a href="/DeltaV/contests" class="">Competencias</a>
+            <a href="/deltav/contests/" class="">Competencias</a>
             
         </li>
         
         <li>
-            <a href="/DeltaV/publications" class="">Publicaciones</a>
+            <a href="/deltav/publications/" class="">Publicaciones</a>
             
         </li>
             
     </ul>
 
-    <p class="menu-label">Proyectos</p>
+    <p class="menu-label">Proyectos de investigación</p>
     <ul class="menu-list">
         
         <li>
-            <a href="/DeltaV/projects/turbinaboeing/" class="is-active">Turbina Boeing</a>
+            <a href="/deltav/projects/software/" class="">Desarrollo de software</a>
             
         </li>
         
         <li>
-            <a href="/DeltaV/projects/motoresdepropelentesolido/" class="">Motores de propelente sólido</a>
+            <a href="/deltav/projects/motoresdepropelentesolido/" class="">Motores de propelente sólido</a>
+            
+        </li>
+        
+        <li>
+            <a href="/deltav/projects/turbinaboeing/" class="is-active">Turbina Boeing</a>
             
         </li>
             
@@ -156,6 +169,7 @@
                 <div class="column is-8">
                     
                     
+
                     
                     
                     
@@ -169,7 +183,6 @@
   <li><a href="#actualidad">Actualidad</a></li>
   <li><a href="#descripción">Descripción</a></li>
   <li><a href="#objetivos-del-proyecto">Objetivos del proyecto</a></li>
-  <li><a href="#documentación">Documentación</a></li>
 </ul>
     </div>
 </div>
@@ -178,30 +191,37 @@
 
 
 <div class="content">
-    <figure align="center"> 
-    <img src="../../img/.jpg" width="100%" height="100%" />
+    <link href="../../../assets/css/custom.css" rel="stylesheet" type="text/css" />
+
+<style>
+  .hero.is-primary.is-bold {
+    background-color: #ff4800ff;
+    background-image: none;
+  }
+</style>
+
+<figure align="center"> 
+    <img src="../../img/Turbina-Integrantes.jpg" alt="Imagen de turbina Boeing" width="70%" height="70%" />
 </figure>
 
-<p><img src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="" /></p>
-
 <h2 id="actualidad">Actualidad</h2>
-<p>Actualidad del proyecto</p>
+<p><img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="Tag de En curso" /></p>
 
-<p>Si deseas conocer más información sobre el proyecto, contacta con NOMBRE al correo CORREO.</p>
+<p>El desarrollo y uso de nuevas tecnologías en el campo de las energías renovables como los biocombustibles (biodiesel) ha mostrado la necesidad de un estudio detallado de sus características. El uso de biodiesel en la industria aeronáutica es una propuesta vigente y requiere investigación en diversos aspectos, entre ellos las emisiones de gases generadas por los motores que consumen este tipo de combustibles.</p>
+
+<p>Si deseas conocer más información sobre el proyecto, contacta con <strong>Mario Silva</strong> al correo <a href="mailto:mario.silva@udea.edu.co"><u>mario.silva@udea.edu.co</u></a>.</p>
 
 <hr />
 
 <h2 id="descripción">Descripción</h2>
-<p>Descripcion del proyecto</p>
+<p>El foco de este proyecto es el estudio del consumo de biocombustibles en los turborreactores, y su rendimiento en términos de la caracterización y análisis de los gases producto de su combustión, y de su consumo específico (TSFC), frente al consumo de combustibles tradicionales, en el marco de la reducción de la contaminación atmosférica que genera la industria de la aviación. La combustión de Jet Fuel, tanto comercial como militar, es un gran contribuyente al efecto invernadero, generando hasta el 3% de la producción de CO2 anual (Fontalvo, 2014). Debido a esto, es importante realizar un estudio detallado para reemplazarlo con alternativas sostenibles y establecer una producción de combustibles derivados de plantas (o desechos) para minimizar el costo ambiental de volar, generando cambios positivos en el sector aeronáutico, creando nuevos empleos, y fomentando la agricultura colombiana y su industrialización.</p>
+
+<p>Una propuesta vigente y con trasfondo en Colombia es el uso de biocombustibles basados en aceite de palma, que, al ser un combustible oxigenado, contiene menos carbono y más nitrógeno y oxígeno que el combustible fósil, reduciendo las partículas de emisión de dióxido de carbono. Para medir esta reducción, se realiza una comparación entre las distintas mezclas de biodiéseles basados en aceite de palma y los combustibles tradicionales, midiendo el flujo másico de aire y por ende su eficiencia de combustión, además de la concentración de gases, para tener un conocimiento más amplio de éstos y aportar al futuro sostenible.</p>
 
 <h2 id="objetivos-del-proyecto">Objetivos del proyecto</h2>
 <ul>
-  <li>Objetivo 1</li>
-  <li>Objetivo 2</li>
+  <li>Evaluar la viabilidad en aplicación del desarrollo de combustibles de bajas emisiones contaminantes en la industria aeronáutica en Colombia y otros posibles mercados.</li>
 </ul>
-
-<h2 id="documentación">Documentación</h2>
-<p>(si aplicable) Descarga de manual, articulos, etc.</p>
 
 </div>
                 </div>
@@ -216,7 +236,8 @@
         
 
         <div class="content is-small has-text-centered">
-            <p class="">Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Theme built by <a href="https://www.csrhymes.com/">C.S. Rhymes</a></p>            
         </div>
     </div>
 </footer>

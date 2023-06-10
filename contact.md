@@ -2,6 +2,105 @@
 title: Contacto
 subtitle: Si tienes alguna inquietud puedes ponerte en contacto con nosotros
 
-callouts: callout_contact
+hero_height: is-halfheight
 ---
-<!-- SE DEJA VACIO -->
+<link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
+<style>
+    @media (max-width: 767px) {
+        img {
+            width: 60%;
+            margin-bottom: -20px;
+        }
+    }
+</style>
+
+
+<div class="columns is-multiline is-centered is-vcentered">
+  <div class="column is-3 has-text-centered">
+    <img src="/icons/astra.png" alt="Logo ASTRA" height="179px" width="190px">
+  </div>
+  <div class="column is-4">
+    <p class="title is-5"><b>ASTRA</b></p>
+    <p class="subtitle is-6">Grupo de investigación</p>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="https://www.facebook.com/astraudea/" aria-label="Facebook de ASTRA" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+      </div>
+      <div class="column">astraudea</div>
+    </div>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="https://www.instagram.com/astraudea/" aria-label="Instagram de ASTRA" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+      <div class="column">astraudea</div>
+    </div>
+    <!-- <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="mailto:grupoastra@gmail.com" aria-label="Correo de ASTRA" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
+      </div>
+      <div class="column">grupoastra@gmail.com</div>
+    </div> -->
+  </div>
+</div>
+---
+<div class="columns is-multiline is-centered is-vcentered">
+  <div class="column is-3 has-text-centered">
+    <img src="/icons/deltav.png" alt="Logo Delta V">
+  </div>
+  <div class="column is-4">
+    <p class="title is-5"><b>Delta V</b></p>
+    <p class="subtitle is-6">Semillero de investigación</p>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="https://www.facebook.com/deltavudea/" aria-label="Facebook de Delta V" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+      </div>
+      <div class="column">deltavudea</div>
+    </div>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="https://www.instagram.com/deltav_udea/" aria-label="Instagram de Delta V" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+      <div class="column">deltav_udea</div>
+    </div>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="mailto:deltavudea@gmail.com" aria-label="Correo de Delta V" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
+      </div>
+      <div class="column">deltavudea@gmail.com</div>
+    </div>
+  </div>
+</div>
+---
+<div class="columns is-multiline is-centered is-vcentered">
+  <div class="column is-3 has-text-centered">
+    <img src="/icons/voyager.png" alt="Logo Voyager" height="213px" width="213px">
+  </div>
+  <div class="column is-4">
+    <p class="title is-5"><b>Voyager</b></p>
+    <p class="subtitle is-6">Semillero de investigación</p>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="https://www.facebook.com/voyagerudea/" aria-label="Facebook de Voyager" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+      </div>
+      <div class="column">voyagerudea</div>
+    </div>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="https://www.instagram.com/voyager_udea/" aria-label="Instagram de Voyager" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+      </div>
+      <div class="column">voyager_udea</div>
+    </div>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="mailto:voyagerudea@gmail.com" aria-label="Correo de Voyager" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
+      </div>
+      <div class="column">voyagerudea@gmail.com</div>
+    </div>
+    <div class="columns is-vcentered">
+      <div class="column is-social has-text-centered">
+        <a href="https://www.youtube.com/@semillerodeinvestigacionvo6324" aria-label="Canal de Youtube de Voyager" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+      </div>
+      <div class="column">Semillero de Investigación - Voyager</div>
+    </div>
+  </div>
+</div>

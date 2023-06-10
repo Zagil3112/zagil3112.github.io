@@ -25,17 +25,26 @@
 <meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="Delta V" />
 <meta property="og:locale" content="es" />
-<link rel="canonical" href="http://localhost:4000/DeltaV/" />
-<meta property="og:url" content="http://localhost:4000/DeltaV/" />
+<meta name="description" content="Página web del semillero de cohetería y propulsión Delta V, parte del Grupo de investigación Astra de la Universidad de Antioquia." />
+<meta property="og:description" content="Página web del semillero de cohetería y propulsión Delta V, parte del Grupo de investigación Astra de la Universidad de Antioquia." />
+<link rel="canonical" href="http://0.0.0.0:4000/deltav/" />
+<meta property="og:url" content="http://0.0.0.0:4000/deltav/" />
 <meta property="og:site_name" content="grupoastra.github.io" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Delta V" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Delta V","url":"http://localhost:4000/DeltaV/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Página web del semillero de cohetería y propulsión Delta V, parte del Grupo de investigación Astra de la Universidad de Antioquia.","headline":"Delta V","url":"http://0.0.0.0:4000/deltav/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <!-- head scripts --></head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
+<script>
+  window['ga-disable-G-BJW62XH43P'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-BJW62XH43P');
+</script><!-- head scripts --></head>
 
   <body>
     <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
@@ -52,38 +61,37 @@
         </div>
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
-                <a href="/" class="navbar-item ">Home</a>
+                <a href="/" class="navbar-item ">Inicio</a>
                 
                 
                     
-                    <a href="/DeltaV" class="navbar-item ">Delta V</a>
+                    <a href="/deltav/" class="navbar-item is-active">Delta V</a>
                     
                 
                     
-                    <a href="/Voyager" class="navbar-item ">Voyager</a>
+                    <a href="/voyager/" class="navbar-item ">Voyager</a>
                     
                 
                     
-                    <a href="/projects" class="navbar-item ">Proyectos</a>
+                    <a href="/inprogress/" class="navbar-item ">En curso</a>
                     
                 
                     
-                    <a href="/contact" class="navbar-item ">Contacto</a>
+                    <a href="/aerohub/" class="navbar-item ">AeroHub</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Contacto</a>
                     
                 
                 
             </div>
-
-            <div class="navbar-end">
-                
-            </div>
-
         </div>
     </div>
 </nav>
 
     
-        <section class="hero  is-medium  is-bold is-primary"  style="background: url('../icons/deltavhero.png') no-repeat center center; background-size: cover;" >
+        <section class="hero  is-halfheight  is-bold is-primary" >
     <div class="hero-body ">
         <div class="container">
             <h1 class="title is-2">Delta V</h1>
@@ -109,7 +117,7 @@
     <ul class="menu-list">
         
         <li>
-            <a href="/DeltaV/" class="is-active">Nosotros</a>
+            <a href="/deltav/" class="is-active">Nosotros</a>
             
         </li>
         
@@ -124,27 +132,32 @@
     <ul class="menu-list">
         
         <li>
-            <a href="/DeltaV/contests" class="">Competencias</a>
+            <a href="/deltav/contests/" class="">Competencias</a>
             
         </li>
         
         <li>
-            <a href="/DeltaV/publications" class="">Publicaciones</a>
+            <a href="/deltav/publications/" class="">Publicaciones</a>
             
         </li>
             
     </ul>
 
-    <p class="menu-label">Proyectos</p>
+    <p class="menu-label">Proyectos de investigación</p>
     <ul class="menu-list">
         
         <li>
-            <a href="/DeltaV/projects/turbinaboeing/" class="">Turbina Boeing</a>
+            <a href="/deltav/projects/software/" class="">Desarrollo de software</a>
             
         </li>
         
         <li>
-            <a href="/DeltaV/projects/motoresdepropelentesolido/" class="">Motores de propelente sólido</a>
+            <a href="/deltav/projects/motoresdepropelentesolido/" class="">Motores de propelente sólido</a>
+            
+        </li>
+        
+        <li>
+            <a href="/deltav/projects/turbinaboeing/" class="">Turbina Boeing</a>
             
         </li>
             
@@ -156,38 +169,64 @@
                 <div class="column is-8">
                     
                     
+
                     
                     
                     
-    
-    
-
-<div class="contents">
-    <div class="menu">
-        <p class="menu-label">Contenido</p>
-        <ul class="menu-list">
-  <li><a href="#quiénes-somos">¿Quiénes somos?</a></li>
-  <li><a href="#actualidad">Actualidad</a>
-    <ul>
-      <li><a href="#coordinadores">Coordinadores</a></li>
-    </ul>
-  </li>
-</ul>
-    </div>
-</div>
-
-
-
-
 <div class="content">
-    <h2 id="quiénes-somos">¿Quiénes somos?</h2>
-<p>Descripcion del semillero</p>
+    <link href="../assets/css/custom.css" rel="stylesheet" type="text/css" />
+
+<style>
+  .hero.is-primary.is-bold {
+    background-color: #ff4800ff;
+    background-image: none;
+  }
+</style>
+
+<h2 id="quiénes-somos">¿Quiénes somos?</h2>
+<p>Somos un semillero del pregrado de Ingeniería Aeroespacial de la Universidad de Antioquia, enfocado en la investigación sobre cohetería y propulsión en vehículos aeroespaciales. Nuestro objetivo es generar y compartir nuevo conocimiento científico, y así impulsar el desarrollo aeroespacial en Colombia.</p>
 
 <h2 id="actualidad">Actualidad</h2>
-<p>Actualidad del semillero, proyectos en curso, etc.</p>
+<p>Nos encontramos realizando investigación en problemas reales de la industria aeroespacial como lo son la manufactura de propelentes sólidos y el uso de biocombustibles en turbinas a reacción. Nuestra misión es aportar al campo con soluciones o alternativas sostenibles a través de avances tecnológicos y científicos.</p>
 
-<h3 id="coordinadores">Coordinadores</h3>
-<p>Coordinadores actuales etc, todos los miembros? que hacer?</p>
+<h3 id="deseas-pertenecer-al-semillero">¿Deseas pertenecer al semillero?</h3>
+<p>A día de hoy <strong>no tenemos ninguna</strong> convocatoria activa. Debes estar atento a nuestras redes sociales.</p>
+
+<!-- En estos momentos **nos encontramos** realizando convocatoria para nuevos integrantes, en caso de estar interesado en pertenecer a *Delta V* ingresa a este <a href="" target="_blank"><u>link</u></a>. -->
+
+<h2 id="coordinadores">Coordinadores</h2>
+<div class="columns is-multiline is-centered is-vcentered">
+    <div class="column is-4 has-text-centered">
+        <p class="title is-6">
+            <a href="https://www.linkedin.com/in/ang%C3%A9lica-turizo-donado-9ba616205/" aria-label="LinkedIn de Angélica Turizo" target="_blank"><img src="../icons/user.jpg" alt="Foto de Angélica Turizo" class="imagen-coordinadores" /></a><br />
+            <b>Angélica Turizo Donado</b><br /><br />
+        </p>
+        <p class="subtitle is-6">
+            <small>Estudiante de Ing. Aeroespacial<br />
+            <a href="mailto:angelica.turizo@udea.edu.co"><u>angelica.turizo@udea.edu.co</u></a></small>
+        </p>
+    </div>
+    <div class="column is-4 has-text-centered">
+        <p class="title is-6">
+            <a href="https://www.linkedin.com/in/samlopezap/" aria-label="LinkedIn de Samuel López" target="_blank"><img src="../icons/user.jpg" alt="Foto de Samuel López" class="imagen-coordinadores" /></a><br />
+            <b>Samuel López Zapata</b><br /><br />
+        </p>
+        <p class="subtitle is-6">
+            <small>Estudiante de Ing. Aeroespacial<br />
+            <a href="mailto:samuel.lopezz@udea.edu.co"><u>samuel.lopezz@udea.edu.co</u></a></small>
+        </p>
+    </div>
+    <div class="column is-4 has-text-centered">
+        <p class="title is-6">
+            <a href="https://www.linkedin.com/in/camilo-mej%C3%ADa-l%C3%B3pez-240a1122b/" aria-label="LinkedIn de Camilo Mejía" target="_blank"><img src="../icons/user.jpg" alt="Foto de Camilo Mejía" class="imagen-coordinadores" /></a><br />
+            <b>Camilo Mejía López</b><br /><br />
+        </p>
+        <p class="subtitle is-6">
+            <small>Estudiante de Ing. Energética<br />
+            <a href="mailto:camilo.mejia1@udea.edu.co"><u>camilo.mejia1@udea.edu.co</u></a></small>
+        </p>
+    </div>
+</div>
 
 </div>
                 </div>
@@ -202,7 +241,8 @@
         
 
         <div class="content is-small has-text-centered">
-            <p class="">Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Ingeniería Aeroespacial | Universidad de Antioquia</p>
+            <p>Theme built by <a href="https://www.csrhymes.com/">C.S. Rhymes</a></p>            
         </div>
     </div>
 </footer>

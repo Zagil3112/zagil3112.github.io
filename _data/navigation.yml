@@ -1,8 +1,12 @@
+# - name: CODEAC
+#   link: codeac
 - name: Delta V
-  link: /DeltaV
+  link: /deltav/
 - name: Voyager
-  link: /Voyager
-- name: Proyectos
-  link: projects
+  link: /voyager/
+- name: En curso
+  link: /inprogress/
+- name: AeroHub
+  link: /aerohub/
 - name: Contacto
-  link: contact
+  link: /contact/
