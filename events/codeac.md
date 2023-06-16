@@ -6,7 +6,7 @@ title: CODEAC
 subtitle: Congreso de Desarrollos Aeroespaciales Colombianos
 description: Pagina web del primer Congreso de Desarrollos Aeroespaciales Colombianos - CODEAC.
 
-# hero_image: /events/img/codeac_banner.jpg
+# hero_image: /events/img/codeac_banner.png
 hero_height: is-halfheight
 ---
 <link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
@@ -44,6 +44,8 @@ Card -->
     Todos los detalles sobre <i>CODEAC</i> y su realización se pueden observar a continuación.
     <br><br>
     La participación en este evento se puede realizar como asistente o ponente, en caso de que desee participar por favor diligencie el siguiente formulario con sus datos personales o haga click <a href="https://forms.office.com/r/MvMZnE8uQJ" target="_blank"><u>aquí</u></a>.
+    <br><br>
+    Recuerda que las mejores ponencias tendrán la <u>posibilidad</u> de ser publicadas en la revista 'Ciencia y Poder Aéreo' de la Fuerza Aérea Colombiana.
   </div>
   <div class="column is-6">
     <header class="card-header">
@@ -97,7 +99,7 @@ Card -->
             <ul style="margin-top: 0em;">
                 <li>Astrodinámica</li>
                 <li>Estructuras y materiales</li>
-                <li>Propulsión, vehículos lanzadores</li>
+                <li>Propulsión y vehículos lanzadores</li>
                 <li>Robótica espacial</li>
                 <li>Sistemas espaciales</li>
             </ul>
