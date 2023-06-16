@@ -71,7 +71,7 @@ hero_height: is-fullheight-with-navbar
         </div>
       </div>
     <footer class="card-footer">
-      <p class="card-footer-item"><small>Publicado: Jun 10, 2021</small></p>
+      <p class="card-footer-item"><small>Publicado: Jun 16, 2023</small></p>
     </footer>
     </div>
   </div>
