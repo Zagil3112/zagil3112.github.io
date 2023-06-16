@@ -8,6 +8,9 @@ description: Pagina web del primer Congreso de Desarrollos Aeroespaciales Colomb
 
 # hero_image: /events/img/codeac_banner.jpg
 hero_height: is-halfheight
+
+toc: true
+toc_title: Contenido
 ---
 <link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
 <style>
