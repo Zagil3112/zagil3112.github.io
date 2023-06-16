@@ -8,9 +8,6 @@ description: Pagina web del primer Congreso de Desarrollos Aeroespaciales Colomb
 
 # hero_image: /events/img/codeac_banner.jpg
 hero_height: is-halfheight
-
-toc: true
-toc_title: Contenido
 ---
 <link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
 <style>
@@ -28,7 +25,6 @@ toc_title: Contenido
 
 # Información general
 ## ¿Que es?
-<!-- ! -->
 El Congreso de Desarrollos Aeroespaciales Colombianos - <i>CODEAC</i>, organizado por el pregrado de Ingeniería Aeroespacial de la Universidad de Antioquia y dirigido al público general, estudiantes y profesionales de todas las áreas de estudio, es un encuentro diseñado como lugar de convergencia académica para presentar, conocer, discutir y motivar la investigación en el sector aeroespacial nacional.
 
 ### Objetivos
@@ -113,7 +109,7 @@ Card -->
 
 
 ## Cronograma
-El cronograma especifico del evento se compartira 
+El cronograma especifico y la información de los expositores que participaran en el evento se compartirá máximo un mes antes de la realización de <i>CODEAC</i>.
 
 
 
