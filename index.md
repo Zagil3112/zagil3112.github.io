@@ -1,6 +1,6 @@
 ---
 title: 
-description: Página principal del sitio web del Grupo de investigación Astra y sus semilleros, Delta V y Voyager, pertenecientes a la Universidad de Antioquia.
+description: Página principal del sitio web del Grupo de investigación ASTRA y sus semilleros, Delta V y Voyager, pertenecientes a la Universidad de Antioquia.
 image: icons/astra.png
 
 hero_image: icons/astragif.gif
@@ -11,7 +11,7 @@ hero_height: is-fullheight-with-navbar
 <link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
 
 <!--! SIN NOTICIAS -->
-<div class="columns is-multiline is-centered is-vcentered">
+<!-- <div class="columns is-multiline is-centered is-vcentered">
   <div class="column is-3 has-text-centered">
     <p class="title is-5"><img src="/icons/deltav.png" alt="Logo Delta V"></p>
   </div>
@@ -30,11 +30,11 @@ hero_height: is-fullheight-with-navbar
     <p class="subtitle is-6">Semillero de aeronáutica y astronáutica</p>
     <a href="/voyager" class="button is-primary">Conócenos</a>
   </div>
-</div>
+</div> -->
 
 
 <!--! CON NOTICIAS  -->
-<!-- <div class="columns is-multiline is-centered is-vcentered" style="padding-top:24px; padding-bottom:24px">
+<div class="columns is-multiline is-centered is-vcentered" style="padding-top:24px; padding-bottom:24px">
   <div class="column is-8">
     <div class="columns is-multiline is-vcentered">
       <div class="column is-4 has-text-centered">
@@ -75,4 +75,4 @@ hero_height: is-fullheight-with-navbar
     </footer>
     </div>
   </div>
-</div> -->
+</div>

@@ -3,7 +3,7 @@ menubar: menubar_voyager
 
 title: Voyager
 subtitle: Semillero de aeronáutica y astronáutica
-description: Página web del semillero de aeronáutica y astronáutica Voyager, parte del Grupo de investigación Astra de la Universidad de Antioquia.
+description: Página web del semillero de aeronáutica y astronáutica Voyager, parte del Grupo de investigación ASTRA de la Universidad de Antioquia.
 
 hero_height: is-halfheight
 ---

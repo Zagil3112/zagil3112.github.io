@@ -26,12 +26,12 @@ toc_title: Contenido
 
 Actualidad del proyecto
 
-Si deseas conocer mas informacion sobre el proyecto, contacta con NOMBRE al correo CORREO.
+Si deseas conocer mas información sobre el proyecto, contacta con NOMBRE al correo CORREO.
 
 ---
 
 ## Descripción
-Descripcion del proyecto
+Descripción del proyecto
 
 
 ## Objetivos del proyecto

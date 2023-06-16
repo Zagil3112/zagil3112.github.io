@@ -28,7 +28,7 @@ https://img.shields.io/badge/-Delta%20V-FF4800
             Creación de un software que facilite la lectura de datos e integre capacidades de guardado que permitan realizar análisis más precisos y rápidos sobre los resultados obtenidos en las investigaciones o proyectos realizados por los semilleros de investigación.
         </div>
         <footer class="card-footer">
-          <p class="card-footer-item"><a href="/DeltaV/projects/software" target="_blank" class="button is-info">Ver más</a></p>
+          <p class="card-footer-item"><a href="/deltav/projects/software" target="_blank" class="button is-info">Ver más</a></p>
         </footer>
     </div>
   </div>

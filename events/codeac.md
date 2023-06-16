@@ -6,7 +6,7 @@ title: CODEAC
 subtitle: Congreso de Desarrollos Aeroespaciales Colombianos
 description: Pagina web del primer Congreso de Desarrollos Aeroespaciales Colombianos - CODEAC.
 
-# hero_image: /events/img/codeac_logo.png
+# hero_image: /events/img/codeac_banner.jpg
 hero_height: is-halfheight
 ---
 <link href="../assets/css/custom.css" rel="stylesheet" type="text/css">
@@ -26,7 +26,7 @@ hero_height: is-halfheight
 # Información general
 ## ¿Que es?
 <!-- ! -->
-El Congreso de Desarrollos Aeroespaciales Colombianos - <i>CODEAC</i>, organizado por el pregrado de Ingeniería Aeroespacial de la Universidad de Antioquia y dirigido al público general, estudiantes y profesionales de todas las áreas de estudio, es un evento diseñado como lugar de convergencia académica para presentar, conocer, discutir y motivar la investigación en el sector aeroespacial nacional.
+El Congreso de Desarrollos Aeroespaciales Colombianos - <i>CODEAC</i>, organizado por el pregrado de Ingeniería Aeroespacial de la Universidad de Antioquia y dirigido al público general, estudiantes y profesionales de todas las áreas de estudio, es un encuentro diseñado como lugar de convergencia académica para presentar, conocer, discutir y motivar la investigación en el sector aeroespacial nacional.
 
 ### Objetivos
 1. Impulsar la investigación en temas aeroespaciales a nivel nacional.
@@ -44,7 +44,7 @@ Card -->
   <div class="column is-6">
     Todos los detalles sobre <i>CODEAC</i> y su realización se pueden observar a continuación.
     <br><br>
-    La participación en este evento se puede realizar como asistente o ponente, en caso de que desee participar por favor diligencie el siguiente formulario con sus datos personales.
+    La participación en este evento se puede realizar como asistente o ponente, en caso de que desee participar por favor diligencie el siguiente formulario con sus datos personales o haga click <a href="https://forms.office.com/r/MvMZnE8uQJ" target="_blank"><u>aquí</u></a>.
   </div>
   <div class="column is-6">
     <header class="card-header">
@@ -57,6 +57,7 @@ Card -->
             <small>Universidad de Antioquia - Seccional Oriente.</small></li>
             <li><b>Costo</b>: Gratuito<br>
             <small>Con previo registro en el formulario de inscripción.</small></li>
+            <li><b>Aforo máximo por día</b>: 150 personas<br></li>
             <li><b>Fecha</b>: 19 y 20 de Octubre del 2023</li>
         </ul>
       </div>
@@ -65,7 +66,7 @@ Card -->
 </div>
 
 <div align="center">
-    <iframe width="720px" height="480px" src="https://forms.office.com/r/MvMZnE8uQJ?embed=true" title="Formulario de inscripcion para CODEAC" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+    <iframe width="720px" height="480px" src="https://forms.office.com/r/MvMZnE8uQJ?embed=true" title="Formulario de inscripcion para CODEAC" style="border: none; max-width:100%; max-height:100vh; border-radius:10px;" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 </div>
 
 
@@ -74,15 +75,16 @@ Card -->
 <div class="columns is-multiline is-centered is-vcentered">
   <div class="column is-5">
     <header class="card-header">
-      <p class="card-header-title is-centered"><big>Aeronautica</big></p>
+      <p class="card-header-title is-centered"><big>Aeronáutica</big></p>
     </header>
     <div class="card">
       <div class="card-content">
         <ul style="margin-top: 0em;">
-            <li>Propulsión</li>
-            <li>Diseño de aeronaves</li>
             <li>Aerodinámica</li>
-            <li>Drones y sus aplicaciones</li>
+            <li>Diseño de aeronaves</li>
+            <li>Estructuras y materiales</li>
+            <li>Propulsión</li>
+            <li>Sistemas no tripulados</li>
         </ul>
       </div>
     </div>
@@ -94,10 +96,11 @@ Card -->
     <div class="card">
         <div class="card-content">
             <ul style="margin-top: 0em;">
-                <li>Satélites y cargas útiles</li>
-                <li>Aplicaciones satelitales</li>
+                <li>Astrodinámica</li>
+                <li>Estructuras y materiales</li>
                 <li>Propulsión, vehículos lanzadores</li>
                 <li>Robótica espacial</li>
+                <li>Sistemas espaciales</li>
             </ul>
       </div>
     </div>
@@ -107,13 +110,13 @@ Card -->
 
 
 ## Cronograma
-Texto
+El cronograma especifico del evento se compartira 
 
 
 
 ## Ubicación
-<i>CODEAC</i> se realiza en la <b>Universidad de Antioquia - Seccional Oriente</b>, puedes encontrar más información a continuación. En caso de tener alguna duda no dude en contactarse con nosotros.
+<i>CODEAC</i> se realiza en la <b>Universidad de Antioquia - Seccional Oriente</b>, puede encontrar más información a continuación. En caso de tener alguna duda no dude en contactarse con nosotros.
 <!--! INFORMACION SOBRE TRANSPORTE DESDE UDEA MEDELLIN -->
 <div align="center">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31737.12105648593!2d-75.41103943683558!3d6.1118287147426855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4698d89e8cd56f%3A0xff901a2064390162!2sUniversity%20of%20Antioquia%20Sectional%20East!5e0!3m2!1sen!2sco!4v1686343232237!5m2!1sen!2sco" title="Ubicación de la UdeA Seccional Oriente" width="720px" height="480px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31737.12105648593!2d-75.41103943683558!3d6.1118287147426855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4698d89e8cd56f%3A0xff901a2064390162!2sUniversity%20of%20Antioquia%20Sectional%20East!5e0!3m2!1sen!2sco!4v1686343232237!5m2!1sen!2sco" title="Ubicación de la UdeA Seccional Oriente" width="720px" height="480px" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
