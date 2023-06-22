@@ -17,7 +17,7 @@ toc_title: Contenido
   }
 </style>
 <figure align="center"> 
-    <img src="../../img/Turbina-Integrantes.jpg" alt="Imagen de turbina Boeing" width="70%" height="70%">
+    <img src="../../img/proyecto_turbina.jpg" alt="Imagen de turbina Boeing" width="70%" height="70%">
 </figure>
 
 

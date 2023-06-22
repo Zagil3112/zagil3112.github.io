@@ -17,7 +17,7 @@ toc_title: Contenido
   }
 </style>
 <figure align="center"> 
-    <img src="../../img/Proyecto-Candy.jpg" alt="Imagen de motores candy" width="80%" height="80%">
+    <img src="../../img/proyecto_candy.jpg" alt="Imagen de motores candy" width="80%" height="80%">
 </figure>
 
 

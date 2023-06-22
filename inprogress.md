@@ -92,18 +92,18 @@ Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglo
   <div class="column is-one-third-desktop is-half-tablet">
     <div class="card">
         <div class="card-image">
-            <div class="card-content is-overlay is-clipped">
-              <img src="https://img.shields.io/badge/-Delta%20V-FF4800" alt="Tag de Delta V">
-              <img src="https://img.shields.io/badge/-Voyager-1D4B73" alt="Tag de Voyager">
-              <img src="https://img.shields.io/badge/-Competencia-blueviolet" alt="Tag de Competencia">
-            </div>
             <figure class="fill">
-              <img src="/img_shared/Volta.png" alt="Logo Volta">
+              <div class="card-content is-overlay is-clipped">
+                <img src="https://img.shields.io/badge/-Delta%20V-FF4800" alt="Tag de Delta V">
+                <img src="https://img.shields.io/badge/-Voyager-1D4B73" alt="Tag de Voyager">
+                <img src="https://img.shields.io/badge/-Competencia-blueviolet" alt="Tag de Competencia">
+              </div>
+              <img src="/img_shared/volta.png" alt="Logo Volta">
             </figure>
         </div>
         <div class="card-content">
-            <h3>Latin American Space Challenge</h3>
-            El equipo <i>Volta</i> se encuentra participando en esta competencia internacional con su cohete <i>DeltaOne</i> y su Cansat <i>VoyagerOne</i>.
+            <h3>Equipo 'Volta' - LASC</h3>
+            El equipo <i>Volta</i> se encuentra participando la competencia internacional LASC con su cohete <i>DeltaOne</i> y su Cansat <i>VoyagerOne</i>.
         </div>
         <footer class="card-footer">
           <p class="card-footer-item"><a href="https://www.lasc.space/home" target="_blank" class="button is-info">Sitio oficial</a></p>
@@ -116,11 +116,8 @@ Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglo
   <div class="column is-one-third-desktop is-half-tablet">
     <div class="card">
         <div class="card-image">
-            <div class="card-content is-overlay is-clipped">
-              <img src="https://img.shields.io/badge/-Delta%20V-FF4800" alt="Tag de Delta V">
-            </div>
             <figure class="fill">
-              <img src="/deltav/img/Proyecto-Candy.jpg" alt="Imagen de motores candy">
+              <img src="/deltav/img/blueprint_motorescandy.png" alt="Blueprint de motores de propelente solido">
             </figure>
         </div>
         <div class="card-content">
