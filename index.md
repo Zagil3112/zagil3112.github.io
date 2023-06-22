@@ -43,7 +43,7 @@ hero_height: is-fullheight-with-navbar
       <div class="column is-8">
         <p class="title is-5"><b>Delta V</b></p>
         <p class="subtitle is-6">Semillero de cohetería y propulsión</p>
-        <a href="/deltav" class="button is-primary">Conócenos</a>
+        <a href="/deltav/" class="button is-primary">Conócenos</a>
       </div>
     </div>
     <div class="columns is-multiline is-vcentered">
@@ -53,7 +53,7 @@ hero_height: is-fullheight-with-navbar
       <div class="column is-8">
         <p class="title is-5"><b>Voyager</b></p>
         <p class="subtitle is-6">Semillero de aeronáutica y astronáutica</p>
-        <a href="/voyager" class="button is-primary">Conócenos</a>
+        <a href="/voyager/" class="button is-primary">Conócenos</a>
       </div>
     </div>
   </div>
@@ -66,7 +66,7 @@ hero_height: is-fullheight-with-navbar
         <div class="content">
           <p class="title is-5"><img src="/events/img/codeac_logo.png" alt="Logo CODEAC" height="80%" width="80%"></p>
           <p>¡Abiertas las inscripciones al primer Congreso de Desarrollos Aeroespaciales Colombianos!<br><br>
-          <a href="/codeac" class="button is-info">Conoce más aquí</a>
+          <a href="/codeac/" class="button is-info">Conoce más aquí</a>
           </p>
         </div>
       </div>

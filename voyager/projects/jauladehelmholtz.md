@@ -39,7 +39,7 @@ Un experimento que reproduce este escenario es conocido como Jaula de Helmholtz.
 ## Objetivos del proyecto
 - Desarrollar un prototipo de banco experimental de pruebas de campo magnético para nanosatélites.
 - Establecer las condiciones y requerimientos necesarios para el estudio de efectos magnéticos en pequeños satélites.
-- Construir una Jaula de Helmholtz para la creación de campo magnético estable.
+- Plantear diseños de experimentos en diferentes escenarios orbitales, relacionados con el control de actitud de satélites.
 
 <!-- 
 ## Documentación

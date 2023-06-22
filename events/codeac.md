@@ -1,10 +1,10 @@
 ---
 menubar: menubar_codeac
-permalink: /codeac
+permalink: /codeac/
 
 title: CODEAC
 subtitle: Congreso de Desarrollos Aeroespaciales Colombianos
-description: Pagina web del primer Congreso de Desarrollos Aeroespaciales Colombianos - CODEAC.
+description: Pagina web del Congreso de Desarrollos Aeroespaciales Colombianos - CODEAC organizado por el pregrado de Ing. aeroespacial de la Universidad de Antioquia.
 
 # hero_image: /events/img/codeac_banner.png
 hero_height: is-halfheight

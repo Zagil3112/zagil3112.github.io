@@ -14,13 +14,13 @@
 
 - label: Proyectos de investigación
   items:
+    - name: CropCopter
+      link: /voyager/projects/cropcopter/
+    # - name: CubeSat
+    #   link: /voyager/projects/cubesat/
     - name: Desarrollo de software
       link: /voyager/projects/software/
     - name: Icarus
       link: /voyager/projects/icarus/
-    # - name: CubeSat
-    #   link: /voyager/projects/cubesat/
-    # - name: Estación terrena
-    #   link: /voyager/projects/estacionterrena/
     - name: Jaula de Helmholtz
       link: /voyager/projects/jauladehelmholtz/
