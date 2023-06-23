@@ -86,6 +86,7 @@ Card -->
             <li>Estructuras y materiales</li>
             <li>Propulsión</li>
             <li>Sistemas no tripulados</li>
+            <li>Factores humanos</li>
         </ul>
       </div>
     </div>

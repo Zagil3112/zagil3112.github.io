@@ -16,6 +16,9 @@ hero_height: is-halfheight
 </style>
 
 
+<figure align="center"> 
+    <img src="../icons/deltav.png" alt="Logo de Delta V" width="28%" height="28%">
+</figure>
 ## ¿Quiénes somos?
 Somos un semillero del pregrado de Ingeniería Aeroespacial de la Universidad de Antioquia, enfocado en la investigación sobre cohetería y propulsión en vehículos aeroespaciales. Nuestro objetivo es generar y compartir nuevo conocimiento científico, y así impulsar el desarrollo aeroespacial en Colombia. 
 
