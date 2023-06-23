@@ -93,12 +93,7 @@ Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglo
     <div class="card">
         <div class="card-image">
             <figure class="fill">
-              <div class="card-content is-overlay is-clipped">
-                <img src="https://img.shields.io/badge/-Delta%20V-FF4800" alt="Tag de Delta V">
-                <img src="https://img.shields.io/badge/-Voyager-1D4B73" alt="Tag de Voyager">
-                <img src="https://img.shields.io/badge/-Competencia-blueviolet" alt="Tag de Competencia">
-              </div>
-              <img src="/img_shared/volta.png" alt="Logo Volta">
+              <img src="/img_shared/blueprint_volta.png" alt="Blueprint de Volta">
             </figure>
         </div>
         <div class="card-content">
