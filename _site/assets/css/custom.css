@@ -34,6 +34,13 @@
 
 /* -------------------------------------------------- */
 
+@media (pointer:coarse) {
+    .imagen-coordinadores {
+        filter: grayscale(0%);
+        transition: 0.5s ease;
+    }
+}
+
 @media (max-width: 1366px) {
     .imagen-coordinadores {
         height: 190px;
