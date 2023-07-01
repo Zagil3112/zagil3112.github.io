@@ -112,7 +112,7 @@ Los links de descarga de las plantillas se encuentran disponibles a continuació
     </div>
   </div>
 </div>
-<small><i>* Estas serán las temáticas principales del evento, sin embargo, temáticas afines o relacionadas con alguna de las dos ramas principales (aeronáutica o espacial) podrán ser presentadas.</i></small>
+<small><i>* Estas serán las temáticas principales del evento, sin embargo, ponencias con temáticas afines o relacionadas con alguna de las dos ramas principales (aeronáutica o espacial) podrán ser presentadas.</i></small>
 
 
 
