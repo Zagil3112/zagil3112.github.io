@@ -72,7 +72,7 @@ Card -->
 <br>
 
 Los links de descarga de las plantillas se encuentran disponibles a continuación:
-- <a href="https://udeaeduco-my.sharepoint.com/personal/david_diaza_udea_edu_co/_layouts/15/download.aspx?UniqueId=96dead17%2De128%2D4449%2D8217%2D971d24e408cb" target="_blank"><u>Abstract</u></a>
+- <a href="/events/docs/Plantilla%20-%20Abstracts%20CODEAC.docx" download><u>Abstract</u></a>
 
 
 
