@@ -1,27 +1,49 @@
-.imagen-coordinadores {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
+.img-profile {
     margin-bottom: 10px;
     overflow: hidden;
     object-fit: cover;
+}
+
+#img-coord {
+    height: 15em;
+    width: 15em;
+    border-radius: 50%;
     filter: grayscale(80%);
     transition: 0.5s ease;
 }
 
-.imagen-coordinadores:hover {
+#img-coord:hover {
     filter: grayscale(0%);
     transition: 0.5s ease;
 }
 
-.badges {
-    width: auto;
+#img-research {
+    height: 10em;
+    width: 10em;
 }
 
-.mainimage.is-voyager {
+#img-voyager {
     box-shadow: 
-        -50px -50px 0 -40px #1d4b73ff,
-        50px 50px 0 -40px #1d4b73ff;
+        -3em -3em 0 -2.5em #1d4b73ff,
+        3em 3em 0 -2.5em #1d4b73ff;
+}
+
+#img-deltav {
+    box-shadow: 
+        -3em -3em 0 -2.5em #ff4800ff,
+        3em 3em 0 -2.5em #ff4800ff;
+}
+
+#img-logos {
+    width: 20em;
+}
+
+#img-contact {
+    width: 15em;
+}
+
+.badges {
+    width: auto;
 }
 
 .column.is-social {
@@ -35,30 +57,43 @@
 /* -------------------------------------------------- */
 
 @media (pointer:coarse) {
-    .imagen-coordinadores {
+    #img-coord {
         filter: grayscale(0%);
         transition: 0.5s ease;
     }
 }
 
-@media (max-width: 1366px) {
-    .imagen-coordinadores {
-        height: 190px;
-        width: 190px;
-    }
-
+@media screen and (max-width: 1366px) {
     iframe {
         width: 100%;
     }
   }
 
-@media (max-width: 767px) {
-    .mainimage.is-voyager {
-        box-shadow: 
-            -50px -50px 0 -45px #1d4b73ff,
-            50px 50px 0 -45px #1d4b73ff;
+@media screen and (max-width: 1215px) {
+    #img-coord {
+        height: 12em;
+        width: 12em;
     }
 
+    #img-research {
+        height: 8em;
+        width: 8em;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    #img-coord {
+        height: 10em;
+        width: 10em;
+    }
+
+    #img-research {
+        height: 6em;
+        width: 6em;
+    }
+}
+
+@media screen and (max-width: 767px) {
     iframe {
         width: 100%;
         height: 310px;

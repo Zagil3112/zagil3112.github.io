@@ -38,7 +38,7 @@ hero_height: is-fullheight-with-navbar
   <div class="column is-8">
     <div class="columns is-multiline is-vcentered">
       <div class="column is-4 has-text-centered">
-        <p class="title is-5"><img src="/icons/deltav.png" alt="Logo Delta V"></p>
+        <p class="title is-5"><img src="/icons/deltav.png" alt="Logo Delta V" id="img-logos"></p>
       </div>
       <div class="column is-8">
         <p class="title is-5"><b>Delta V</b></p>
@@ -48,7 +48,7 @@ hero_height: is-fullheight-with-navbar
     </div>
     <div class="columns is-multiline is-vcentered">
       <div class="column is-4 has-text-centered">
-        <p class="title is-5"><img src="/icons/voyager.png" alt="Logo Voyager" height="213px" width="213px"></p>
+        <p class="title is-5"><img src="/icons/voyager.png" alt="Logo Voyager" id="img-logos"></p>
       </div>
       <div class="column is-8">
         <p class="title is-5"><b>Voyager</b></p>
@@ -65,7 +65,7 @@ hero_height: is-fullheight-with-navbar
       <div class="card-content">
         <div class="content">
           <p class="title is-5"><img src="/events/img/codeac_logo.png" alt="Logo CODEAC" height="80%" width="80%"></p>
-          <p>¡Abiertas las inscripciones al primer Congreso de Desarrollos Aeroespaciales Colombianos!<br><br>
+          <p>¡Abiertas las inscripciones al primer Congreso de Desarrollo Aeroespacial Colombiano!<br><br>
           <a href="/codeac/" class="button is-info">Conoce más aquí</a>
           </p>
         </div>

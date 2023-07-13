@@ -2,7 +2,7 @@
 menubar: menubar_voyager
 
 title: Jaula de Helmholtz
-subtitle: Línea de dinámica de vuelo
+subtitle: Línea de control y mecánica orbital
 
 hero_height: is-halfheight
 

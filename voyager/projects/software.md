@@ -2,6 +2,7 @@
 menubar: menubar_voyager
 
 title: Desarrollo de software
+subtitle: Línea de comunicación y análisis de datos
 
 hero_height: is-halfheight
 
