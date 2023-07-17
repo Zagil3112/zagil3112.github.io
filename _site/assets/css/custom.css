@@ -38,8 +38,12 @@
     width: 20em;
 }
 
+#img-index {
+    width: 10em;
+}
+
 #img-contact {
-    width: 13em;
+    width: 12em;
 }
 
 .badges {
