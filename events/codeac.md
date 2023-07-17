@@ -41,9 +41,9 @@ Card -->
 ## ¿Cómo participar?
 <div class="columns is-multiline is-centered is-vcentered">
   <div class="column is-6">
-    La participación en este evento se puede realizar como asistente o ponente, en caso de que desee participar por favor diligencie el siguiente formulario con sus datos personales o haga click <a href="https://forms.office.com/r/MvMZnE8uQJ" target="_blank"><u>aquí</u></a>.
-    <br><br>
-    Recuerda que las mejores ponencias tendrán la <b>posibilidad</b> de ser publicadas en la revista 'Ciencia y Poder Aéreo' de la Fuerza Aérea Colombiana.
+    <p>La participación en este evento se puede realizar como asistente o ponente, en caso de que desee participar por favor diligencie el siguiente formulario con sus datos personales o haga click <a href="https://forms.office.com/r/MvMZnE8uQJ" target="_blank"><u>aquí</u></a>.</p>
+    <p>Recuerda que las mejores ponencias tendrán la <b>posibilidad</b> de ser publicadas en la revista 'Ciencia y Poder Aéreo' de la Fuerza Aérea Colombiana.</p>
+    <p>Los abstract requeridos para la consideración de las ponencias deben enviarse a través de este <a href="https://forms.gle/n7Gs5VsAof1jNsoD9" target="_blank"><u>formulario</u></a>.</p>
   </div>
   <div class="column is-6">
     <header class="card-header">
