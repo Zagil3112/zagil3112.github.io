@@ -121,7 +121,16 @@ El cronograma especifico y la información de los expositores que participaran e
 
 ## Ubicación
 <i>CODEAC</i> se realiza en la <b>Universidad de Antioquia - Seccional Oriente</b>, puede encontrar más información a continuación. En caso de tener alguna duda no dude en contactarse con nosotros.
-<!--! INFORMACION SOBRE TRANSPORTE DESDE UDEA MEDELLIN -->
+
+Para llegar a la Seccional Oriente se pueden tomar las siguientes rutas de transporte publico:
+
+- **Desde Medellín:** Ruta Medellín - Llanogrande - La Ceja / Empresa Transunidos / [Información adicional](https://www.transunidossa.com/portal/rutas-y-tarifas/?tservicio=263&origen=266&destino=1522)
+- **Desde Rionegro:** Ruta Rionegro - La Ceja / Empresa Transunidos / [Información adicional](https://www.transunidossa.com/portal/rutas-y-tarifas/?tservicio=263&origen=267&destino=272)
+- **Desde La Ceja:** Ruta La Ceja - Rionegro / Empresa Transunidos / [Información adicional](https://www.transunidossa.com/portal/rutas-y-tarifas/?tservicio=263&origen=264&destino=274)
+<br>
+
+<small><i>* Existen otras rutas municipales desde Rionegro y El Carmen de Viboral que llegan a la Seccional Oriente.</i></small>
+
 <div align="center">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31737.12105648593!2d-75.41103943683558!3d6.1118287147426855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4698d89e8cd56f%3A0xff901a2064390162!2sUniversity%20of%20Antioquia%20Sectional%20East!5e0!3m2!1sen!2sco!4v1686343232237!5m2!1sen!2sco" title="Ubicación de la UdeA Seccional Oriente" width="720px" height="480px" style="border:0; border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
