@@ -38,12 +38,12 @@
     width: 20em;
 }
 
-#img-index {
-    width: 10em;
-}
-
 #img-contact {
     width: 12em;
+}
+
+#img-index {
+    width: 10em;
 }
 
 .badges {
@@ -98,6 +98,10 @@
 }
 
 @media screen and (max-width: 767px) {
+    #img-logos {
+        width: 14em;
+    }
+
     iframe {
         width: 100%;
         height: 310px;

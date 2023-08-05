@@ -4,6 +4,8 @@ menubar: menubar_aerohub
 title: AeroHub
 subtitle: Información para estudiantes
 
+hero_height: is-halfheight
+
 toc: false
 toc_title: Contenido
 ---

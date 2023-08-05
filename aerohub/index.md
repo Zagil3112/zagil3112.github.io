@@ -4,6 +4,8 @@ menubar: menubar_aerohub
 title: AeroHub
 subtitle: Información para miembros
 
+hero_height: is-halfheight
+
 toc: true
 toc_title: Contenido
 ---

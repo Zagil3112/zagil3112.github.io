@@ -34,13 +34,3 @@ Si deseas conocer más información sobre el proyecto, contacta con Hamilton Gir
 Este proyecto busca agilizar la ubicación y recolección de los frutos maduros, revisión de las plantas, existencia de plagas y ubicación de diferentes tipos de frutos, con un enfoque principal a la planta del café; la identificación con visión artificial es uno de los objetivos principales para que el agricultor no tenga arduas tareas en su laborar.
 
 Su objetivo general es diseñar un dron de alta eficiencia aerodinámica y equipado con tecnología avanzada de aviónica, centrado en la implementación de la inteligencia artificial, con el objetivo de mejorar las prácticas en el sector agricultor Colombiano por medio del análisis de plantas en el sector de la agricultura de precisión.
-
-
-
-<!-- ## Objetivos del proyecto
-- Objetivo 1
-- Objetivo 2 -->
-
-
-<!-- ## Documentación
-(si aplicable) Descarga de manual, articulos, etc. -->

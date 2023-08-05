@@ -29,29 +29,11 @@ Con experiencia y destacada participación en concursos nacionales, en los que s
 </figure>
 
 
-<!-- ## Lineas de investigación
-<div class="columns is-multiline is-centered is-vcentered">
-    <div class="column is-3 has-text-centered">
-        <img src="../voyager/img/lineaaeronautica.png" alt="" class ="img-profile" id="img-research">
-        <p class="title is-6"><b>Aeronáutica</b></p>
-    </div>
-    <div class="column is-3 has-text-centered">
-        <img src="../voyager/img/lineacomms.png" alt="" class ="img-profile" id="img-research">
-        <p class="title is-6"><b>Comunicación y análisis de datos</b></p>
-    </div>
-    <div class="column is-3 has-text-centered">
-        <img src="../voyager/img/lineacontrol.png" alt="" class ="img-profile" id="img-research">
-        <p class="title is-6"><b>Control y mecánica orbital</b></p>
-    </div>
-    <div class="column is-3 has-text-centered">
-        <img src="../voyager/img/lineaastronautica.png" alt="" class ="img-profile" id="img-research">
-        <p class="title is-6"><b>Astronáutica</b></p>
-    </div>
-</div> -->
-
-
-<!-- ## Actualidad
-Actualidad del semillero, proyectos en curso, etc. -->
+## Lineas de investigación
+Estas son nuestras lineas de investigación y respectivos proyectos activos del semillero.
+<figure align="center"> 
+    <img src="img/researchlines.svg" alt="Lineas de investigación de Voyager">
+</figure>
 
 
 ## ¿Deseas pertenecer al semillero?

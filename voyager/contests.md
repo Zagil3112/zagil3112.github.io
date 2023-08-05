@@ -46,7 +46,7 @@ Puedes revisar los detalles del proyecto del equipo *Haba-Sulue* <a href="https:
 
 *El equipo participante estuvo compuesto por miembros de los semilleros de investigación Delta V y Voyager.*
 <div align="center"> 
-    <img src="../../img_shared/Haba-Sulue.jpg" alt="Logo de equipo Haba Sulue" width="60%" height="60%">
+    <img src="../../img_shared/habasulue.jpg" alt="Logo de equipo Haba Sulue" width="60%" height="60%">
     <figcaption><small><i>Parche del equipo 'Haba-Sulue'</i></small></figcaption>
 </div>
 
