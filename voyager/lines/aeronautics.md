@@ -18,7 +18,7 @@ toc_title: Proyectos
 
 
 <div class="column has-text-centered">
-  <a href="https://www.instagram.com/udea_aeronautics/"><i class="fab fa-instagram fa-3x"></i></a>
+  <a href="https://www.instagram.com/udea_aeronautics/" aria-label="Instagram de Linea de Aeronáutica" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
 </div>
 <br>
 
