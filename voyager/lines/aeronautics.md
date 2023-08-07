@@ -27,7 +27,7 @@ Esta linea de investigación tiene como objetivo el aprendizaje y profundizació
 ---
 
 ## Aeromodelismo
-<img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="Tag de En curso"><br>
+<img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt=""><br>
 
 <div class="columns is-multiline is-vcentered">
   <div class="column is-one-third">
@@ -50,8 +50,28 @@ Si deseas conocer mas información sobre el proyecto, contacta con **Mateo Lezam
 
 ---
 
+## Ala volante
+<img class="badges" src="https://img.shields.io/badge/-Inactivo-CC0F35" alt="">
+
+<div class="columns is-multiline is-vcentered">
+  <div class="column is-one-third">
+    <img id ="img-logos" src="../../img/blueprint_alavolante.png" alt="Blueprint de Ala Volante">
+  </div>
+  <div class="column">
+    <p>Este proyecto se centra en el diseño y desarrollo de una aeronave que fusiona su fuselaje y alas en una estructura continua, este enfoque busca obtener una mayor eficiencia aerodinámica y reducir la resistencia al avance generada por la aeronave.</p>
+    <p>Se emplean herramientas de modelado y simulación para analizar el comportamiento aerodinámico y la resistencia estructural del diseño propuesto con el objetivo de aumentar su eficiencia aerodinámica. Además, se llevan a cabo investigaciones sobre materiales compuestos y técnicas de manufactura para obtener una estructura liviana pero resistente.</p>
+  </div>
+</div>
+
+#### Objetivos
+- Diseñar una aeronave que aproveche la configuración de ala volante para lograr una mayor eficiencia aerodinámica. 
+- Garantizar la estabilidad y la maniobrabilidad de un ala volante, manteniendo una actitud estable, segura y precisa durante el vuelo.
+- Someter el diseño a diferentes tipos pruebas para validar su rendimiento y comportamiento en condiciones reales.
+
+---
+
 ## CropCopter
-<img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="Tag de En curso">
+<img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="">
 
 <div class="columns is-multiline is-vcentered">
   <div class="column is-one-third">

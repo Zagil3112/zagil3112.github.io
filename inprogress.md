@@ -10,6 +10,7 @@ https://img.shields.io/badge/-En%20curso-FFDD56
 https://img.shields.io/badge/-Competencia-blueviolet
 https://img.shields.io/badge/-Voyager-1D4B73
 https://img.shields.io/badge/-Delta%20V-FF4800
+https://img.shields.io/badge/-Inactivo-CC0F35
 
 Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglones.
 -->
