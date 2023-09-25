@@ -40,7 +40,7 @@ Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglo
     <div class="card">
         <div class="card-image">
             <figure class="fill">
-              <img src="/img_shared/blueprint_software.png" alt="Blueprint de software">
+              <img src="/voyager/img/blueprint_software.png" alt="Blueprint de software">
             </figure>
         </div>
         <div class="card-content">
@@ -48,7 +48,7 @@ Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglo
             Creación de un software en Python y C++ con capacidad de lectura y guardado de datos en tiempo real.
         </div>
         <footer class="card-footer">
-          <p class="card-footer-item"><a href="/deltav/projects/software/" target="_blank" class="button is-info">Ver más</a></p>
+          <p class="card-footer-item"><a href="/voyager/lines/communication/" target="_blank" class="button is-info">Ver más</a></p>
         </footer>
     </div>
   </div>
@@ -90,7 +90,7 @@ Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglo
   </div>
   <!--  -->
   <!--  -->
-  <div class="column is-one-third-desktop is-half-tablet">
+  <!-- <div class="column is-one-third-desktop is-half-tablet">
     <div class="card">
         <div class="card-image">
             <figure class="fill">
@@ -103,10 +103,10 @@ Los resúmenes deben tener una longitud entre 13 y 16 palabras u ocupar 3 renglo
         </div>
         <footer class="card-footer">
           <p class="card-footer-item"><a href="https://www.lasc.space/home" target="_blank" class="button is-info">Sitio oficial</a></p>
-            <!-- <a href="/Voyager/projects/jauladehelmholtz" class="card-footer-item"><u>Ver más</u></a> -->
+            <a href="/Voyager/projects/jauladehelmholtz" class="card-footer-item"><u>Ver más</u></a>
         </footer>
     </div>
-  </div>
+  </div> -->
   <!--  -->
   <!--  -->
   <div class="column is-one-third-desktop is-half-tablet">

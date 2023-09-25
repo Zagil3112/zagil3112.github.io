@@ -2,6 +2,14 @@
   items:
     - name: Información general
       link: /codeac#información-general
+    # - name: Expositores
+    #   link: /codeac#expositores
+    - name: Cronograma
+      link: /codeac#cronograma
+    # - name: Espacios
+    #   link: /codeac#espacios
+    # - name: Guías
+    #   link: /codeac#guías
     - name: ¿Cómo participar?
       link: /codeac#cómo-participar
     - name: Temáticas

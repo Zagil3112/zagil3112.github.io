@@ -14,8 +14,6 @@
 
 - label: Proyectos de investigación
   items:
-    - name: Desarrollo de software
-      link: /deltav/projects/software/
     - name: Motores de propelente sólido
       link: /deltav/projects/motoresdepropelentesolido/
     - name: Turbina Boeing

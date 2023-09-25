@@ -24,7 +24,7 @@ toc_title: Proyectos
 
 <div class="columns is-multiline is-vcentered">
   <div class="column is-one-third">
-    <img id ="img-logos" src="../../../img_shared/blueprint_software.png" alt="Blueprint de software">
+    <img id ="img-logos" src="../../img/blueprint_software.png" alt="Blueprint de software">
   </div>
   <div class="column">
     <p>El desarrollo de herramientas tecnológicas que permitan una fácil recolección, almacenamiento y análisis de datos es de vital importancia para cualquier area de investigación. En este sentido, se hace necesaria la creación de un software que facilite la lectura de datos e integre capacidades de guardado que permitan realizar análisis más precisos y rápidos sobre los resultados obtenidos en las investigaciones o proyectos realizados por los semilleros de investigación.</p>
