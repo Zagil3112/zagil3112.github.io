@@ -161,27 +161,25 @@ El Congreso de Desarrollo Aeroespacial Colombiano - <i>CODEAC</i>, organizado po
 <div class="columns is-multiline is-centered is-vcentered">
   <div class="column is-5">
     <header class="card-header">
-      <p class="card-header-title is-centered"><a href="/events/docs/CODEAC%20-%20Cronograma.pdf" download>Descargar PDF</a></p>
+      <p class="card-header-title is-centered"><a href="/events/docs/CODEAC%20-%20Cronograma.pdf" download>Descargar cronograma [pdf]</a></p>
     </header>
   </div>
 </div>
 
 
 <!-- ## Espacios
-Organización stands, salones a usar, mapa de la u, etc.
+Organización stands, salones a usar, mapa de la u, etc. -->
 
 
-## Guías
-Guías pensadas como recomendación para las personas que vengan desde afuera del Valle de Aburra u Oriente de Antioquia y no tengan conocimientos de la zona donde se realizara CODEAC 2023. Sin embargo, los asistentes no están obligados a seguirlas. 
+## Guía recomendada
+Guía de hospedaje y transporte pensadas como recomendación para las personas que vengan desde afuera del Valle de Aburra u Oriente de Antioquia y no tengan conocimientos de la zona donde se realizara CODEAC 2023.
 <div class="columns is-multiline is-centered is-vcentered">
   <div class="column is-5">
     <header class="card-header">
-      <p class="card-header-title is-centered"><big>Hospedaje y transporte</big></p>
+      <p class="card-header-title is-centered"><a href="/events/docs/CODEAC%20-%20Guia%20del%20Visitante.pdf" download>Descargar guía [pdf]</a></p>
     </header>
-    <div class="card">
-    </div>
   </div>
-</div> -->
+</div> 
 
 ---
 

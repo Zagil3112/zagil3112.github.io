@@ -8,8 +8,8 @@
       link: /codeac#cronograma
     # - name: Espacios
     #   link: /codeac#espacios
-    # - name: Guías
-    #   link: /codeac#guías
+    - name: Guía recomendada
+      link: /codeac#guía-recomendada
     - name: ¿Cómo participar?
       link: /codeac#cómo-participar
     - name: Temáticas
