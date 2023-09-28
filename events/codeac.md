@@ -176,7 +176,7 @@ Guía de hospedaje y transporte pensadas como recomendación para las personas q
 <div class="columns is-multiline is-centered is-vcentered">
   <div class="column is-5">
     <header class="card-header">
-      <p class="card-header-title is-centered"><a href="/events/docs/CODEAC%20-%20Guia%20del%20Visitante.pdf" download>Descargar guía [pdf]</a></p>
+      <p class="card-header-title is-centered"><a href="/events/docs/CODEAC%20-%20Guia%20del%20visitante.pdf" download>Descargar guía [pdf]</a></p>
     </header>
   </div>
 </div> 
