@@ -8,10 +8,11 @@ hero_height: is-halfheight
 toc: true
 toc_title: Línea de tiempo
 ---
+<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
 <link href="../../assets/css/custom.css" rel="stylesheet" type="text/css">
 <style>
   .hero.is-primary.is-bold {
-    background-color: #1d4b73ff;
+    background-color: #262464;
     background-image: none;
   }
 </style>
@@ -23,7 +24,31 @@ Aquí puedes encontrar información sobre los concursos en los que Voyager ha pa
 
 <!-- ## 2023
 ### Latin American Space Challenge | **Equipo 'Volta'**
-Descripcion
+El Latin American Space Challenge (LASC) es una competencia internacional de cohetes y satélites, en la cual los equipos participantes tienen como objetivo acercarse lo más cerca posible a un apogeo indicado y diseñar un satélite funcional para futuras misiones espaciales. El equipo *Volta* diseñó y construyó un cohete para competir en la categoría de apogeo a 1 km de altura, además, se diseñó un satélite tipo CanSat cuyo objetivo era realizar una caracterización atmosférica para futuros análisis de modelos de transporte químico (CTM).
+
+Debido a condiciones climáticas desfavorables en el dia del lanzamiento el equipo *Volta* no pudo completar su participación en el LASC, pero obtuvo muy buenos comentarios respecto al diseño y manufactura del cohete *DeltaOne*, como también en el diseño y funcionamiento del CanSat *VoyagerOne*. Para conocer más información sobre la actualidad del proyecto y el equipo visita su perfil de Instagram. <a href="https://www.instagram.com/volta_udea2023/" target="_blank"><u>Ver perfil</u></a>. -->
+<!-- <div align="center"> 
+    <img src="../../img_shared/volta2023.jpg" alt="Foto de equipo Volta" width="55%" height="55%">
+    <figcaption><small><i>Equipo 'Volta'</i></small></figcaption>
+</div> -->
+
+<!-- Slideshow container -->
+<!-- <div class="slideshow-container has-text-centered">
+    <div class="mySlides fade">
+        <img class="img-profile" src="../../img_shared/volta2023_team.jpg">
+        <div class="text">asd</div>
+    </div>
+    <div class="mySlides fade">
+        <img class="img-profile" src="../../img_shared/volta2023_mission.jpg">
+        <div class="text">asd</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+</div>
 
 --- -->
 
@@ -113,3 +138,35 @@ El equipo *VoltaX* tuvo la oportunidad de publicar un articulo científico en re
     <img src="../img/cansathelios.jpg" alt="Cansat de equipo Helios" width="35%" height="35%">
     <figcaption><small><i>CanSat del equipo 'Helios'</i></small></figcaption>
 </div>
+
+
+<script>
+let slideIndex = 1;
+    showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>

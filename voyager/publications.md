@@ -7,7 +7,7 @@ hero_height: is-halfheight
 ---
 <style>
   .hero.is-primary.is-bold {
-    background-color: #1d4b73ff;
+    background-color: #262464;
     background-image: none;
   }
 </style>
