@@ -1,9 +1,10 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-# github gem
-# https://github.com/github/pages-gem
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+# gem "rails"
 gem 'github-pages', group: :jekyll_plugins
 gem 'webrick'
-
-# theme
-gem "bulma-clean-theme"
+gem "jekyll"
+gem 'sass'

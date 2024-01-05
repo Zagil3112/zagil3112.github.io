@@ -1,245 +1,186 @@
 <!DOCTYPE html>
+<html lang="es">
 
-
-
-
-<html
- dir="ltr"
- lang="es"
- class="has-navbar-fixed-top">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content=#ffffff>
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="shortcut icon" type="image/png"
-           href="/favicon.png" 
-    />
-    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-    
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
-    
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Página no encontrada | grupoastra.github.io</title>
-<meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Página no encontrada" />
-<meta property="og:locale" content="es" />
-<meta name="description" content="Grupo de investigación ASTRA" />
-<meta property="og:description" content="Grupo de investigación ASTRA" />
-<link rel="canonical" href="http://0.0.0.0:4000/404.html" />
-<meta property="og:url" content="http://0.0.0.0:4000/404.html" />
-<meta property="og:site_name" content="grupoastra.github.io" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Página no encontrada" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Grupo de investigación ASTRA","headline":"Página no encontrada","url":"http://0.0.0.0:4000/404.html"}</script>
-<!-- End Jekyll SEO tag -->
+    <title>grupoastra.github.io</title>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
-<script>
-  window['ga-disable-G-BJW62XH43P'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-BJW62XH43P');
-</script><!-- head scripts --></head>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+</head>
 
-  <body>
-    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
-    <div class="container">
-        <div class="navbar-brand">
-            <!-- <a href="/" class="navbar-item">
-                grupoastra.github.io
-            </a> -->
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+<nav class="navbar is-dark">
+    <div class="navbar-brand" style="padding-left: 5em;">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
         </div>
-        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
-            <div class="navbar-start">
-                <a href="/" class="navbar-item ">Inicio</a>
-                
-                
-                    
-                    <a href="/codeac/" class="navbar-item ">CODEAC</a>
-                    
-                
-                    
-                    <a href="/deltav/" class="navbar-item ">Delta V</a>
-                    
-                
-                    
-                    <a href="/voyager/" class="navbar-item ">Voyager</a>
-                    
-                
-                    
-                    <a href="/inprogress/" class="navbar-item ">En curso</a>
-                    
-                
-                    
-                    <a href="/aerohub/" class="navbar-item ">AeroHub</a>
-                    
-                
-                    
-                    <a href="/contact/" class="navbar-item ">Contacto</a>
-                    
-                
-                
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a href="/deltav/" class="navbar-item">Delta V</a>
+                    <a href="/voyager/" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a href="/aerohub/" class="navbar-item">Aerohub</a>
+                </div>
             </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a href="/events/codeac/" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a href="/inprogress/" class="navbar-item">En curso</a>
+            <a href="/contact/" class="navbar-item">Contacto</a>
         </div>
     </div>
 </nav>
 
-    
-        <section class="hero  is-halfheight  is-bold is-primary" >
-    <div class="hero-body ">
-        <div class="container">
-            <h1 class="title is-2">Página no encontrada</h1>
-            <p class="subtitle is-3">Error 404</p>
-            
-        </div>
-    </div>
-</section>
-    
-    
-
-
-    <section class="section">
-        <div class="container">
-            <div class="columns is-multiline">
-                
-                <div class="column is-12">
-                    
-                    
-
-                    
-                    
-                    
-<div class="content">
-    <link href="../assets/css/custom.css" rel="stylesheet" type="text/css" />
-
-<style>
-    @media (max-width: 767px) {
-        img {
-            width: 60%;
-            margin-bottom: -20px;
-        }
-    }
-</style>
-
-<div class="columns is-multiline is-centered is-vcentered">
-  <div class="column is-3 has-text-centered">
-    <img src="/icons/astra.png" alt="Logo ASTRA" id="img-contact" />
-  </div>
-  <div class="column is-4">
-    <p class="title is-5"><b>ASTRA</b></p>
-    <p class="subtitle is-6">Grupo de investigación</p>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="https://www.facebook.com/astraudea/" aria-label="Facebook de ASTRA" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-      </div>
-      <div class="column">astraudea</div>
-    </div>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="https://www.instagram.com/astraudea/" aria-label="Instagram de ASTRA" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
-      </div>
-      <div class="column">astraudea</div>
-    </div>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="mailto:grupoastra@udea.edu.co" aria-label="Correo de ASTRA" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
-      </div>
-      <div class="column">grupoastra@udea.edu.co</div>
-    </div>
-  </div>
-</div>
-<hr />
-<div class="columns is-multiline is-centered is-vcentered">
-  <div class="column is-3 has-text-centered">
-    <img src="/icons/deltav.png" alt="Logo Delta V" id="img-contact" />
-  </div>
-  <div class="column is-4">
-    <p class="title is-5"><b>Delta V</b></p>
-    <p class="subtitle is-6">Semillero de investigación</p>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="https://www.facebook.com/deltavudea/" aria-label="Facebook de Delta V" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-      </div>
-      <div class="column">deltavudea</div>
-    </div>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="https://www.instagram.com/deltav_udea/" aria-label="Instagram de Delta V" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
-      </div>
-      <div class="column">deltav_udea</div>
-    </div>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="mailto:deltavudea@gmail.com" aria-label="Correo de Delta V" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
-      </div>
-      <div class="column">deltavudea@gmail.com</div>
-    </div>
-  </div>
-</div>
-<hr />
-<div class="columns is-multiline is-centered is-vcentered">
-  <div class="column is-3 has-text-centered">
-    <img src="/icons/voyager.png" alt="Logo Voyager" id="img-contact" />
-  </div>
-  <div class="column is-4">
-    <p class="title is-5"><b>Voyager</b></p>
-    <p class="subtitle is-6">Semillero de investigación</p>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="https://www.facebook.com/voyagerudea/" aria-label="Facebook de Voyager" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-      </div>
-      <div class="column">voyagerudea</div>
-    </div>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="https://www.instagram.com/voyager_udea/" aria-label="Instagram de Voyager" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
-      </div>
-      <div class="column">voyager_udea</div>
-    </div>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="mailto:voyagerudea@gmail.com" aria-label="Correo de Voyager" target="_blank"><i class="fa fa-envelope fa-3x"></i></a>
-      </div>
-      <div class="column">voyagerudea@gmail.com</div>
-    </div>
-    <div class="columns is-vcentered">
-      <div class="column is-social has-text-centered">
-        <a href="https://www.youtube.com/@semillerodeinvestigacionvo6324" aria-label="Canal de Youtube de Voyager" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
-      </div>
-      <div class="column">Semillero de Investigación - Voyager</div>
-    </div>
-  </div>
-</div>
-
-</div>
-                </div>
-                
+<body>
+    <section class="hero is-halfheight-mobile is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">Error 404</p>
+                <p class="subtitle">Página no encontrada</p>
             </div>
         </div>
     </section>
-    
-        <footer class="footer">
-    <div class="container">
-        
-        
 
-        <div class="content is-small has-text-centered">
-            <p>Ingeniería Aeroespacial | Universidad de Antioquia</p>
-            <p>Theme built by <a href="https://www.csrhymes.com/">C.S. Rhymes</a></p>            
+    
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered is-vcentered">
+                <div class="column is-3 is-mobile-center">
+                    <img src="/icons/astra.png" alt="ASTRA logo" id="size-logos_contact">
+                </div>
+                <div class="column is-4">
+                    <p class="title is-5 is-mobile-center"><b>ASTRA</b></p>
+                    <p class="subtitle is-6 is-mobile-center">Grupo de investigación</p>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="https://www.facebook.com/astraudea/" aria-label="ASTRA facebook profile" target="_blank">
+                                <i class="fa-brands fa-square-facebook fa-3x" style="color: var(--primary);"></i></a>
+                        </div>
+                        <div class="column">astraudea</div>
+                    </div>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="https://www.instagram.com/astraudea/" aria-label="ASTRA instagram profile" target="_blank">
+                                <i class="fa-brands fa-square-instagram fa-3x" style="color: var(--primary);"></i></a>
+                        </div>
+                        <div class="column">astraudea</div>
+                    </div>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="mailto:grupoastra@udea.edu.co" aria-label="ASTRA email" target="_blank">
+                                <i class="fa-solid fa-square-envelope fa-3x" style="color: var(--primary);"></i></a>
+                        </div>
+                        <div class="column">grupoastra@udea.edu.co</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="columns is-centered is-vcentered">
+                <div class="column is-3 is-mobile-center">
+                    <img src="/icons/deltav.png" alt="Delta V logo" id="size-logos_contact">
+                </div>
+                <div class="column is-4">
+                    <p class="title is-5 is-mobile-center"><b>Delta V</b></p>
+                    <p class="subtitle is-6 is-mobile-center">Semillero de investigación</p>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="https://www.facebook.com/deltavudea/" aria-label="Delta V facebook profile" target="_blank">
+                                <i class="fa-brands fa-square-facebook fa-3x" style="color: var(--deltav);"></i></a>
+                        </div>
+                        <div class="column">deltavudea</div>
+                    </div>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="https://www.instagram.com/deltav_udea/" aria-label="Delta V instagram profile" target="_blank">
+                                <i class="fa-brands fa-square-instagram fa-3x" style="color: var(--deltav);"></i></a>
+                        </div>
+                        <div class="column">deltav_udea</div>
+                    </div>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="mailto:deltavudea@gmail.com" aria-label="Delta V email" target="_blank">
+                                <i class="fa-solid fa-square-envelope fa-3x" style="color: var(--deltav);"></i></a>
+                        </div>
+                        <div class="column">deltavudea@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr>
+            
+            <div class="columns is-centered is-vcentered">
+                <div class="column is-3 is-mobile-center">
+                    <img src="/icons/voyager.png" alt="Voyager logo" id="size-logos_contact">
+                </div>
+                <div class="column is-4">
+                    <p class="title is-5 is-mobile-center"><b>Voyager</b></p>
+                    <p class="subtitle is-6 is-mobile-center">Semillero de investigación</p>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="https://www.facebook.com/voyagerudea/" aria-label="Voyager facebook profile" target="_blank">
+                                <i class="fa-brands fa-square-facebook fa-3x" style="color: var(--voyager);"></i></a>
+                        </div>
+                        <div class="column">voyagerudea</div>
+                    </div>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="https://www.instagram.com/voyager_udea/" aria-label="Voyager instagram profile" target="_blank">
+                                <i class="fa-brands fa-square-instagram fa-3x" style="color: var(--voyager);"></i></a>
+                        </div>
+                        <div class="column">voyager_udea</div>
+                    </div>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="mailto:voyagerudea@gmail.com" aria-label="Voyager email" target="_blank">
+                                <i class="fa-solid fa-square-envelope fa-3x" style="color: var(--voyager);"></i></a>
+                        </div>
+                        <div class="column">voyagerudea@gmail.com</div>
+                    </div>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-2">
+                            <a href="https://www.youtube.com/@semillerodeinvestigacionvo6324" aria-label="Voyager youtube channel" target="_blank">
+                                <i class="fa-brands fa-square-youtube fa-3x" style="color: var(--voyager);"></i></a>
+                        </div>
+                        <div class="column">Semillero de Investigación - Voyager</div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
     </div>
 </footer>
 
-    
-    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
 </html>

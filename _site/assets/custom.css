@@ -1,0 +1,75 @@
+:root {
+    --primary: #262626;
+    --voyager: #262464;
+    --deltav: #ff4800ff;
+
+    --codeac-light: #4e7391;
+    --codeac-mid: #2E4D6B;
+    --codeac-dark: #0d2543;
+}
+
+
+
+/* *----- IDs -----* */
+/* Horizontal Bar */
+#color-grey {
+    height: 1px;
+    background-color: #cccccc;
+}
+
+/* Sizes */
+#size-logos_index { width: 10em; }
+#size-logos_groups { width: 20em; }
+#size-logos_contact { width: 15em; }
+
+/* Slideshow */
+#slideshow {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px var(--primary);
+}
+#slideshow>div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+/* *----- CLASSES -----* */
+/* Hero */
+.hero.is-index {
+    background: url('/icons/astragif.gif') no-repeat center;
+    background-size: cover;
+}
+.hero.is-codeac {
+    background-image: linear-gradient(141deg, var(--primary) 0%, var(--codeac-mid) 70%, var(--codeac-light) 100%);
+}
+
+/* Figure caption */
+.is-caption {
+    font-size: small;
+    font-style: italic;
+}
+
+/* Menu colors */
+.menu-list a.is-active {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+
+
+/* *----- MEDIA -----* */
+@media screen and (max-width: 1280px) {
+    .is-mobile-center {
+        text-align: center;
+    }
+}
+
+
+

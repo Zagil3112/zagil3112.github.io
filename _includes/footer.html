@@ -1,21 +1,7 @@
 <footer class="footer">
-    <div class="container">
-        
-        {% if site.footer_menu %}
-        <div class="columns is-multiline">
-            {% for item in site.data[site.footer_menu] %}
-            <div class="column has-text-centered">
-                <div>
-                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        <div class="content is-small has-text-centered">
-            <p>Ingeniería Aeroespacial | Universidad de Antioquia</p>
-            <p>Theme built by <a href="https://www.csrhymes.com/">C.S. Rhymes</a></p>            
-        </div>
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
     </div>
 </footer>

@@ -1,262 +1,161 @@
 <!DOCTYPE html>
+<html lang="es">
 
-
-
-
-<html
- dir="ltr"
- lang="es"
- class="has-navbar-fixed-top">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content=#ffffff>
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <link rel="shortcut icon" type="image/png"
-           href="/favicon.png" 
-    />
-    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
-    
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
-    
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Voyager | grupoastra.github.io</title>
-<meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Voyager" />
-<meta property="og:locale" content="es" />
-<meta name="description" content="Página web del semillero de aeronáutica y astronáutica Voyager, parte del Grupo de investigación ASTRA de la Universidad de Antioquia." />
-<meta property="og:description" content="Página web del semillero de aeronáutica y astronáutica Voyager, parte del Grupo de investigación ASTRA de la Universidad de Antioquia." />
-<link rel="canonical" href="http://0.0.0.0:4000/voyager/" />
-<meta property="og:url" content="http://0.0.0.0:4000/voyager/" />
-<meta property="og:site_name" content="grupoastra.github.io" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Voyager" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Página web del semillero de aeronáutica y astronáutica Voyager, parte del Grupo de investigación ASTRA de la Universidad de Antioquia.","headline":"Voyager","url":"http://0.0.0.0:4000/voyager/"}</script>
-<!-- End Jekyll SEO tag -->
+    <meta name="description" content="Página web del semillero de aeronáutica y astronáutica Voyager, 
+    parte del Grupo de investigación ASTRA de la Universidad de Antioquia.">
+    <title>Voyager | Nosotros</title>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
-<script>
-  window['ga-disable-G-BJW62XH43P'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-BJW62XH43P');
-</script><!-- head scripts --></head>
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
 
-  <body>
-    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
-    <div class="container">
-        <div class="navbar-brand">
-            <!-- <a href="/" class="navbar-item">
-                grupoastra.github.io
-            </a> -->
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active {
+            background-color: var(--voyager);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<nav class="navbar is-dark">
+    <div class="navbar-brand" style="padding-left: 5em;">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
         </div>
-        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
-            <div class="navbar-start">
-                <a href="/" class="navbar-item ">Inicio</a>
-                
-                
-                    
-                    <a href="/codeac/" class="navbar-item ">CODEAC</a>
-                    
-                
-                    
-                    <a href="/deltav/" class="navbar-item ">Delta V</a>
-                    
-                
-                    
-                    <a href="/voyager/" class="navbar-item is-active">Voyager</a>
-                    
-                
-                    
-                    <a href="/inprogress/" class="navbar-item ">En curso</a>
-                    
-                
-                    
-                    <a href="/aerohub/" class="navbar-item ">AeroHub</a>
-                    
-                
-                    
-                    <a href="/contact/" class="navbar-item ">Contacto</a>
-                    
-                
-                
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a href="/deltav/" class="navbar-item">Delta V</a>
+                    <a href="/voyager/" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a href="/aerohub/" class="navbar-item">Aerohub</a>
+                </div>
             </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a href="/events/codeac/" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a href="/inprogress/" class="navbar-item">En curso</a>
+            <a href="/contact/" class="navbar-item">Contacto</a>
         </div>
     </div>
 </nav>
 
-    
-        <section class="hero  is-halfheight  is-bold is-primary" >
-    <div class="hero-body ">
-        <div class="container">
-            <h1 class="title is-2">Voyager</h1>
-            <p class="subtitle is-3">Semillero de aeronáutica y astronáutica</p>
-            
-        </div>
-    </div>
-</section>
-    
-    
-
-
-    <section class="section">
-        <div class="container">
-            <div class="columns is-multiline">
-                
-                <div class="column is-4-desktop is-4-tablet">
-                    
-
-<aside class="menu">
-
-    <p class="menu-label">Información</p>
-    <ul class="menu-list">
-        
-        <li>
-            <a href="/voyager/" class="is-active">Nosotros</a>
-            
-        </li>
-        
-        <li>
-            <a href="/contact/" class="">Contacto</a>
-            
-        </li>
-            
-    </ul>
-
-    <p class="menu-label">Logros</p>
-    <ul class="menu-list">
-        
-        <li>
-            <a href="/voyager/contests/" class="">Competencias</a>
-            
-        </li>
-        
-        <li>
-            <a href="/voyager/publications/" class="">Publicaciones</a>
-            
-        </li>
-            
-    </ul>
-
-    <p class="menu-label">Líneas de investigación</p>
-    <ul class="menu-list">
-        
-        <li>
-            <a href="/voyager/lines/aeronautics/" class="">Aeronáutica</a>
-            
-        </li>
-        
-        <li>
-            <a href="/voyager/lines/communication/" class="">Comunicación y análisis de datos</a>
-            
-        </li>
-        
-        <li>
-            <a href="/voyager/lines/orbitalcontrol/" class="">Control y mecánica orbital</a>
-            
-        </li>
-            
-    </ul>
-
-</aside>
-                </div>
-                
-                <div class="column is-8">
-                    
-                    
-
-                    
-                    
-                    
-<div class="content">
-    <link href="../assets/css/custom.css" rel="stylesheet" type="text/css" />
-
-<style>
-  .hero.is-primary.is-bold {
-    background-color: #1d4b73ff;
-    background-image: none;
-  }
-</style>
-
-<figure align="center"> 
-    <img src="../icons/voyager.png" alt="Logo de Voyager" id="img-logos" />
-</figure>
-
-<h2 id="quiénes-somos">¿Quiénes somos?</h2>
-<p>Voyager es un semillero de investigación con enfoques aeronáuticos y astronáuticos creado por un grupo de estudiantes de Ingeniería Aeroespacial de la Universidad de Antioquia en el año 2017, inicialmente, como un grupo de divulgación científica. Actualmente, dedicado al diseño y construcción de sistemas para vehículos aeroespaciales, tales como: sistemas de sensoramiento, comunicaciones, estructura, procesamiento de imágenes, entre otros.</p>
-
-<p>Con experiencia y destacada participación en concursos nacionales, en los que se han obtenido los primeros puestos con el diseño y construcción de pequeños satélites, alas zagi, rovers y demás. El semillero, constantemente está en busca de nuevos retos en los que pongamos a prueba nuestras habilidades y capacidades de ingenio, creatividad y solución de problemas, donde podamos contribuir a la sociedad y construir un mejor mañana.</p>
-<figure align="center"> 
-    <img src="img/voyager.png" alt="Imagen de miembros de Voyager" id="img-voyager" width="90%" height="90%" />
-</figure>
-
-<h2 id="lineas-de-investigación">Lineas de investigación</h2>
-<p>Estas son nuestras lineas de investigación y respectivos proyectos activos del semillero.</p>
-<figure align="center"> 
-    <img src="img/researchlines.svg" alt="Lineas de investigación de Voyager" />
-</figure>
-
-<h2 id="deseas-pertenecer-al-semillero">¿Deseas pertenecer al semillero?</h2>
-<p>A día de hoy <strong>no tenemos ninguna</strong> convocatoria activa. Normalmente, estas se realizan a inicio de semestre por lo que debes estar atento a nuestras redes sociales.</p>
-
-<!-- En estos momentos **nos encontramos** realizando convocatoria para nuevos integrantes, en caso de estar interesado en pertenecer a *Voyager* ingresa a este <a href="https://forms.gle/iwFSQSoV8WNKQJgD8" target="_blank"><u>link</u></a>. -->
-
-<h2 id="coordinadores">Coordinadores</h2>
-<div class="columns is-multiline is-centered is-vcentered">
-    <div class="column is-4 has-text-centered">
-        <a href="https://www.linkedin.com/in/mateo-lezama-fuentes-5ab4721b2/" aria-label="LinkedIn de Mateo Lezama" target="_blank"><img src="../voyager/img/coordmateo.jpg" alt="Foto de Mateo Lezama" class="img-profile" id="img-coord" /></a><br />
-        <p class="title is-6"><b>Mateo Lezama Fuentes</b><br /><br /></p>
-        <p class="subtitle is-6">
-            <small>Estudiante de Ing. Aeroespacial<br />
-            <a href="mailto:mateo.lezamaf@udea.edu.co"><u>mateo.lezamaf@udea.edu.co</u></a></small>
-        </p>
-    </div>
-    <div class="column is-4 has-text-centered">
-        <a><img src="../voyager/img/coordpaula.jpg" alt="Foto de Paula García" class="img-profile" id="img-coord" /></a><br />
-        <p class="title is-6"><b>Paula A. García Suárez</b><br /><br /></p>
-        <p class="subtitle is-6">
-            <small>Estudiante de Ing. Aeroespacial<br />
-            <a href="mailto:andrea.garcia4@udea.edu.co"><u>andrea.garcia4@udea.edu.co</u></a></small>
-        </p>
-    </div>
-    <div class="column is-4 has-text-centered">
-        <a href="https://www.linkedin.com/in/sizuhe/" aria-label="LinkedIn de Simón Zuluaga" target="_blank"><img src="../voyager/img/coordsimon.jpg" alt="Foto de Simón Zuluaga" class="img-profile" id="img-coord" /></a><br />
-        <p class="title is-6"><b>Simón Zuluaga Henao</b><br /><br /></p>
-        <p class="subtitle is-6">
-            <small>Estudiante de Ing. Aeroespacial<br />
-            <a href="mailto:simon.zuluagah@udea.edu.co"><u>simon.zuluagah@udea.edu.co</u></a></small>
-        </p>
-    </div>
-</div>
-
-</div>
-                </div>
-                
+<body>
+    <!-- ! COLOR IS VOYAGER -->
+    <section class="hero is-halfheight-mobile is-voyager">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">Voyager</p>
+                <p class="subtitle">Semillero de aeronáutica y astronáutica</p>
+                <hr id="color-grey">
+                <p class="subtitle">Nosotros</p>
             </div>
         </div>
     </section>
-    
-        <footer class="footer">
-    <div class="container">
-        
-        
 
-        <div class="content is-small has-text-centered">
-            <p>Ingeniería Aeroespacial | Universidad de Antioquia</p>
-            <p>Theme built by <a href="https://www.csrhymes.com/">C.S. Rhymes</a></p>            
+    <div class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <aside class="menu">
+    <p class="menu-label">Información</p>
+    <ul class="menu-list">
+        <li><a href="/voyager">Nosotros</a></li>
+        <li><a href="/contact">Contacto</a></li>
+    </ul>
+    <p class="menu-label">Logros</p>
+    <ul class="menu-list">
+        <li><a href="/voyager/contests">Competencias</a></li>
+        <li><a href="/voyager/publications">Publicaciones</a></li>
+    </ul>
+    <p class="menu-label">Líneas de investigación</p>
+    <ul class="menu-list">
+        <li><a href="/voyager/lines/aeronautics">Aeronáutica</a></li>
+        <li><a href="/voyager/lines/commsdata">Comunicación y análisis de datos</a></li>
+        <li><a href="/voyager/lines/orbitalcontrol">Control y mecánica orbital</a></li>
+    </ul>
+</aside>
+                </div>
+
+                <div class="column is-8">
+                    <h1 class="title">¿Quiénes somos?</h1>
+<div class="content">
+    <div class="columns is-vcentered">
+        <div class="column is-one-third">
+            <figure align="center"> 
+                <img src="/icons/voyager.png" alt="Voyager logo" id="size-logos_groups">
+            </figure>
         </div>
+        <div class="column">
+            <p><b><span style="color: var(--voyager);">Voyager</span></b> es un semillero de investigación con enfoques aeronáuticos y astronáuticos creado por un
+                grupo de estudiantes de Ingeniería Aeroespacial de la Universidad de Antioquia en el año 2017,
+                inicialmente, como un grupo de divulgación científica. Actualmente, dedicado al diseño y
+                construcción de sistemas para vehículos aeroespaciales, tales como: sistemas de sensoramiento,
+                comunicaciones, estructura, procesamiento de imágenes, entre otros.</p>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <p>Con experiencia y destacada participación en concursos nacionales, en los que se han obtenido los
+        primeros puestos con el diseño y construcción de pequeños satélites, alas zagi, rovers y demás.
+        El semillero, constantemente está en busca de nuevos retos en los que pongamos a prueba nuestras
+        habilidades y capacidades de ingenio, creatividad y solución de problemas, donde podamos
+        contribuir a la sociedad y construir un mejor mañana.</p>
+    <figure align="center"> 
+        <img src="/img/voyager/voyager.png" alt="Voyager members" id="img-voyager" width="90%" height="90%">
+    </figure>
+</div>
+
+<h2 class="subtitle">Líneas de investigación</h2>
+<div class="content">
+    <p>Estas son nuestras líneas de investigación y respectivos proyectos activos del semillero.</p>
+    <figure> 
+        <img src="/img/voyager/researchlines.svg" alt="Voyager research lines">
+    </figure>    
+</div>
+
+<h2 class="subtitle">¿Deseas pertenecer al semillero?</h2>
+<div class="content">
+    <p>A día de hoy <b>no tenemos ninguna</b> convocatoria activa. Normalmente, estas se realizan a inicio de
+        semestre por lo que debes estar atento a nuestras redes sociales.</p>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
     </div>
 </footer>
 
-    
-    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
 </html>

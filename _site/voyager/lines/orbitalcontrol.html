@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página web del semillero de aeronáutica y astronáutica Voyager, 
+    parte del Grupo de investigación ASTRA de la Universidad de Antioquia.">
+    <title>Voyager | Línea de control y mecánica orbital</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active {
+            background-color: var(--voyager);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<nav class="navbar is-dark">
+    <div class="navbar-brand" style="padding-left: 5em;">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a href="/deltav/" class="navbar-item">Delta V</a>
+                    <a href="/voyager/" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a href="/aerohub/" class="navbar-item">Aerohub</a>
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a href="/events/codeac/" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a href="/inprogress/" class="navbar-item">En curso</a>
+            <a href="/contact/" class="navbar-item">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <!-- ! COLOR IS VOYAGER -->
+    <section class="hero is-halfheight-mobile is-voyager">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">Voyager</p>
+                <p class="subtitle">Semillero de aeronáutica y astronáutica</p>
+                <hr id="color-grey">
+                <p class="subtitle">Línea de control y mecánica orbital</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <aside class="menu">
+    <p class="menu-label">Información</p>
+    <ul class="menu-list">
+        <li><a href="/voyager">Nosotros</a></li>
+        <li><a href="/contact">Contacto</a></li>
+    </ul>
+    <p class="menu-label">Logros</p>
+    <ul class="menu-list">
+        <li><a href="/voyager/contests">Competencias</a></li>
+        <li><a href="/voyager/publications">Publicaciones</a></li>
+    </ul>
+    <p class="menu-label">Líneas de investigación</p>
+    <ul class="menu-list">
+        <li><a href="/voyager/lines/aeronautics">Aeronáutica</a></li>
+        <li><a href="/voyager/lines/commsdata">Comunicación y análisis de datos</a></li>
+        <li><a href="/voyager/lines/orbitalcontrol">Control y mecánica orbital</a></li>
+    </ul>
+</aside>
+                </div>
+
+                <div class="column is-8">
+                    <h1 class="title" id="helmholtz">Jaula de Helmholtz</h1>
+<div class="content">
+    <img class="badges" src="https://img.shields.io/badge/-En%20curso-FFDD56" alt="">
+
+    <div class="columns is-multiline is-vcentered">
+        <div class="column is-one-third">
+            <img id="img-logos" src="/img/voyager/blueprint_helmholtz.png" alt="Helmholtz cage blueprint">
+        </div>
+        <div class="column">
+            <p>En el entorno cercano a la Tierra, las fuerzas asociadas a campos electromagnéticos priman sobre aquellas
+                producidas por el campo gravitatorio. Poder recrear este fenómeno es necesario para poder comprender la
+                interacción del campo magnético terrestre con la dinámica de los vehículos espaciales, así como de los
+                sistemas de control basados en este principio. Un experimento que reproduce este escenario es conocido
+                como Jaula de Helmholtz, esta es creada a partir de un conjunto de tres pares de bobinas dispuestas en
+                una configuración de 3 ejes independientes.</p>
+            <p>Actualmente, su construcción fue finalizada y el equipo de trabajo se encuentra desarrollando un manual
+                de uso y un articulo científico basado en el diseño y manufactura de la Jaula de Helmholtz.</p>
+        </div>
+    </div>
+</div>
+
+<h2 class="subtitle">Objetivos del proyecto</h2>
+<div class="content">
+    <ul>
+        <li>Desarrollar un prototipo de banco experimental de pruebas de campo magnético para nanosatélites.</li>
+        <li>Establecer las condiciones y requerimientos necesarios para el estudio de efectos magnéticos en pequeños
+            satélites.</li>
+        <li>Plantear diseños de experimentos en diferentes escenarios orbitales, relacionados con el control de actitud
+            de satélites.</li>
+    </ul>
+</div>
+
+<h2 class="subtitle">Contacto</h2>
+<div class="content">
+    <p>Si deseas conocer mas información sobre el proyecto, contacta con <b>Simón Zuluaga</b> al
+        correo <a href="mailto:simon.zuluagah@udea.edu.co"><u>simon.zuluagah@udea.edu.co</u></a>.</p>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
+    </div>
+</footer>
+
+</html>

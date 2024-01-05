@@ -1,0 +1,118 @@
+---
+---
+
+<!-- ! ----- COSAS POR CAMBIAR ----- !
+- Crear nuevo archivo css para clases e ids personalizados
+- Agregar imagenes de los proyectos en sus secciones respectivas
+- Revisar elegancia de los subtitulos
+- isActive navbar JS
+- is Active menu JS
+- Organizar tablets y mobiles en tamaños de index, contact, centrar, etc.
+- Usar grids
+-->
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página principal del sitio web del Grupo de investigación ASTRA 
+    y sus semilleros, Delta V y Voyager, pertenecientes a la Universidad de Antioquia.">
+    <title>grupoastra.github.io | Grupo de investigación ASTRA</title>
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+</head>
+
+{% include navbar.html %}
+
+<body>
+    <section class="hero is-fullheight-with-navbar is-index"></section>
+
+    <section class="section is-centered is-mobile-center">
+        <div class="container">
+            <!-- ! SIN NOTICIAS -->
+            <div class="columns is-centered is-vcentered">
+                <div class="column is-3">
+                    <p class="title is-5"><img src="/icons/deltav.png" alt="Delta V logo" id="size-logos_index"></p>
+                </div>
+                <div class="column is-3">
+                    <p class="title is-5"><b>Delta V</b></p>
+                    <p class="subtitle is-6">Semillero de cohetería y propulsión</p>
+                    <a href="/deltav/" class="button is-deltav">Conócenos</a>
+                </div>
+
+                <div class="column is-3">
+                    <p class="title is-5"><img src="/icons/voyager.png" alt="Voyager logo" id="size-logos_index"></p>
+                </div>
+                <div class="column is-3">
+                    <p class="title is-5"><b>Voyager</b></p>
+                    <p class="subtitle is-6">Semillero de aeronáutica y astronáutica</p>
+                    <a href="/voyager/" class="button is-voyager">Conócenos</a>
+                </div>
+            </div>
+
+            
+            <!-- ! CON NOTICIAS -->
+            <!-- <div class="columns is-centered is-vcentered" style="padding-top:24px; padding-bottom:24px">
+                <div class="column is-8">
+                    <div class="columns is-vcentered">
+                        <div class="column is-4">
+                            <p class="title is-5">
+                                <img src="/icons/deltav.png" alt="Delta V logo" id="size-logos_index">
+                            </p>
+                        </div>
+                        <div class="column is-8">
+                            <p class="title is-5"><b>Delta V</b></p>
+                            <p class="subtitle is-6">Semillero de cohetería y propulsión</p>
+                            <a href="/deltav/" class="button is-deltav">Conócenos</a>
+                        </div>
+                    </div>
+                    <div class="columns is-vcentered">
+                        <div class="column is-4">
+                            <p class="title is-5">
+                                <img src="/icons/voyager.png" alt="Voyager logo" id="size-logos_index">
+                            </p>
+                        </div>
+                        <div class="column is-8">
+                            <p class="title is-5"><b>Voyager</b></p>
+                            <p class="subtitle is-6">Semillero de aeronáutica y astronáutica</p>
+                            <a href="/voyager/" class="button is-voyager">Conócenos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4 has-text-centered">
+                    <header class="card-header">
+                        <p class="card-header-title is-centered"><big>Noticias</big></p>
+                    </header>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <p class="title is-5">
+                                    <img src="/img/events/codeac_logo.png" alt="CODEAC logo" height="80%" width="80%">
+                                </p>
+                                <p>¡Infórmate sobre el primer Congreso de Desarrollo Aeroespacial Colombiano!<br><br>
+                                    <a href="/events/codeac/" class="button is-primary">Conoce más aquí</a>
+                                </p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item"><small>Publicado: Jun 16, 2023</small></p>
+                        </footer>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+</body>
+
+{% include footer.html %}
+
+</html>

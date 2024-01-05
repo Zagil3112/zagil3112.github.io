@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página web del semillero de cohetería y propulsión Delta V, 
+    parte del Grupo de investigación ASTRA de la Universidad de Antioquia.">
+    <title>Delta V | Publicaciones</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active {
+            background-color: var(--deltav);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<nav class="navbar is-dark">
+    <div class="navbar-brand" style="padding-left: 5em;">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a href="/deltav/" class="navbar-item">Delta V</a>
+                    <a href="/voyager/" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a href="/aerohub/" class="navbar-item">Aerohub</a>
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a href="/events/codeac/" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a href="/inprogress/" class="navbar-item">En curso</a>
+            <a href="/contact/" class="navbar-item">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <!-- ! COLOR IS VOYAGER -->
+    <section class="hero is-halfheight-mobile is-deltav">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">Delta V</p>
+                <p class="subtitle">Semillero de cohetería y propulsión</p>
+                <hr id="color-grey">
+                <p class="subtitle">Publicaciones</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <aside class="menu">
+    <p class="menu-label">Información</p>
+    <ul class="menu-list">
+        <li><a href="/deltav">Nosotros</a></li>
+        <li><a href="/contact">Contacto</a></li>
+    </ul>
+    <p class="menu-label">Logros</p>
+    <ul class="menu-list">
+        <li><a href="/deltav/contests">Competencias</a></li>
+        <li><a href="/deltav/publications">Publicaciones</a></li>
+    </ul>
+    <p class="menu-label">Proyectos de investigación</p>
+    <ul class="menu-list">
+        <li><a href="/deltav/projects/solidmotor">Motores de propelente sólido</a></li>
+        <li><a href="/deltav/projects/boeingturbine">Turbina Boeing</a></li>
+    </ul>
+</aside>
+                </div>
+
+                <div class="column is-8">
+                    <div class="content">
+    <p>Artículos científicos y ponencias realizadas por el semillero de investigación 
+        <b><span style="color: var(--deltav);">Delta V</span></b>.</p>
+</div>
+
+<h1 class="title">Ponencias</h1>
+<div class="content">
+    <!-- Autor 1, autor 2. (Año). <b>Titulo</b>. Revista, vol. #, núm. #, pp. #-#. 
+        <a href="" target="_blank"><u>Página web</u></a>. <a href="" target="_blank"><u>PDF</u></a>. -->
+    <!-- Expositor 1, expositor 2. Año. <b>Titulo</b>. Congreso. Lugar. -->
+    <ul>
+        <li>Sierra C. J., Zapata M., Duque L. & López S. 2022. <b>Técnicas de manufactura de propelente sólido tipo
+            candy para motores de cohete en un ambiente con clima húmedo de montaña</b>. Congreso Internacional de Ciencia
+            y Tecnología Aeroespacial - CICTA. Bucaramanga, Colombia.</li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
+    </div>
+</footer>
+
+</html>
