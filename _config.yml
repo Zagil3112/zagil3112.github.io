@@ -2,11 +2,3 @@ url: "https://grupoastra.github.io/"
 
 plugins:
   - jekyll-sitemap
-  - jekyll-analytics
-
-
-
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-BJW62XH43P
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
