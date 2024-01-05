@@ -20,7 +20,7 @@
 /* Sizes */
 #size-logos_index { width: 10em; }
 #size-logos_groups { width: 20em; }
-#size-logos_contact { width: 15em; }
+#size-logos_contact { width: 14em; }
 
 /* Slideshow */
 #slideshow {
@@ -62,12 +62,61 @@
     color: #fff;
 }
 
+/* Multimedia config */
+.is-imgframe-hr {
+    width: 55%;
+    height: auto;
+}
+.is-imgframe-vr {
+    width: 35%;
+    height: auto;
+}
+.is-videoframe {
+    width: 560px;
+    height: 300px;
+}
+
+/* Custom config */
+.is-customframe {
+    width: 100%;
+    height: 600px;
+}
+.is-customframe-docs {
+    width: 100%;
+    height: 320px;
+}
+
+
+
+/* *----- ELEMENTS -----* */
+iframe { border-radius:10px; }
+
 
 
 /* *----- MEDIA -----* */
 @media screen and (max-width: 1280px) {
     .is-mobile-center {
         text-align: center;
+    }
+
+    /* Multimedia config */
+    .is-imgframe-hr {
+        width: 100%;
+        height: auto;
+    }
+    .is-imgframe-vr {
+        width: 75%;
+        height: auto;
+    }
+    .is-videoframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Custom config */
+    .is-customframe {
+        width: 100%;
+        height: 320px;
     }
 }
 
