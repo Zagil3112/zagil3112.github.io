@@ -18,7 +18,7 @@
 }
 
 /* Sizes */
-#size-logos_index { width: 10em; }
+#size-logos_index { width: 12em; }
 #size-logos_groups { width: 20em; }
 #size-logos_contact { width: 14em; }
 
@@ -85,7 +85,9 @@
     width: 100%;
     height: 320px;
 }
-
+.just-mobile{
+    display: none;
+}
 
 
 /* *----- ELEMENTS -----* */
@@ -121,4 +123,9 @@ iframe { border-radius:10px; }
 }
 
 
-
+@media screen and (max-width: 768px) {
+    /* Custom config */
+    .just-mobile{
+        display: block;
+    }
+}
