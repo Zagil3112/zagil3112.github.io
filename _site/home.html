@@ -12,34 +12,156 @@
     <link rel="stylesheet" href="/assets/custom.css">
 </head>
 
+
 <body>
-    <button id="playButton">Play Video</button>
-    <div id="player-container" style="display: none;">
-        <!-- <iframe id="player" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay" allowfullscreen=""></iframe> -->
-        <div id="player"></div>
+    <div style="display: none;">
+        <iframe id="ytPlayer" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" allow="autoplay" allowfullscreen=""></iframe>
     </div>
 
-    <img src="/icons/astragif.gif" style="position:fixed; width:100%; height:100%; overflow:hidden; z-index:999999; object-fit: cover;">
+    <!-- <img id="playButton"
+        src="/icons/astragif.gif" 
+        style="position:fixed; width:100%; height:100%; overflow:hidden; z-index:999999; object-fit: cover;"> -->
 
+
+
+    <nav class="navbar is-dark">
+        <div class="navbar-brand">
+            <a id="playButton" class="navbar-item">
+                <img src="/icons/astra_blanco.png">
+            </a>
+    
+            <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </div>
+        </div>
+    
+        <div class="navbar-menu" id="navbar">
+            <div class="navbar-start">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Semilleros</a>
+                    <div class="navbar-dropdown">
+                        <a id="playButton" class="navbar-item">Delta V</a>
+                        <a id="playButton" class="navbar-item">Voyager</a>
+                        <hr class="navbar-divider">
+                        <a id="playButton" class="navbar-item">Aerohub</a>
+                    </div>
+                </div>
+    
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Eventos</a>
+                    <div class="navbar-dropdown">
+                        <a id="playButton" class="navbar-item">CODEAC</a>
+                        <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                    </div>
+                </div>
+                <a id="playButton" class="navbar-item">En curso</a>
+                <a id="playButton" class="navbar-item">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="playButton" class="hero is-fullheight-with-navbar is-index"></section>
+
+
+    <section class="section is-centered is-mobile-center">
+        <div class="container">
+            <div class="columns is-centered is-vcentered">
+                <div class="column is-8">
+                    <div class="columns is-vcentered">
+                        <div class="column is-4 has-text-centered">
+                            <figure align="center">
+                                <img src="/icons/deltav.png" alt="Delta V logo" id="size-logos_index">
+                            </figure>
+                        </div>
+                        <div class="column is-8">
+                            <p class="title is-5"><b>Delta V</b></p>
+                            <p class="subtitle is-6">Semillero de cohetería y propulsión</p>
+                            <a id="playButton" class="button is-deltav">Conócenos</a>
+                        </div>
+                    </div>
+
+                    <div class="columns is-vcentered">
+                        <div class="column is-4 has-text-centered">
+                            <figure align="center">
+                                <img src="/icons/voyager.png" alt="Voyager logo" id="size-logos_index">
+                            </figure>
+                        </div>
+                        <div class="column is-8">
+                            <p class="title is-5"><b>Voyager</b></p>
+                            <p class="subtitle is-6">Semillero de aeronáutica y astronáutica</p>
+                            <a id="playButton" class="button is-voyager">Conócenos</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-4 has-text-centered">
+                    <hr class="just-mobile" style="margin-bottom: 48px;">
+
+                    <header class="card-header">
+                        <p class="card-header-title is-centered"><big>¡Visita nuestro podcast!</big></p>
+                    </header>
+                    <iframe id="playButton" src="https://open.spotify.com/embed/show/5i0ojtZUXjOhepxobiGHMd?utm_source=generator&t=0" 
+                    width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    
+                    <div class="content"></div>     <!-- Espacio para podcast -->
+                    
+                    <header class="card-header">
+                        <p class="card-header-title is-centered"><big>Noticias</big></p>
+                    </header>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <p><img src="/img/events/codeac_logo.png" alt="CODEAC logo" height="80%" width="80%"></p>
+                                <p>¡Infórmate sobre el primer Congreso de Desarrollo Aeroespacial Colombiano!<br><br>
+                                    <a id="playButton" class="button is-primary">Conoce más aquí</a>
+                                </p>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-item"><small>Publicado: Jun 16, 2023</small></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered is-small">
+            <p><a id="playButton" target="_blank">Ingeniería Aeroespacial</a> 
+                | 
+                <a id="playButton" target="_blank">Universidad de Antioquia</a></p>
+        </div>
+    </footer>
+
+
+    
     <script src="https://www.youtube.com/iframe_api"></script>
     <script>
         var player;
+        var activated = false;
 
         function onYouTubeIframeAPIReady() {
-            player = new YT.Player('player', {
-                videoId: 'dQw4w9WgXcQ', // Replace with your YouTube video ID
-                playerVars: {
-                    'autoplay': 1, // Autoplay is initially set to 0 (off)
-                },
-                events: {
-                    'onReady': onPlayerReady
-                }
+            player = new YT.Player('ytPlayer', {
+                videoId: 'dQw4w9WgXcQ',
+                playerVars: { 'autoplay': 1 },
+                // events: { 'onReady': onPlayerReady }
             });
         }
 
         function onPlayerReady(event) {
+            window.addEventListener('scroll', function() {
+                player.seekTo(0);
+                player.playVideo();
+            });
+        
             document.getElementById('playButton').addEventListener('click', function() {
-                // Play the video
+                player.seekTo(0);
+                event.target.setVolume(100);
                 event.target.playVideo();
             });
         }
