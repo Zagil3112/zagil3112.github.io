@@ -148,19 +148,17 @@
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('ytPlayer', {
                 videoId: 'dQw4w9WgXcQ',
-                playerVars: { 'autoplay': 1 },
-                // events: { 'onReady': onPlayerReady }
+                playerVars: { 'autoplay': 0 },
+                events: { 'onReady': onPlayerReady }
             });
         }
 
         function onPlayerReady(event) {
             window.addEventListener('scroll', function() {
-                player.seekTo(0);
                 player.playVideo();
             });
         
             document.getElementById('playButton').addEventListener('click', function() {
-                player.seekTo(0);
                 event.target.setVolume(100);
                 event.target.playVideo();
             });
