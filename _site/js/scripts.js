@@ -16,7 +16,7 @@ $(document).ready(function () {
         $(".menu-list a").removeClass("is-active");
         $(this).addClass("is-active");
     });
-
+    
     
     // ----- SLIDESHOW -----
     $("#slideshow > div:gt(0)").hide();

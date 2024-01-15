@@ -31,10 +31,12 @@
     position: inherit;
     align-items: center;
     justify-content: center;
-    width: 425px;
-    height: 425px;
     box-shadow: 0 0 10px var(--primary);
     border-radius: var(--bordervalue);
+}
+.slideshow-normal{
+    width: 425px;
+    height: 425px;
 }
 #slideshow>div {
     position: absolute;
