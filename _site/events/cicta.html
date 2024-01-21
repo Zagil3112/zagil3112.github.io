@@ -12,7 +12,42 @@
     <link rel="stylesheet" href="/assets/custom.css">
 
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://rawgithub.com/jwagner/simplex-noise.js/master/simplex-noise.js"></script>
     <script src="/js/scripts.js"></script>
+
+    <style>
+        :root {
+            --title: #D5D5D5;
+            --main-text: white;
+        }
+        canvas {
+            position: absolute;
+            width: -webkit-fill-available;
+            /* z-index: -1; */
+        }
+        body {
+            color: var(--main-text);
+        }
+        .menu-label {
+            color: var(--title);
+        }
+        .menu-list a {
+            color: var(--main-text);
+        }
+        .menu-list a.is-active{
+            background-color: var(--voyager);
+        }
+        .menu-list a:hover {
+            background-color: var(--deltav);
+            color: var(--main-text);
+        }
+        .title {
+            color: var(--title);
+        }
+        .subtitle {
+            color: var(--title);
+        }
+    </style>
 </head>
 
 <nav class="navbar is-dark">
@@ -64,7 +99,9 @@
         </div>
     </section>
 
-    <section class="section">
+    <canvas id="c"></canvas>
+
+    <section class="section" id="ref">
         <div class="container">
             <div class="columns is-multiline">
                 <div class="column is-4">
@@ -86,11 +123,97 @@
                 </div>
         
                 <div class="column is-8">
-                    
+                    <figure align="center">
+    <img src="/img/events/codeac_logo.png" alt="CODEAC logo" width="90%" height="90%">
+</figure>
+<div class="content"></div>     <!-- Espacio entre contenido y titulo -->
+
+<h1 class="title" id="info">¿Qué es?</h1>
+<div class="content">
+    <p>El Congreso de Desarrollo Aeroespacial Colombiano - CODEAC, organizado por el pregrado de Ingeniería Aeroespacial
+        de la Universidad de Antioquia y dirigido al público general, estudiantes y profesionales de todas las áreas de
+        estudio, es un encuentro diseñado como lugar de convergencia académica para presentar, conocer, discutir y
+        motivar la investigación en el sector aeroespacial nacional.</p>
+</div>
+
+<h2 class="subtitle">Objetivos</h2>
+<div class="content">
+    <ol>
+        <li>Impulsar la investigación en temas aeroespaciales a nivel nacional.</li>
+        <li>Conectar a los múltiples actores del campo aeroespacial Colombiano.</li>
+        <li>Proveer un entorno donde las personas puedan expandir su conocimiento, presentar sus investigaciones y
+            explorar los avances en el sector aeroespacial Colombiano.</li>
+    </ol>
+</div>
+
+
+<div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae urna felis. In quis quam eget leo dignissim
+        imperdiet sed ut enim. Praesent elementum est eget lorem sollicitudin, in tincidunt mi lacinia. Nunc neque augue,
+        lobortis et dui nec, congue tempus mauris. Praesent semper augue sit amet libero feugiat, ac feugiat nibh sollicitudin.
+        Maecenas gravida nisi consectetur purus malesuada convallis. Fusce nec mattis elit. Etiam tristique libero eget elit
+        tristique, eget tempor magna bibendum. Quisque eleifend risus ut libero eleifend tincidunt. Pellentesque lorem lectus,
+        tincidunt eu metus vel, posuere accumsan justo. Quisque ullamcorper ullamcorper purus nec condimentum. Praesent in
+        pharetra ante. Mauris tristique condimentum diam, nec tempor neque tincidunt quis. Maecenas elementum magna quis nunc
+        vestibulum, at scelerisque sem tempus. Maecenas in pellentesque massa.</p>
+    <p>Praesent semper dui non porttitor porta. Vestibulum laoreet orci vitae porttitor pharetra. Curabitur volutpat sapien ut
+        mollis suscipit. Suspendisse placerat commodo sem, ut efficitur massa dapibus id. In elit sem, rutrum sit amet odio non,
+        dictum placerat orci. Phasellus enim nisl, pulvinar id sodales nec, mattis ut mauris. Orci varius natoque penatibus et
+        magnis dis parturient montes, nascetur ridiculus mus. Maecenas dignissim arcu tellus, a ornare lectus gravida vel. Fusce
+        quis risus aliquet, mollis velit et, elementum erat. Sed eget efficitur lorem, sed rhoncus ligula. Integer vel turpis eu
+        nisl imperdiet congue. Nam dictum, turpis nec volutpat pellentesque, eros metus maximus leo, eu pharetra leo sapien quis
+        augue. Ut consectetur ligula felis, at tincidunt augue blandit sed. Fusce ultrices pharetra ultricies. Pellentesque
+        dolor tortor, pretium quis posuere nec, commodo quis nibh. Integer ut magna vel leo dictum rhoncus id eget arcu.</p>
+</div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+    <script>
+        xValue = 300;
+        yValue = 256;
+
+        var simplex = new SimplexNoise(),
+        canvas = document.getElementById('c'),
+        ctx = canvas.getContext('2d'),
+        imgdata = ctx.getImageData(0, 0, xValue, yValue),
+        data = imgdata.data,
+        t = 0;
+
+        window.setInterval(function(){
+        for (var x = 0; x < xValue; x++) {
+            for (var y = 0; y < yValue; y++) {
+                var r = simplex.noise3D(x / 110, y / 300, t/100);
+                var g = simplex.noise3D(x / 140, y / 300, t/100);
+                var b = simplex.noise3D(x / 130, y / 330, t/130);
+                data[(x + y * xValue) * 4 + 0] = (r+b) * 255/3;
+                data[(x + y * xValue) * 4 + 1] = (g+r) * 255/3;
+                data[(x + y * xValue) * 4 + 2] = (b+r+g) * 255/3;
+                data[(x + y * xValue) * 4 + 3] = 255;
+            }
+        }
+        t++;
+        ctx.putImageData(imgdata, 0, 0);
+        }, 30);
+
+        // Set canvas dimensions dynamically
+        function setCanvasDimensions() {
+            canvas = document.getElementById('c');
+            sectionRef = document.getElementById('ref');
+
+            // canvas.style.width = sectionRef.offsetWidth + 'px';
+            canvas.style.height = sectionRef.offsetHeight + 'px';
+        }
+
+        // Initial setup
+        setCanvasDimensions();
+
+        // Update canvas dimensions on window resize
+        window.addEventListener('resize', setCanvasDimensions);
+    // </script>
 </body>
 
 <footer class="footer">
