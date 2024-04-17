@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CICTA | X International Congress of Aerospace Science & Technology</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://rawgithub.com/jwagner/simplex-noise.js/master/simplex-noise.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active{
+            background-color: var(--cicta-purple-dark);
+        }
+        .menu-list a:hover {
+            background-color: var(--cicta-purple-dark);
+            color: white;
+        }
+        #background{
+            background-color: var(--primary);
+        }
+        #background-light{
+            background-color: var(--primary-light);
+        }
+        #text-white {
+            color: white;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BJW62XH43P');
+</script>
+</head>
+
+<nav class="navbar is-dark">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a href="/deltav" class="navbar-item">Delta V</a>
+                    <a href="/voyager" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a href="/aerohub" class="navbar-item">Aerohub</a>
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a href="/events/codeac" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a href="/inprogress" class="navbar-item">En curso</a>
+            <a href="/contact" class="navbar-item">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <section class="hero is-halfheight-mobile is-cicta">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title" id="text-white">CICTA</p>
+                <p class="subtitle" id="text-white">X International Congress of Aerospace Science & Technology
+                    <br><font size="-1">X Congreso Internacional de Ciencia y Tecnología Aeroespacial</font></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="ref">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <aside class="menu">
+    <p class="menu-label">About</p>
+    <ul class="menu-list">
+        <li><a href="/events/cicta">Conference</a></li>
+        <li><a href="/events/cicta/subjects">Subjects</a></li>
+        <li><a href="/events/cicta#contact">Contact</a></li>
+    </ul>
+    <!-- <p class="menu-label">CICTA X</p>
+    <ul class="menu-list">
+        <li><a href="/events/cicta/authors">For authors</a></li>
+        <!-- <li><a href="#programme">Programme</a></li>
+        <li><a href="#guide">For visitors</a></li>
+        <li><a href="#ubication">Ubication</a></li>
+    </ul> -->
+</aside>
+                </div>
+        
+                <div class="column is-8">
+                    <h1 class="title" id="subjects">Subjects</h1>
+<div class="columns is-centered">
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Espacial</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Astrodinámica</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión y vehículos lanzadores</li>
+                        <li>Robótica espacial</li>
+                        <li>Sistemas espaciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="columns is-centered">
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Espacial</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Astrodinámica</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión y vehículos lanzadores</li>
+                        <li>Robótica espacial</li>
+                        <li>Sistemas espaciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="columns is-centered">
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Espacial</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Astrodinámica</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión y vehículos lanzadores</li>
+                        <li>Robótica espacial</li>
+                        <li>Sistemas espaciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="columns is-centered">
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Espacial</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Astrodinámica</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión y vehículos lanzadores</li>
+                        <li>Robótica espacial</li>
+                        <li>Sistemas espaciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-4">
+        <header class="card-header" id="background-light">
+            <p class="card-header-title is-centered" id="text-white">Aeronáutica</p>
+        </header>
+        <div class="card" id="background">
+            <div class="card-content" id="text-white">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
+    </div>
+</footer>
+
+</html>

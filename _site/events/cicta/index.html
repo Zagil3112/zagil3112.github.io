@@ -16,36 +16,21 @@
     <script src="/js/scripts.js"></script>
 
     <style>
-        :root {
-            --title: #D5D5D5;
-            --main-text: white;
-        }
-        canvas {
-            position: absolute;
-            width: -webkit-fill-available;
-            /* z-index: -1; */
-        }
-        body {
-            color: var(--main-text);
-        }
-        .menu-label {
-            color: var(--title);
-        }
-        .menu-list a {
-            color: var(--main-text);
-        }
         .menu-list a.is-active{
-            background-color: var(--voyager);
+            background-color: var(--cicta-purple-dark);
         }
         .menu-list a:hover {
-            background-color: var(--deltav);
-            color: var(--main-text);
+            background-color: var(--cicta-purple-dark);
+            color: white;
         }
-        .title {
-            color: var(--title);
+        #background{
+            background-color: var(--primary);
         }
-        .subtitle {
-            color: var(--title);
+        #background-light{
+            background-color: var(--primary-light);
+        }
+        #text-white {
+            color: white;
         }
     </style>
 
@@ -103,43 +88,41 @@
     <section class="hero is-halfheight-mobile is-cicta">
         <div class="hero-body">
             <div class="container">
-                <p class="title">CICTA</p>
-                <p class="subtitle">X International Congress of Aerospace Science & Technology
+                <p class="title" id="text-white">CICTA</p>
+                <p class="subtitle" id="text-white">X International Congress of Aerospace Science & Technology
                     <br><font size="-1">X Congreso Internacional de Ciencia y Tecnología Aeroespacial</font></p>
             </div>
         </div>
     </section>
-
-    <canvas id="c"></canvas>
 
     <section class="section" id="ref">
         <div class="container">
             <div class="columns is-multiline">
                 <div class="column is-4">
                     <aside class="menu">
-    <p class="menu-label">Información general</p>
+    <p class="menu-label">About</p>
     <ul class="menu-list">
-        <li><a href="#info">¿Qué es?</a></li>
-        <li><a href="#themes">Temáticas</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="/events/cicta">Conference</a></li>
+        <li><a href="/events/cicta/subjects">Subjects</a></li>
+        <li><a href="/events/cicta#contact">Contact</a></li>
     </ul>
-    <p class="menu-label">CICTA - 2024</p>
+    <!-- <p class="menu-label">CICTA X</p>
     <ul class="menu-list">
-        <li><a href="#participation">¿Cómo participar?</a></li>
-        <li><a href="#schedule">Cronograma</a></li>
-        <li><a href="#guide">Guía del visitante</a></li>
-        <li><a href="#ubication">Ubicación</a></li>
-    </ul>
+        <li><a href="/events/cicta/authors">For authors</a></li>
+        <!-- <li><a href="#programme">Programme</a></li>
+        <li><a href="#guide">For visitors</a></li>
+        <li><a href="#ubication">Ubication</a></li>
+    </ul> -->
 </aside>
                 </div>
         
                 <div class="column is-8">
                     <figure align="center">
-    <img src="/img/events/codeac_logo.png" alt="CODEAC logo" width="90%" height="90%">
+    <img class="size-mobile" src="/img/events/cicta/cicta_horizontal.png" alt="CICTA logo" width="55%" height="55%">
 </figure>
 <div class="content"></div> <!-- Espacio entre contenido y titulo -->
 
-<h1 class="title" id="about">About</h1>
+<h1 class="title" id="about">About CICTA X</h1>
 <div class="content">
     <p>The city of Medellin has emerged as a leading industrial hub in Colombia during its history and has shown the
         resilience of its people through difficult times. Proud of its scars, revived by its culture, and sustained by
@@ -151,67 +134,80 @@
         its Aerospace Engineering Program. More than 400 participants, national and international, are expected, based
         on previous editions, combining members of academia, industry and government institutions.</p>
     <p>The <i>International Congress of Aerospace Science & Technology</i> (<b>CICTA</b>) will take place for its
-        <b>10th edition</b> during <b>November 6-8, 2024</b> at the city of <b>Medellin, Colombia</b>.</p>
+        <b>10th edition</b> during <b>November 6-8, 2024</b> at the city of <b>Medellin, Colombia</b>.
+    </p>
+    <p>During the last decade, Colombia has been pushing forward towards the development of its Aerospace Sector looking
+        for the establishment of a solid academic and industrial base beyond the traditional segments related to Air
+        Transport Operations, Maintenance and Repair Operations, Air Traffic Management and post-life market. </p>
+    <p>Now, the focus is set on a Knowledge Based Economy, reaching for segments linked to early stages in the supply
+        chain and development cycle of Aerospace Products and services. Data processing, software development and
+        exploitation of Artificial intelligence are not only considered but embedded into the Aerospace domain, leaving
+        the clear connection to Cyber-security.</p>
+    <p>The energy migration is a key focus along with new aircraft operations concepts and architecture within the
+        urban air mobility ecosystem and the related re-conception of critical systems, digital engineering and system
+        development methodologies. Space access, space systems and missions developments, space sustainability and human
+        factors are some of the main drivers of this edition of CICTA. </p>
+    <p>This edition will be under responsibility of Universidad de Antioquia through its Aerospace Engineering Program.
+        More than 400 participants, national and international, are expected, based on previous editions, combining
+        members of academia, industry and government institutions.</p>
 </div>
 
-<h2 class="subtitle">Objetivos</h2>
+
+
+
+
+
+
+<h1 class="title" id="supporters">Supporting organizations</h1>
+<div class="columns is-centered">
+    <div class="column is-3">
+        <figure align="center">
+            <img class="size-mobile-less" src="/img/events/cicta/udea.png" alt="Universidad de Antioquia logo"
+                width="78%" height="78%">
+        </figure>
+    </div>
+    <div class="column is-3">
+        <figure align="center">
+            <img class="size-mobile-less" src="/img/events/cicta/udistrital.png" alt="Universidad Distrital logo"
+                width="100%" height="100%">
+        </figure>
+    </div>
+</div>
+<div class="columns is-centered">
+    <div class="column is-3">
+        <figure align="center">
+            <img class="size-mobile-less" src="/img/events/cicta/alcaldiamedellin.png" alt="Alcaldia de Medellín logo"
+                width="85%" height="85%">
+        </figure>
+    </div>
+    <div class="column is-3">
+        <figure align="center">
+            <img class="size-mobile-less" src="/img/events/cicta/rutan.png" alt="Ruta N logo" width="100%"
+                height="100%">
+        </figure>
+    </div>
+    <div class="column is-5">
+        <figure align="center">
+            <img class="size-mobile-less" src="/img/events/cicta/cocsa.png" alt="COCSA logo" width="90%" height="90%">
+        </figure>
+    </div>
+</div>
+
+
+
+
+<h1 class="title" id="contact">Contact</h1>
 <div class="content">
-    <ol>
-        <li>Impulsar la investigación en temas aeroespaciales a nivel nacional.</li>
-        <li>Conectar a los múltiples actores del campo aeroespacial Colombiano.</li>
-        <li>Proveer un entorno donde las personas puedan expandir su conocimiento, presentar sus investigaciones y
-            explorar los avances en el sector aeroespacial Colombiano.</li>
-    </ol>
+    <p>En caso de dudas, sugerencias o comentarios adicionales que desee realizar puede comunicarse con
+        <a href="mailto:grupoastra@udea.edu.co">grupoastra@udea.edu.co</a>,
+        <a href="mailto:deltavudea@gmail.com">deltavudea@gmail.com</a> o
+        <a href="mailto:voyagerudea@gmail.com">voyagerudea@gmail.com</a>.
+    </p>
 </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-    <script>
-        xValue = 300;
-        yValue = 256;
-
-        var simplex = new SimplexNoise(),
-        canvas = document.getElementById('c'),
-        ctx = canvas.getContext('2d'),
-        imgdata = ctx.getImageData(0, 0, xValue, yValue),
-        data = imgdata.data,
-        t = 0;
-
-        window.setInterval(function(){
-        for (var x = 0; x < xValue; x++) {
-            for (var y = 0; y < yValue; y++) {
-                var r = simplex.noise3D(x / 110, y / 300, t/100);
-                var g = simplex.noise3D(x / 140, y / 300, t/100);
-                var b = simplex.noise3D(x / 130, y / 330, t/130);
-                data[(x + y * xValue) * 4 + 0] = (r+b) * 255/3;
-                data[(x + y * xValue) * 4 + 1] = (g+r) * 255/3;
-                data[(x + y * xValue) * 4 + 2] = (b+r+g) * 255/3;
-                data[(x + y * xValue) * 4 + 3] = 255;
-            }
-        }
-        t++;
-        ctx.putImageData(imgdata, 0, 0);
-        }, 30);
-
-        // Set canvas dimensions dynamically
-        function setCanvasDimensions() {
-            canvas = document.getElementById('c');
-            sectionRef = document.getElementById('ref');
-
-            // canvas.style.width = sectionRef.offsetWidth + 'px';
-            canvas.style.height = sectionRef.offsetHeight + 'px';
-        }
-
-        // Initial setup
-        setCanvasDimensions();
-
-        // Update canvas dimensions on window resize
-        window.addEventListener('resize', setCanvasDimensions);
-    // </script>
 </body>
 
 <footer class="footer">

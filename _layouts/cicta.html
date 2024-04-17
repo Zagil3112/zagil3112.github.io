@@ -16,36 +16,21 @@
     <script src="/js/scripts.js"></script>
 
     <style>
-        :root {
-            --title: #D5D5D5;
-            --main-text: white;
-        }
-        canvas {
-            position: absolute;
-            width: -webkit-fill-available;
-            /* z-index: -1; */
-        }
-        body {
-            color: var(--main-text);
-        }
-        .menu-label {
-            color: var(--title);
-        }
-        .menu-list a {
-            color: var(--main-text);
-        }
         .menu-list a.is-active{
-            background-color: var(--voyager);
+            background-color: var(--cicta-purple-dark);
         }
         .menu-list a:hover {
-            background-color: var(--deltav);
-            color: var(--main-text);
+            background-color: var(--cicta-purple-dark);
+            color: white;
         }
-        .title {
-            color: var(--title);
+        #background{
+            background-color: var(--primary);
         }
-        .subtitle {
-            color: var(--title);
+        #background-light{
+            background-color: var(--primary-light);
+        }
+        #text-white {
+            color: white;
         }
     </style>
 
@@ -58,14 +43,12 @@
     <section class="hero is-halfheight-mobile is-cicta">
         <div class="hero-body">
             <div class="container">
-                <p class="title">CICTA</p>
-                <p class="subtitle">X International Congress of Aerospace Science & Technology
+                <p class="title" id="text-white">CICTA</p>
+                <p class="subtitle" id="text-white">X International Congress of Aerospace Science & Technology
                     <br><font size="-1">X Congreso Internacional de Ciencia y Tecnología Aeroespacial</font></p>
             </div>
         </div>
     </section>
-
-    <canvas id="c"></canvas>
 
     <section class="section" id="ref">
         <div class="container">
@@ -80,51 +63,6 @@
             </div>
         </div>
     </section>
-
-
-
-    <script>
-        xValue = 300;
-        yValue = 256;
-
-        var simplex = new SimplexNoise(),
-        canvas = document.getElementById('c'),
-        ctx = canvas.getContext('2d'),
-        imgdata = ctx.getImageData(0, 0, xValue, yValue),
-        data = imgdata.data,
-        t = 0;
-
-        window.setInterval(function(){
-        for (var x = 0; x < xValue; x++) {
-            for (var y = 0; y < yValue; y++) {
-                var r = simplex.noise3D(x / 110, y / 300, t/100);
-                var g = simplex.noise3D(x / 140, y / 300, t/100);
-                var b = simplex.noise3D(x / 130, y / 330, t/130);
-                data[(x + y * xValue) * 4 + 0] = (r+b) * 255/3;
-                data[(x + y * xValue) * 4 + 1] = (g+r) * 255/3;
-                data[(x + y * xValue) * 4 + 2] = (b+r+g) * 255/3;
-                data[(x + y * xValue) * 4 + 3] = 255;
-            }
-        }
-        t++;
-        ctx.putImageData(imgdata, 0, 0);
-        }, 30);
-
-        // Set canvas dimensions dynamically
-        function setCanvasDimensions() {
-            canvas = document.getElementById('c');
-            sectionRef = document.getElementById('ref');
-
-            // canvas.style.width = sectionRef.offsetWidth + 'px';
-            canvas.style.height = sectionRef.offsetHeight + 'px';
-        }
-
-        // Initial setup
-        setCanvasDimensions();
-
-        // Update canvas dimensions on window resize
-        window.addEventListener('resize', setCanvasDimensions);
-    // </script>
 </body>
 
 {% include footer.html %}

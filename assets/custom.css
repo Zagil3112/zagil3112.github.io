@@ -1,5 +1,6 @@
 :root {
     --primary: #262626;
+    --primary-light: #3B3B3B;
     --voyager: #262464;
     --deltav: #ff4800ff;
 
@@ -8,7 +9,9 @@
     --codeac-dark: #0d2543;
 
     --cicta-purple: #7606cc;
+    --cicta-purple-dark: #6305AB;
     --cicta-blue: #3506cc;
+    --cicta-blue-dark: #270599;
 
     --bordervalue: 10px;
 }
@@ -106,6 +109,7 @@
 
 
 
+
 /* *----- ELEMENTS -----* */
 iframe { border-radius: var(--bordervalue); }
 
@@ -158,5 +162,8 @@ iframe { border-radius: var(--bordervalue); }
     }
     .size-mobile{
         width: 100%;
+    }
+    .size-mobile-less{
+        width: 70%;
     }
 }
