@@ -1,10 +1,15 @@
+---
+---
+
+
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>astra-ae.co</title>
+    <meta name="description" content="Datos de contacto del Grupo de investigación ASTRA y los semilleros Delta V y Voyager.">
+    <title>astra-ae.co | Contacto</title>
 
     <link rel="icon" type="image/x-icon" href="/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -14,72 +19,17 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script src="/js/scripts.js"></script>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BJW62XH43P');
-</script>
+    {% include analytics.html %}
 </head>
 
-<nav class="navbar is-dark">
-    <div class="navbar-brand">
-        <a href="/" class="navbar-item">
-            <img src="/icons/astra_blanco.png">
-        </a>
-
-        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </div>
-    </div>
-
-    <div class="navbar-menu" id="navbar">
-        <div class="navbar-start">
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
-                <div class="navbar-dropdown">
-                    <a data-link = "deltav" class="navbar-item" >Delta V</a>
-                    <a data-link="voyager" class="navbar-item">Voyager</a>
-                    <hr class="navbar-divider">
-                    <a data-link="aerohub" class="navbar-item">Aerohub</a>
-                </div>
-            </div>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
-                <div class="navbar-dropdown">
-                    <a data-link="events/codeac" class="navbar-item">CODEAC</a>
-                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
-                </div>
-            </div>
-            <!-- ! REV - revisar links -->
-            <a data-link="inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
-            <a data-link="contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
-
-            
-            <div class="grid-container" style = "position:relative; left:400px;">
-                <a class="navbar-item" data-language = "es">Spanish</a>                
-                <a class="navbar-item" data-language = "en">English</a>
-
-            </div>    
-            
-            
-            
-        </div>
-    </div>
-</nav>
+{% include navbar.html %}
 
 <body>
     <section class="hero is-halfheight-mobile is-primary">
         <div class="hero-body">
             <div class="container">
-                <p class="title">Error 404</p>
-                <p class="subtitle">Página no encontrada</p>
+                <p class="title">Contacto</p>
+                <p class="subtitle">Si tienes alguna inquietud puedes ponerte en contacto con nosotros</p>
             </div>
         </div>
     </section>
@@ -195,12 +145,6 @@
     </section>
 </body>
 
-<footer class="footer">
-    <div class="content has-text-centered is-small">
-        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
-            | 
-            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
-    </div>
-</footer>
+{% include footer.html %}
 
 </html>

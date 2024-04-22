@@ -1,6 +1,6 @@
 {
     "navbar":{
-        "Semilleros":"Research Group" ,
+        "Semilleros":"Research Groups" ,
         "Eventos": "Events",
         "En_curso":"In Progress",
         "Contacto": "Contact"
@@ -18,7 +18,7 @@
         "Lines":"Research Areas",
         "Aero":"Aeronautics",
         "Data":"Comms and Data analysis",
-        "Control":"Control and Orbital mechanics"
+        "Control":"Control and Orbital Mechanics"
     }
 
 }

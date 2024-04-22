@@ -65,31 +65,53 @@ const changeLanguage = async language => {
        
        const section = textToChange.dataset.section;
        const value = textToChange.dataset.value; 
-       console.log(section,value)
+       
        textToChange.innerHTML = texts[section][value];
     }
 }
 
+// Funcion para gestionar los enlaces
+
+
+document.addEventListener('DOMContentLoaded', async function() {
+    const enlaces = document.querySelectorAll("[data-link]"); 
+    
+    enlaces.forEach(function(enlace) {
+        enlace.addEventListener('click', function(event) {
+        
+            const link = enlace.dataset.link;
+            console.log(link);
+            if (valorEnURL('es')) {
+                window.location.href = `/es/${link}`
+            }
+            else if (valorEnURL('en')){
+                window.location.href = `/en/${link}`
+            }
+
+        });
+    })
+});
 
 
 // Funcion para cambiar navbar,layouts y menus laterales
 
 document.addEventListener('DOMContentLoaded', async function() {
-textsToChange = document.querySelectorAll("[data-section]")
+    textsToChange = document.querySelectorAll("[data-section]")
 
-if (valorEnURL('en')) {      
-    // Cambiar navbar a inglés
-    console.log("English Page")
-    changeLanguage('en')
+    if (valorEnURL('en')) {      
+        // Cambiar navbar a inglés
+        console.log("English Page")
+        changeLanguage('en')
 
-} else {
-    // Cambiar navbar a español
-    console.log("Spanish Page")
-    changeLanguage('es')
+    } else {
+        // Cambiar navbar a español
+        console.log("Spanish Page")
+        changeLanguage('es')
 
-}
+    }
 
-languageBottons();
+    languageBottons();
+      
 });
 
 
@@ -108,6 +130,8 @@ function languageBottons(){
         
         // Obtener la URL actual
         var url = window.location.href;
+        //window.location.href = reemplazarSubstring(url,valorBuscado,nuevoValor);
+        
         // Buscar el valor en la URL
         var index = url.indexOf(valorBuscado);
         
@@ -130,6 +154,8 @@ function languageBottons(){
         
         // Obtener la URL actual
         var url = window.location.href;
+        //window.location.href = reemplazarSubstring(url,valorBuscado,nuevoValor);
+        
         // Buscar el valor en la URL
         var index = url.indexOf(valorBuscado);
         

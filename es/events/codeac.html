@@ -1,125 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
+---
+title: CODEAC
+layout: codeac
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Página web del Congreso de Desarrollo Aeroespacial Colombiano - CODEAC 
-    organizado por el pregrado de Ing. Aeroespacial de la Universidad de Antioquia.">
-    <title>CODEAC | Congreso de Desarrollo Aeroespacial Colombiano</title>
 
-    <link rel="icon" type="image/x-icon" href="/favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="/css/custom.css">
-    <link rel="stylesheet" href="/assets/custom.css">
-
-    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
-    <script src="/js/scripts.js"></script>
-
-    <style>
-        .menu-list a.is-active {
-            background-color: var(--codeac-mid);
-            color: #fff;
-        }
-    </style>
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BJW62XH43P');
-</script>
-</head>
-
-<nav class="navbar is-dark">
-    <div class="navbar-brand">
-        <a href="/" class="navbar-item">
-            <img src="/icons/astra_blanco.png">
-        </a>
-
-        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </div>
-    </div>
-
-    <div class="navbar-menu" id="navbar">
-        <div class="navbar-start">
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
-                <div class="navbar-dropdown">
-                    <a href="deltav" class="navbar-item">Delta V</a>
-                    <a href="voyager" class="navbar-item">Voyager</a>
-                    <hr class="navbar-divider">
-                    <a href="/aerohub" class="navbar-item">Aerohub</a>
-                </div>
-            </div>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
-                <div class="navbar-dropdown">
-                    <a href="/events/codeac" class="navbar-item">CODEAC</a>
-                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
-                </div>
-            </div>
-            <!-- ! REV - revisar links -->
-            <a href="/inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
-            <a href="/contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
-
-            
-            <div class="grid-container" style = "position:relative; left:400px;">
-                <a class="navbar-item" data-language = "es">Spanish</a>                
-                <a class="navbar-item" data-language = "en">English</a>
-
-            </div>    
-            
-            
-            
-        </div>
-    </div>
-</nav>
-
-<body>
-    <section class="hero is-halfheight-mobile is-primary is-codeac">
-        <div class="hero-body">
-            <div class="container">
-                <p class="title">CODEAC</p>
-                <p class="subtitle">Congreso de Desarrollo Aeroespacial Colombiano</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <div class="columns is-multiline">
-                <div class="column is-4">
-                    <aside class="menu">
-    <p class="menu-label">Información general</p>
-    <ul class="menu-list">
-        <li><a class="is-active" href="#info">¿Qué es?</a></li>
-        <li><a href="#themes">Temáticas</a></li>
-        <li><a href="#contact">Contacto</a></li>
-    </ul>
-    <!-- <p class="menu-label">CODEAC - 2023</p>
-    <ul class="menu-list">
-        <li><a href="#participation">¿Cómo participar?</a></li>
-        <li><a href="#schedule">Cronograma</a></li>
-        <li><a href="#guide">Guía del visitante</a></li>
-        <li><a href="#ubication">Ubicación</a></li>
-    </ul> -->
-    <p class="menu-label">Eventos pasados</p>
-    <ul class="menu-list">
-        <li><a href="#2023">2023</a></li>
-    </ul>
-</aside>
-                </div>
-        
-                <div class="column is-8">
-                    <figure align="center">
+<figure align="center">
     <img src="/img/events/codeac_logo.png" alt="CODEAC logo" width="90%" height="90%">
 </figure>
 <div class="content"></div>     <!-- Espacio entre contenido y titulo -->
@@ -320,18 +205,3 @@
     <img src="https://live.staticflickr.com/65535/53456888362_640447f630_z.jpg" width="640" height="480" alt="CODEAC - 2023"/></a>
     <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
-
-<footer class="footer">
-    <div class="content has-text-centered is-small">
-        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
-            | 
-            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
-    </div>
-</footer>
-
-</html>

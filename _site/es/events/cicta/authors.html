@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Aerohub | Ing. Aeroespacial</title>
+    <title>CICTA | X International Congress of Aerospace Science & Technology</title>
 
     <link rel="icon" type="image/x-icon" href="/favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
@@ -12,7 +12,27 @@
     <link rel="stylesheet" href="/assets/custom.css">
 
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://rawgithub.com/jwagner/simplex-noise.js/master/simplex-noise.js"></script>
     <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active{
+            background-color: var(--cicta-purple-dark);
+        }
+        .menu-list a:hover {
+            background-color: var(--cicta-purple-dark);
+            color: white;
+        }
+        #background{
+            background-color: var(--primary);
+        }
+        #background-light{
+            background-color: var(--primary-light);
+        }
+        #text-white {
+            color: white;
+        }
+    </style>
 
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
@@ -43,23 +63,23 @@
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
                 <div class="navbar-dropdown">
-                    <a href="deltav" class="navbar-item">Delta V</a>
-                    <a href="voyager" class="navbar-item">Voyager</a>
+                    <a data-link = "deltav" class="navbar-item" >Delta V</a>
+                    <a data-link="voyager" class="navbar-item">Voyager</a>
                     <hr class="navbar-divider">
-                    <a href="/aerohub" class="navbar-item">Aerohub</a>
+                    <a data-link="aerohub" class="navbar-item">Aerohub</a>
                 </div>
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
                 <div class="navbar-dropdown">
-                    <a href="/events/codeac" class="navbar-item">CODEAC</a>
+                    <a data-link="events/codeac" class="navbar-item">CODEAC</a>
                     <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
                 </div>
             </div>
             <!-- ! REV - revisar links -->
-            <a href="/inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
-            <a href="/contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
+            <a data-link="inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
+            <a data-link="contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
 
             
             <div class="grid-container" style = "position:relative; left:400px;">
@@ -75,37 +95,39 @@
 </nav>
 
 <body>
-    <section class="hero is-halfheight-mobile is-primary">
+    <section class="hero is-halfheight-mobile is-cicta">
         <div class="hero-body">
             <div class="container">
-                <p class="title">Aerohub</p>
-                <p class="subtitle">Información para estudiantes</p>
+                <p class="title" id="text-white">CICTA</p>
+                <p class="subtitle" id="text-white">X International Congress of Aerospace Science & Technology
+                    <br><font size="-1">X Congreso Internacional de Ciencia y Tecnología Aeroespacial</font></p>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="ref">
         <div class="container">
             <div class="columns is-multiline">
                 <div class="column is-4">
                     <aside class="menu">
-    <p class="menu-label">Información</p>
+    <p class="menu-label">About</p>
     <ul class="menu-list">
-        <li><a href="/aerohub">Laboratorio y semilleros</a></li>
-        <li><a href="/aerohub/aerospace">Pregrado de Ing. Aeroespacial</a></li>
+        <li><a href="/events/cicta">Conference</a></li>
+        <li><a href="/events/cicta/subjects">Subjects</a></li>
+        <li><a href="/events/cicta#contact">Contact</a></li>
     </ul>
+    <!-- <p class="menu-label">CICTA X</p>
+    <ul class="menu-list">
+        <li><a href="/events/cicta/authors">For authors</a></li>
+        <!-- <li><a href="#programme">Programme</a></li>
+        <li><a href="#guide">For visitors</a></li>
+        <li><a href="#ubication">Ubication</a></li>
+    </ul> -->
 </aside>
                 </div>
         
                 <div class="column is-8">
-                    <h1 class="title">Malla curricular</h1>
-<div class="content">
-    <p>Accede a más información del pregrado 
-        <a href="https://ingenieria2.udea.edu.co/cursum/#/publico/programas/546/pensum" target="_blank"><u>aquí</u></a>.</p>
-    <div align="center">
-        <iframe class="is-customframe" src="https://drive.google.com/file/d/1VQ13_AS8JSXIV2BZ0eVpTnismIpaTHlW/preview"></iframe>
-    </div>
-</div>
+                    
                 </div>
             </div>
         </div>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página web del Congreso de Desarrollo Aeroespacial Colombiano - CODEAC 
+    organizado por el pregrado de Ing. Aeroespacial de la Universidad de Antioquia.">
+    <title>CODEAC | Congreso de Desarrollo Aeroespacial Colombiano</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active {
+            background-color: var(--codeac-mid);
+            color: #fff;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BJW62XH43P');
+</script>
+</head>
+
+<nav class="navbar is-dark">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a data-link = "deltav" class="navbar-item" >Delta V</a>
+                    <a data-link="voyager" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a data-link="aerohub" class="navbar-item">Aerohub</a>
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a data-link="events/codeac" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a data-link="inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
+            <a data-link="contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
+
+            
+            <div class="grid-container" style = "position:relative; left:400px;">
+                <a class="navbar-item" data-language = "es">Spanish</a>                
+                <a class="navbar-item" data-language = "en">English</a>
+
+            </div>    
+            
+            
+            
+        </div>
+    </div>
+</nav>
+
+<body>
+    <section class="hero is-halfheight-mobile is-primary is-codeac">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">CODEAC</p>
+                <p class="subtitle">Congreso de Desarrollo Aeroespacial Colombiano</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <aside class="menu">
+    <p class="menu-label">Información general</p>
+    <ul class="menu-list">
+        <li><a class="is-active" href="#info">¿Qué es?</a></li>
+        <li><a href="#themes">Temáticas</a></li>
+        <li><a href="#contact">Contacto</a></li>
+    </ul>
+    <!-- <p class="menu-label">CODEAC - 2023</p>
+    <ul class="menu-list">
+        <li><a href="#participation">¿Cómo participar?</a></li>
+        <li><a href="#schedule">Cronograma</a></li>
+        <li><a href="#guide">Guía del visitante</a></li>
+        <li><a href="#ubication">Ubicación</a></li>
+    </ul> -->
+    <p class="menu-label">Eventos pasados</p>
+    <ul class="menu-list">
+        <li><a href="#2023">2023</a></li>
+    </ul>
+</aside>
+                </div>
+        
+                <div class="column is-8">
+                    <figure align="center">
+    <img src="/img/events/codeac_logo.png" alt="CODEAC logo" width="90%" height="90%">
+</figure>
+<div class="content"></div>     <!-- Espacio entre contenido y titulo -->
+
+<h1 class="title" id="info">¿Qué es?</h1>
+<div class="content">
+    <p>El Congreso de Desarrollo Aeroespacial Colombiano - CODEAC, organizado por el pregrado de Ingeniería Aeroespacial
+        de la Universidad de Antioquia y dirigido al público general, estudiantes y profesionales de todas las áreas de
+        estudio, es un encuentro diseñado como lugar de convergencia académica para presentar, conocer, discutir y
+        motivar la investigación en el sector aeroespacial nacional.</p>
+</div>
+
+<h2 class="subtitle">Objetivos</h2>
+<div class="content">
+    <ol>
+        <li>Impulsar la investigación en temas aeroespaciales a nivel nacional.</li>
+        <li>Conectar a los múltiples actores del campo aeroespacial Colombiano.</li>
+        <li>Proveer un entorno donde las personas puedan expandir su conocimiento, presentar sus investigaciones y
+            explorar los avances en el sector aeroespacial Colombiano.</li>
+    </ol>
+</div>
+
+
+
+<h1 class="title" id="themes">Temáticas</h1>
+<div class="columns is-centered">
+    <div class="column is-5">
+        <header class="card-header">
+            <p class="card-header-title is-centered">Aeronáutica</p>
+        </header>
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Aerodinámica</li>
+                        <li>Diseño de aeronaves</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión</li>
+                        <li>Sistemas no tripulados</li>
+                        <li>Factores humanos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column is-5">
+        <header class="card-header">
+            <p class="card-header-title is-centered">Espacial</p>
+        </header>
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li>Astrodinámica</li>
+                        <li>Estructuras y materiales</li>
+                        <li>Propulsión y vehículos lanzadores</li>
+                        <li>Robótica espacial</li>
+                        <li>Sistemas espaciales</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <p><small><i>* Estas son las temáticas principales del evento, sin embargo, ponencias con temáticas afines o relacionadas
+        con alguna de las dos ramas principales (aeronáutica o espacial) pueden ser presentadas.</i></small></p>
+</div>
+
+
+
+<h1 class="title" id="contact">Contacto</h1>
+<div class="content">
+    <p>En caso de dudas, sugerencias o comentarios adicionales que desee realizar puede comunicarse con 
+        <a href="mailto:grupoastra@udea.edu.co">grupoastra@udea.edu.co</a>, 
+        <a href="mailto:deltavudea@gmail.com">deltavudea@gmail.com</a> o 
+        <a href="mailto:voyagerudea@gmail.com">voyagerudea@gmail.com</a>.</p>
+</div>
+
+
+<hr>
+
+<!-- 
+<h1 class="title" id="participation">¿Cómo participar?</h1>
+<div class="columns">
+    <div class="column is-6">
+        <div class="content">
+            <p>La participación en este evento se puede realizar como asistente o ponente, en caso de que desee
+                participar por
+                favor diligencie el siguiente formulario con sus datos personales o haga click
+                <a href="https://forms.office.com/r/MvMZnE8uQJ" target="_blank"><u>aquí</u></a>.
+            </p>
+            <p>Recuerda que las mejores ponencias tendrán la <b>posibilidad</b> de ser publicadas en la revista 'Ciencia
+                y Poder
+                Aéreo' de la Fuerza Aérea Colombiana.</p>
+            <p>Los abstract requeridos para la consideración de las ponencias deben enviarse a través de este
+                <a href="https://forms.gle/n7Gs5VsAof1jNsoD9" target="_blank"><u>formulario</u></a>.
+            </p>
+        </div>
+    </div>
+
+    <div class="column is-6">
+        <header class="card-header">
+            <p class="card-header-title is-centered">Detalles del congreso</p>
+        </header>
+        <div class="card">
+            <div class="card-content">
+                <div class="content">
+                    <ul style="margin-top: 0em;">
+                        <li><b>Modalidad</b>: Presencial<br>
+                            <small>Universidad de Antioquia - Seccional Oriente.</small></li>
+                        <li><b>Costo</b>: Gratuito<br>
+                            <small>Se debe registrar en el formulario de inscripción.</small></li>
+                        <li><b>Aforo máximo por día</b>: 150 personas</li>
+                        <li><b>Fecha</b>: 19 y 20 de Octubre del 2023</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <p>Los links de descarga de las plantillas se encuentran disponibles a continuación:</p>
+    <ul>
+        <li><a href="/docs/events/CODEAC%20-%20Plantilla,%20Abstract.docx" download><u>Abstract</u></a></li>
+    </ul>
+</div>
+
+
+
+<h1 class="title" id="schedule">Cronograma</h1>
+<figure align="center"> 
+    <img class="is-imgframe-hr" src="/img/events/codeac_cronograma2023.png" alt="CODEAC 2023 schedule">
+</figure>
+<div class="content">
+    <div class="columns is-multiline is-centered is-vcentered">
+      <div class="column is-5">
+        <header class="card-header">
+          <p class="card-header-title is-centered">
+            <a href="/docs/events/CODEAC%20-%20Cronograma.pdf" download>Descargar cronograma [pdf]</a></p>
+        </header>
+      </div>
+    </div>
+</div>
+
+
+
+<h1 class="title" id="guide">Guia del visitante</h1>
+<div class="content">
+    <p>Guía de hospedaje y transporte pensadas como recomendación para las personas que vengan desde afuera del Valle de Aburra 
+        u Oriente de Antioquia y no tengan conocimientos de la zona donde se realizara CODEAC 2023.</p>
+    <div class="columns is-multiline is-centered is-vcentered">
+        <div class="column is-5">
+            <header class="card-header">
+            <p class="card-header-title is-centered">
+                <a href="/docs/events/CODEAC%20-%20Guia%20del%20visitante.pdf" download>Descargar guía [pdf]</a></p>
+            </header>
+        </div>
+    </div> 
+</div>
+
+
+
+<h1 class="title" id="contact">Ubicación</h1>
+<div class="content">
+    <p>CODEAC se realiza en la <b>Universidad de Antioquia - Seccional Oriente</b>, puede encontrar más
+        información a continuación. En caso de tener alguna duda no dude en contactarse con nosotros.</p>
+        <p>Para llegar a la Seccional Oriente se pueden tomar las siguientes rutas de transporte publico:</p>
+    <ul>
+        <li><b>Desde Medellín:</b> Ruta Medellín - Llanogrande - La Ceja | <i>Empresa Transunidos</i> | 
+            <a href="https://www.transunidossa.com/portal/rutas-y-tarifas/?tservicio=263&origen=266&destino=1522">Información adicional</a></li>
+        <li><b>Desde Rionegro:</b> Ruta Rionegro - La Ceja | <i>Empresa Transunidos</i> | 
+            <a href="https://www.transunidossa.com/portal/rutas-y-tarifas/?tservicio=263&origen=267&destino=272">Información adicional</a></li>
+        <li><b>Desde La Ceja:</b> Ruta La Ceja - Rionegro | <i>Empresa Transunidos</i> | 
+            <a href="https://www.transunidossa.com/portal/rutas-y-tarifas/?tservicio=263&origen=264&destino=274">Información adicional</a></li>
+    </ul>
+    
+    <p><small><i>* Existen otras rutas municipales desde Rionegro y El Carmen de Viboral que llegan a la Seccional Oriente.</i></small></p>
+</div>
+
+<div class="content">
+    <div align="center">
+        <iframe class="is-customframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31737.12105648593!2d-75.41103943683558!3d6.1118287147426855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.!3m3!1m2!1s0x8e4698d89e8cd56f%3A0xff901a2064390162!2sUniversity%20of%20Antioquia%20Sectional%20East!5e0!3m2!1sen!2sco!4v1686343232237!5m2!1sen!2sco" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+-->
+
+<!-- <hr> -->
+
+
+<h1 class="title">Eventos pasados</h1>
+<h2 class="subtitle" id="2023">2023</h2>
+<div class="content" align="center">
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/199869471@N03/albums/72177720313979037">
+    <img src="https://live.staticflickr.com/65535/53456888362_640447f630_z.jpg" width="640" height="480" alt="CODEAC - 2023"/></a>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
+    </div>
+</footer>
+
+</html>
