@@ -1,0 +1,22 @@
+{
+    "navbar":{
+        "Semilleros":"Semilleros" ,
+        "Eventos": "Eventos",
+        "En_curso":"En curso",
+        "Contacto": "Contacto"
+    },
+    "voyager_layout":{
+        "subtitle":"Semillero de aeronáutica y astronáutica"
+    },
+    "menu_voyager":{
+        "Informacion": "Informacion",
+        "Nosotros":"Nosotros",
+        "Contacto":"Contacto",
+        "Logros":"Logros",
+        "Competencias":"Competencias",
+        "Publicaciones":"Publicaciones",
+        "Lines":"Lineas de Investigación",
+        "Aero":"Aeronautica",
+        "Data":"Comunicaciones y Análisis de Datos",
+        "Control":"Control y mecánica orbital"    }
+}

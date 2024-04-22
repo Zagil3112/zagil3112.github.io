@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página web del semillero de aeronáutica y astronáutica Voyager, 
+    parte del Grupo de investigación ASTRA de la Universidad de Antioquia.">
+    <title>Voyager | Publicaciones</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active {
+            background-color: var(--voyager);
+            color: #fff;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BJW62XH43P');
+</script>
+</head>
+
+<nav class="navbar is-dark">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a href="deltav" class="navbar-item">Delta V</a>
+                    <a href="voyager" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a href="/aerohub" class="navbar-item">Aerohub</a>
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a href="/events/codeac" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a href="/inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
+            <a href="/contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
+
+            
+            <div class="grid-container" style = "position:relative; left:400px;">
+                <a class="navbar-item" data-language = "es">Spanish</a>                
+                <a class="navbar-item" data-language = "en">English</a>
+
+            </div>    
+            
+            
+            
+        </div>
+    </div>
+</nav>
+
+<body>
+    <!-- ! COLOR IS VOYAGER -->
+    <section class="hero is-halfheight-mobile is-voyager">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">Voyager</p>
+                <p class="subtitle" data-section="voyager_layout" data-value="subtitle">Semillero de aeronáutica y astronáutica</p>
+                <hr id="color-grey">
+                <p class="subtitle">Publicaciones</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <aside class="menu">
+    <p class="menu-label" data-section="menu_voyager" data-value="Informacion">Información</p>
+    <ul class="menu-list">
+        <li><a href="/es/voyager" data-section="menu_voyager" data-value="Nosotros">Nosotros</a></li>
+        <li><a href="/es/contact" data-section="menu_voyager" data-value="Contacto">Contacto</a></li>
+    </ul>
+    <p class="menu-label" data-section="menu_voyager" data-value="Logros">Logros</p>
+    <ul class="menu-list">
+        <li><a href="/es/voyager/contests" data-section="menu_voyager" data-value="Competencias">Competencias</a></li>
+        <li><a href="/es/voyager/publications" data-section="menu_voyager" data-value="Publicaciones">Publicaciones</a></li>
+    </ul>
+    <p class="menu-label" data-section="menu_voyager" data-value="Lines">Líneas de investigación</p>
+    <ul class="menu-list">
+        <li><a href="/es/lines/aeronautics" data-section="menu_voyager" data-value="Aero">Aeronáutica</a></li>
+        <li><a href="/es/voyager/lines/commsdata" data-section="menu_voyager" data-value="Data">Comunicación y análisis de datos</a></li>
+        <li><a href="/es/voyager/lines/orbitalcontrol" data-section="menu_voyager" data-value="Control">Control y mecánica orbital</a></li>
+    </ul>
+</aside>
+                </div>
+
+                <div class="column is-8">
+                    <div class="content">
+    <p>Artículos científicos y ponencias realizadas por el semillero de investigación 
+        <b><span style="color: var(--voyager);">Voyager</span></b>.</p>
+</div>
+
+<h1 class="title">Artículos científicos</h1>
+<div class="content">
+    <!-- Autor 1, autor 2. (Año). <b>Titulo</b>. Revista, vol. #, núm. #, pp. #-#. 
+        <a href="" target="_blank"><u>Página web</u></a>. <a href="" target="_blank"><u>PDF</u></a>. -->
+    <ul>
+        <li>Zapata M., Díaz J. J., Monsalve M. P. & Garro J. (2023). <b>CanSat Prototype for Plant Condition 
+            Characterization through Vegetation Indices</b>. <i>IEEE Aerospace and Electronic Systems Magazine</i>, 
+            vol. 38, núm. 12, pp. 30-36.
+            <a href="https://ieeexplore.ieee.org/document/10302365" target="_blank"><u>Página web</u></a>.</li>
+        <li>Osorio Henao, J. D., Botina Monsalve, J. J., Díaz Álvarez, D. A., Galeano Ruiz, M., Higuita
+            Echavarría, J. P. & Burbano Mosquera, L. F. (2021). <b>Picosatélite diseñado para medir
+            concentración de gases de efecto invernadero y registrar imágenes en vuelo</b>. <i>Revista Ciencia y
+            Poder Aéreo</i>, vol. 16, núm. 1, pp. 75-86.
+            <a href="https://publicacionesfac.com/index.php/cienciaypoderaereo/article/view/697" target="_blank">
+                <u>Página web</u></a>.</li>
+        <li>Zapata Gil, S., León Serna, S., Buriticá Isaza, N., Zamora Vélez, J., Mejía González, J. & González
+            Jaramillo, D. (2021). <b>Construcción de prototipo de CANSAT para toma de imágenes aéreas para
+            detección de zonas de vegetación en agricultura de precisión</b>. <i>Ciencia y Poder Aéreo</i>, vol. 16, núm.
+            2, pp. 11-28.
+            <a href="https://publicacionesfac.com/index.php/cienciaypoderaereo/article/view/709" target="_blank">
+                <u>Página web</u></a>.</li>
+    </ul>
+</div>
+
+<h1 class="title">Ponencias</h1>
+<div class="content">
+    <!-- Expositor 1, expositor 2. Año. <b>Titulo</b>. Congreso. Lugar. -->
+    <ul>
+        <li>Cardona Duque L., Mejía González J. J., Díaz Álvarez D. A., Rojas Vásquez J. C., Zapata S.
+            & Osorio Henao J. D. (2020, Noviembre 26-27). <b>Desarrollo Conceptual de Sistema de Picosatélite
+            CanSat UdeA de Bajo Costo para Misión Multipropósito</b>. <i>Congreso Internacional de Ciencia y
+            Tecnología Aeroespacial - CICTA</i>. En línea.
+            <a href="https://drive.google.com/file/d/12X5eg-IpXDGN-qJ6g5xbhdklqpc-zI5I/view?usp=sharing"
+                target="_blank"><u>Video</u></a>.</li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
+    </div>
+</footer>
+
+</html>

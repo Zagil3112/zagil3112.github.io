@@ -12802,3 +12802,11 @@ table th {
     padding: 3rem 3rem;
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  background-color: white;  
+  
+}

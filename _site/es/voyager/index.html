@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página web del semillero de aeronáutica y astronáutica Voyager, 
+    parte del Grupo de investigación ASTRA de la Universidad de Antioquia.">
+    <title>Voyager | Nosotros</title>
+
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/custom.css">
+    <link rel="stylesheet" href="/assets/custom.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <style>
+        .menu-list a.is-active {
+            background-color: var(--voyager);
+            color: #fff;
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BJW62XH43P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BJW62XH43P');
+</script>
+</head>
+
+<nav class="navbar is-dark">
+    <div class="navbar-brand">
+        <a href="/" class="navbar-item">
+            <img src="/icons/astra_blanco.png">
+        </a>
+
+        <div role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar" style="padding-right: 5em;">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </div>
+    </div>
+
+    <div class="navbar-menu" id="navbar">
+        <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
+                <div class="navbar-dropdown">
+                    <a href="deltav" class="navbar-item">Delta V</a>
+                    <a href="voyager" class="navbar-item">Voyager</a>
+                    <hr class="navbar-divider">
+                    <a href="/aerohub" class="navbar-item">Aerohub</a>
+                </div>
+            </div>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
+                <div class="navbar-dropdown">
+                    <a href="/events/codeac" class="navbar-item">CODEAC</a>
+                    <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
+                </div>
+            </div>
+            <!-- ! REV - revisar links -->
+            <a href="/inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
+            <a href="/contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
+
+            
+            <div class="grid-container" style = "position:relative; left:400px;">
+                <a class="navbar-item" data-language = "es">Spanish</a>                
+                <a class="navbar-item" data-language = "en">English</a>
+
+            </div>    
+            
+            
+            
+        </div>
+    </div>
+</nav>
+
+<body>
+    <!-- ! COLOR IS VOYAGER -->
+    <section class="hero is-halfheight-mobile is-voyager">
+        <div class="hero-body">
+            <div class="container">
+                <p class="title">Voyager</p>
+                <p class="subtitle" data-section="voyager_layout" data-value="subtitle">Semillero de aeronáutica y astronáutica</p>
+                <hr id="color-grey">
+                <p class="subtitle">Nosotros</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                <div class="column is-4">
+                    <aside class="menu">
+    <p class="menu-label" data-section="menu_voyager" data-value="Informacion">Información</p>
+    <ul class="menu-list">
+        <li><a href="/es/voyager" data-section="menu_voyager" data-value="Nosotros">Nosotros</a></li>
+        <li><a href="/es/contact" data-section="menu_voyager" data-value="Contacto">Contacto</a></li>
+    </ul>
+    <p class="menu-label" data-section="menu_voyager" data-value="Logros">Logros</p>
+    <ul class="menu-list">
+        <li><a href="/es/voyager/contests" data-section="menu_voyager" data-value="Competencias">Competencias</a></li>
+        <li><a href="/es/voyager/publications" data-section="menu_voyager" data-value="Publicaciones">Publicaciones</a></li>
+    </ul>
+    <p class="menu-label" data-section="menu_voyager" data-value="Lines">Líneas de investigación</p>
+    <ul class="menu-list">
+        <li><a href="/es/lines/aeronautics" data-section="menu_voyager" data-value="Aero">Aeronáutica</a></li>
+        <li><a href="/es/voyager/lines/commsdata" data-section="menu_voyager" data-value="Data">Comunicación y análisis de datos</a></li>
+        <li><a href="/es/voyager/lines/orbitalcontrol" data-section="menu_voyager" data-value="Control">Control y mecánica orbital</a></li>
+    </ul>
+</aside>
+                </div>
+
+                <div class="column is-8">
+                    <h1 class="title">¿Quiénes somos?</h1>
+<div class="content">
+    <div class="columns is-vcentered">
+        <div class="column is-one-third">
+            <figure align="center"> 
+                <img src="/icons/voyager.png" alt="Voyager logo" id="size-logos_groups">
+            </figure>
+        </div>
+        <div class="column">
+            <p><b><span style="color: var(--voyager);">Voyager</span></b> es un semillero de investigación con enfoques aeronáuticos y astronáuticos creado por un
+                grupo de estudiantes de Ingeniería Aeroespacial de la Universidad de Antioquia en el año 2017,
+                inicialmente, como un grupo de divulgación científica. Actualmente, dedicado al diseño y
+                construcción de sistemas para vehículos aeroespaciales, tales como: sistemas de sensoramiento,
+                comunicaciones, estructura, procesamiento de imágenes, entre otros.</p>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <p>Con experiencia y destacada participación en concursos nacionales, en los que se han obtenido los
+        primeros puestos con el diseño y construcción de pequeños satélites, alas zagi, rovers y demás.
+        El semillero, constantemente está en busca de nuevos retos en los que pongamos a prueba nuestras
+        habilidades y capacidades de ingenio, creatividad y solución de problemas, donde podamos
+        contribuir a la sociedad y construir un mejor mañana.</p>
+    <div align="center"> 
+        <img id="voyager-size-mobile" src="/img/voyager/voyager.png" alt="Voyager members">
+    </div>
+</div>
+
+<h2 class="subtitle">Líneas de investigación</h2>
+<div class="content">
+    <p>Estas son nuestras líneas de investigación y respectivos proyectos activos del semillero.</p>
+    <div align="center"> 
+        <img class="size-mobile" src="/img/voyager/researchlines.svg" alt="Voyager research lines">
+    </div>    
+</div>
+
+<h2 class="subtitle">¿Deseas pertenecer al semillero?</h2>
+<div class="content">
+    <p>A día de hoy <b>no tenemos ninguna</b> convocatoria activa. Normalmente, estas se realizan a inicio de
+        semestre por lo que debes estar atento a nuestras redes sociales.</p>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="content has-text-centered is-small">
+        <p><a href="https://www.udea.edu.co/wps/portal/udea/web/inicio/unidades-academicas/ingenieria/estudiar-facultad/pregrados/ingenieria-aeroespacial" target="_blank">Ingeniería Aeroespacial</a> 
+            | 
+            <a href="https://www.udea.edu.co/" target="_blank">Universidad de Antioquia</a></p>
+    </div>
+</footer>
+
+</html>

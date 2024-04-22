@@ -51,25 +51,35 @@
     <div class="navbar-menu" id="navbar">
         <div class="navbar-start">
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Semilleros</a>
+                <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
                 <div class="navbar-dropdown">
-                    <a href="/deltav" class="navbar-item">Delta V</a>
-                    <a href="/voyager" class="navbar-item">Voyager</a>
+                    <a href="deltav" class="navbar-item">Delta V</a>
+                    <a href="voyager" class="navbar-item">Voyager</a>
                     <hr class="navbar-divider">
                     <a href="/aerohub" class="navbar-item">Aerohub</a>
                 </div>
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Eventos</a>
+                <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
                 <div class="navbar-dropdown">
                     <a href="/events/codeac" class="navbar-item">CODEAC</a>
                     <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
                 </div>
             </div>
             <!-- ! REV - revisar links -->
-            <a href="/inprogress" class="navbar-item">En curso</a>
-            <a href="/contact" class="navbar-item">Contacto</a>
+            <a href="/inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
+            <a href="/contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
+
+            
+            <div class="grid-container" style = "position:relative; left:400px;">
+                <a class="navbar-item" data-language = "es">Spanish</a>                
+                <a class="navbar-item" data-language = "en">English</a>
+
+            </div>    
+            
+            
+            
         </div>
     </div>
 </nav>
@@ -80,7 +90,7 @@
         <div class="hero-body">
             <div class="container">
                 <p class="title">Voyager</p>
-                <p class="subtitle">Semillero de aeronáutica y astronáutica</p>
+                <p class="subtitle" data-section="voyager_layout" data-value="subtitle">Semillero de aeronáutica y astronáutica</p>
                 <hr id="color-grey">
                 <p class="subtitle">Línea de control y mecánica orbital</p>
             </div>
@@ -92,21 +102,21 @@
             <div class="columns is-multiline">
                 <div class="column is-4">
                     <aside class="menu">
-    <p class="menu-label">Información</p>
+    <p class="menu-label" data-section="menu_voyager" data-value="Informacion">Información</p>
     <ul class="menu-list">
-        <li><a href="/voyager">Nosotros</a></li>
-        <li><a href="/contact">Contacto</a></li>
+        <li><a href="/es/voyager" data-section="menu_voyager" data-value="Nosotros">Nosotros</a></li>
+        <li><a href="/es/contact" data-section="menu_voyager" data-value="Contacto">Contacto</a></li>
     </ul>
-    <p class="menu-label">Logros</p>
+    <p class="menu-label" data-section="menu_voyager" data-value="Logros">Logros</p>
     <ul class="menu-list">
-        <li><a href="/voyager/contests">Competencias</a></li>
-        <li><a href="/voyager/publications">Publicaciones</a></li>
+        <li><a href="/es/voyager/contests" data-section="menu_voyager" data-value="Competencias">Competencias</a></li>
+        <li><a href="/es/voyager/publications" data-section="menu_voyager" data-value="Publicaciones">Publicaciones</a></li>
     </ul>
-    <p class="menu-label">Líneas de investigación</p>
+    <p class="menu-label" data-section="menu_voyager" data-value="Lines">Líneas de investigación</p>
     <ul class="menu-list">
-        <li><a href="/voyager/lines/aeronautics">Aeronáutica</a></li>
-        <li><a href="/voyager/lines/commsdata">Comunicación y análisis de datos</a></li>
-        <li><a href="/voyager/lines/orbitalcontrol">Control y mecánica orbital</a></li>
+        <li><a href="/es/lines/aeronautics" data-section="menu_voyager" data-value="Aero">Aeronáutica</a></li>
+        <li><a href="/es/voyager/lines/commsdata" data-section="menu_voyager" data-value="Data">Comunicación y análisis de datos</a></li>
+        <li><a href="/es/voyager/lines/orbitalcontrol" data-section="menu_voyager" data-value="Control">Control y mecánica orbital</a></li>
     </ul>
 </aside>
                 </div>

@@ -41,25 +41,35 @@
     <div class="navbar-menu" id="navbar">
         <div class="navbar-start">
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Semilleros</a>
+                <a class="navbar-link" data-section ="navbar" data-value ="Semilleros">Semilleros</a>
                 <div class="navbar-dropdown">
-                    <a href="/deltav" class="navbar-item">Delta V</a>
-                    <a href="/voyager" class="navbar-item">Voyager</a>
+                    <a href="deltav" class="navbar-item">Delta V</a>
+                    <a href="voyager" class="navbar-item">Voyager</a>
                     <hr class="navbar-divider">
                     <a href="/aerohub" class="navbar-item">Aerohub</a>
                 </div>
             </div>
 
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">Eventos</a>
+                <a class="navbar-link" data-section ="navbar" data-value ="Eventos">Eventos</a>
                 <div class="navbar-dropdown">
                     <a href="/events/codeac" class="navbar-item">CODEAC</a>
                     <!-- <a href="/events/cicta/" class="navbar-item">CICTA</a> -->
                 </div>
             </div>
             <!-- ! REV - revisar links -->
-            <a href="/inprogress" class="navbar-item">En curso</a>
-            <a href="/contact" class="navbar-item">Contacto</a>
+            <a href="/inprogress" class="navbar-item" data-section ="navbar" data-value ="En_curso">En curso</a>
+            <a href="/contact" class="navbar-item" data-section ="navbar" data-value ="Contacto">Contacto</a>
+
+            
+            <div class="grid-container" style = "position:relative; left:400px;">
+                <a class="navbar-item" data-language = "es">Spanish</a>                
+                <a class="navbar-item" data-language = "en">English</a>
+
+            </div>    
+            
+            
+            
         </div>
     </div>
 </nav>

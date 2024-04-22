@@ -1,0 +1,24 @@
+{
+    "navbar":{
+        "Semilleros":"Seedbeds" ,
+        "Eventos": "Events",
+        "En_curso":"In Progress",
+        "Contacto": "Contact"
+    },
+    "voyager_layout":{
+        "subtitle":"Aeronautics and Astronautics Research Group"
+    },
+    "menu_voyager":{
+        "Informacion": "Information",
+        "Nosotros":"About us",
+        "Contacto":"Contact",
+        "Logros":"Achievements",
+        "Competencias":"Competitions",
+        "Publicaciones":"Publications",
+        "Lines":"Research Areas",
+        "Aero":"Aeronautics",
+        "Data":"Comms and Data analysis",
+        "Control":"Control and Orbital mechanics"
+    }
+
+}

@@ -2,3 +2,12 @@ url: "https://grupoastra.github.io/"
 
 plugins:
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin  
+  
+
+languages: ["en", "es"]
+exclude_from_localizations: ["assets", "CNAME"]
+defaultLang: es
+languageNames:
+  es: Spanish
+  en: English
