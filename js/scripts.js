@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         enlace.addEventListener('click', function(event) {
         
             const link = enlace.dataset.link;
-            console.log(link);
+            
             if (valorEnURL('es')) {
                 window.location.href = `/es/${link}`
             }
@@ -100,12 +100,12 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     if (valorEnURL('en')) {      
         // Cambiar navbar a inglés
-        console.log("English Page")
+        
         changeLanguage('en')
 
     } else {
         // Cambiar navbar a español
-        console.log("Spanish Page")
+        
         changeLanguage('es')
 
     }
