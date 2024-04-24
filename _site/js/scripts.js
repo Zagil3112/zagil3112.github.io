@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         enlace.addEventListener('click', function(event) {
         
             const link = enlace.dataset.link;
-            console.log(link);
+            
             if (valorEnURL('es')) {
                 window.location.href = `/es/${link}`
             }
@@ -100,17 +100,18 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     if (valorEnURL('en')) {      
         // Cambiar navbar a inglés
-        console.log("English Page")
+        
         changeLanguage('en')
 
     } else {
         // Cambiar navbar a español
-        console.log("Spanish Page")
+        
         changeLanguage('es')
 
     }
 
     languageBottons();
+    readCSVFile();
       
 });
 
@@ -168,6 +169,66 @@ function languageBottons(){
             }
         });
 }  
+
+function readCSVFile(){
+    fetch('/js/voyager_content.csv')
+        .then(response => response.text())
+        .then(csvdata => {
+            console.log(csvdata)         
+
+            // Split by line break to gets rows Array
+            var rowData = csvdata.split('\n');
+            console.log(rowData) 
+            //Buscar elementos
+            var csvElements = document.querySelectorAll('[csv]');
+            console.log(csvElements);
+
+            // Recorrer tabla de CSV 
+
+            for (var row = 1; row < rowData.length; row++) {
+
+                // Split by comma (,) to get column Array
+                let rowColData = rowData[row].split(';');
+                let csvId = rowColData[0];
+                let textToChange =  rowColData[1]; 
+                console.log(csvId);
+
+                // Buscar en las etiquetas HTML (csvElements)
+
+                for(element of csvElements){
+                    if ( csvId === element.getAttribute("id") & element.getAttribute("csv") === "true"){
+                        element.textContent = textToChange;
+                    }                   
+                }
+
+            }
+
+            var tbodyEl = document.getElementById('tblcsvdata').getElementsByTagName('tbody')[0];
+            tbodyEl.innerHTML = "";
+
+            // Loop on the row Array (change row=0 if you also want to read 1st row)
+            for (var row = 1; row < rowData.length; row++) {
+
+                  // Insert a row at the end of table
+                  var newRow = tbodyEl.insertRow();
+
+                  // Split by comma (,) to get column Array
+                  rowColData = rowData[row].split(';');
+
+                  // Loop on the row column Array
+                  for (var col = 0; col < rowColData.length; col++) {
+
+                       // Insert a cell at the end of the row
+                       var newCell = newRow.insertCell();
+                       newCell.innerHTML = rowColData[col];
+
+                  }
+
+            }
+       })
+
+        
+}
 
 
 
