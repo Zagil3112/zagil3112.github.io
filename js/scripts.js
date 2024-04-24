@@ -81,10 +81,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         
             const link = enlace.dataset.link;
             
-            if (valorEnURL('es')) {
+            if (valorEnURL('/es/')) {
                 window.location.href = `/es/${link}`
             }
-            else if (valorEnURL('en')){
+            else if (valorEnURL('/en/')){
                 window.location.href = `/en/${link}`
             }
 
@@ -126,6 +126,7 @@ function languageBottons(){
     spanish.addEventListener('click', function(event) {
         const nuevoValor = 'es';
         const valorBuscado = 'en';
+        
         // Evitar el comportamiento predeterminado del enlace
         event.preventDefault();
         
@@ -135,9 +136,10 @@ function languageBottons(){
         
         // Buscar el valor en la URL
         var index = url.indexOf(valorBuscado);
+        console.log(url,index,url[index-1])
         
         // Verificar si se encontró el valor
-        if (index !== -1) {
+        if (index !== -1 ) {
             // Reemplazar el valor encontrado por el nuevo valor
             var nuevaURL = url.substring(0, index) + nuevoValor + url.substring(index + valorBuscado.length);    
             // Redirigir a la nueva URL
@@ -149,7 +151,7 @@ function languageBottons(){
 
     english.addEventListener('click', function(event) {
         const nuevoValor = 'en';
-        const valorBuscado = 'es';
+        const valorBuscado = 'es';        
         // Evitar el comportamiento predeterminado del enlace
         event.preventDefault();
         
@@ -159,7 +161,7 @@ function languageBottons(){
         
         // Buscar el valor en la URL
         var index = url.indexOf(valorBuscado);
-        
+        console.log(url,index,url[index-1])
         // Verificar si se encontró el valor
         if (index !== -1) {
             // Reemplazar el valor encontrado por el nuevo valor
@@ -203,29 +205,7 @@ function readCSVFile(){
                 }
 
             }
-
-            var tbodyEl = document.getElementById('tblcsvdata').getElementsByTagName('tbody')[0];
-            tbodyEl.innerHTML = "";
-
-            // Loop on the row Array (change row=0 if you also want to read 1st row)
-            for (var row = 1; row < rowData.length; row++) {
-
-                  // Insert a row at the end of table
-                  var newRow = tbodyEl.insertRow();
-
-                  // Split by comma (,) to get column Array
-                  rowColData = rowData[row].split(';');
-
-                  // Loop on the row column Array
-                  for (var col = 0; col < rowColData.length; col++) {
-
-                       // Insert a cell at the end of the row
-                       var newCell = newRow.insertCell();
-                       newCell.innerHTML = rowColData[col];
-
-                  }
-
-            }
+            
        })
 
         
