@@ -174,14 +174,14 @@ function readCSVFile(){
     fetch('/js/voyager_content.csv')
         .then(response => response.text())
         .then(csvdata => {
-            console.log(csvdata)         
+                     
 
             // Split by line break to gets rows Array
             var rowData = csvdata.split('\n');
-            console.log(rowData) 
+            
             //Buscar elementos
             var csvElements = document.querySelectorAll('[csv]');
-            console.log(csvElements);
+            
 
             // Recorrer tabla de CSV 
 
@@ -189,15 +189,16 @@ function readCSVFile(){
 
                 // Split by comma (,) to get column Array
                 let rowColData = rowData[row].split(';');
-                let csvId = rowColData[0];
-                let textToChange =  rowColData[1]; 
+                const csvId = rowColData[0];
+                //pendiente : hacer funcion que detecte el idioma y seleccione el índice
+                var textToChange =  rowColData[1]; // 1: es , 2: en
                 console.log(csvId);
 
                 // Buscar en las etiquetas HTML (csvElements)
 
                 for(element of csvElements){
                     if ( csvId === element.getAttribute("id") & element.getAttribute("csv") === "true"){
-                        element.textContent = textToChange;
+                        element.innerHTML = textToChange;
                     }                   
                 }
 
