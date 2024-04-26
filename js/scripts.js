@@ -70,8 +70,7 @@ const changeLanguage = async language => {
     }
 }
 
-// Funcion para gestionar los enlaces
-
+// Funcion para gestionar las URL /en/ y /es/ en navbar y menú lateal
 
 document.addEventListener('DOMContentLoaded', async function() {
     const enlaces = document.querySelectorAll("[data-link]"); 
@@ -93,21 +92,15 @@ document.addEventListener('DOMContentLoaded', async function() {
 });
 
 
-// Funcion para cambiar navbar,layouts y menus laterales
+// Funcion para cambiar navbar(includes),layouts y menus laterales(includes)
 
 document.addEventListener('DOMContentLoaded', async function() {
     textsToChange = document.querySelectorAll("[data-section]")
 
-    if (valorEnURL('en')) {      
-        // Cambiar navbar a inglés
-        
+    if (valorEnURL('/en/')) {  
         changeLanguage('en')
-
-    } else {
-        // Cambiar navbar a español
-        
+    } else {              
         changeLanguage('es')
-
     }
 
     languageBottons();
@@ -136,7 +129,7 @@ function languageBottons(){
         
         // Buscar el valor en la URL
         var index = url.indexOf(valorBuscado);
-        console.log(url,index,url[index-1])
+        
         
         // Verificar si se encontró el valor
         if (index !== -1 ) {
@@ -173,7 +166,33 @@ function languageBottons(){
 }  
 
 function readCSVFile(){
-    fetch('/js/voyager_content.csv')
+
+    // Obtener pagina, seccion, idioma 
+
+    /*
+    Pages : index, voyager, deltav, events (codeac), inprogress, contact 
+    */
+    var page;
+    var url = window.location.href;  
+
+    if (url.indexOf("voyager") !== -1) {
+        page = "voyager";
+    }
+    else if (url.split('/').length <= 5){
+        page = "index";
+    }
+    console.log(page)   
+
+    var lang_index;
+    if (valorEnURL('/en/')) {  
+        lang_index = 2;
+    } else {              
+        lang_index = 1;
+    }
+
+    
+
+    fetch(`/js/${page}_content.csv`)
         .then(response => response.text())
         .then(csvdata => {
                      
@@ -193,8 +212,8 @@ function readCSVFile(){
                 let rowColData = rowData[row].split(';');
                 const csvId = rowColData[0];
                 //pendiente : hacer funcion que detecte el idioma y seleccione el índice
-                var textToChange =  rowColData[1]; // 1: es , 2: en
-                console.log(csvId);
+                var textToChange =  rowColData[lang_index]; // 1: es , 2: en
+                
 
                 // Buscar en las etiquetas HTML (csvElements)
 
