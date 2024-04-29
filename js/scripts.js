@@ -33,9 +33,72 @@ $(document).ready(function () {
     }, 3000);
 });
 
-// Funciones cambio de lenguaje 
 
-// Detectar click en cambio de idioma
+document.addEventListener('DOMContentLoaded',pageHandler);
+
+
+async function pageHandler() {
+    console.log("starting...")
+
+    // Funcion para gestionar las URL /en/ y /es/ en navbar y menú lateal
+    redirectURL();
+
+    // Cambia el idioma de navbar y menus laterales con archivo JSON
+    changeLanguage();
+
+    // Botones ES y EN
+    languageBottons();
+
+    // Leer contenido de .csv 
+    readCSVFile();
+    
+}
+
+// Funcion para gestionar las URL /en/ y /es/ en navbar y menú lateal
+
+async function redirectURL() {
+    const enlaces = document.querySelectorAll("[data-link]"); 
+    
+    enlaces.forEach(function(enlace) {
+        enlace.addEventListener('click', function() {
+        
+            const link = enlace.dataset.link;
+            
+            if (valorEnURL('/es/')) {
+                window.location.href = `/es/${link}`
+            }
+            else if (valorEnURL('/en/')){
+                window.location.href = `/en/${link}`
+            }
+
+        });
+    })
+};
+
+// Cambia el idioma de navbar y menus laterales con archivo JSON
+async function changeLanguage(){
+    var language;
+    var textsToChange = document.querySelectorAll("[data-section]")
+
+    if (valorEnURL('/en/')) {          
+        language = 'en'; 
+    } else {              
+        
+        language = 'es'; 
+    }
+    
+
+    const requestJson = await fetch(`/${language}/${language}.json`);
+    const texts = await requestJson.json();
+    
+    for(const textToChange of textsToChange){
+       
+       const section = textToChange.dataset.section;
+       const value = textToChange.dataset.value; 
+       
+       textToChange.innerHTML = texts[section][value];
+    }
+}
 
 
 
@@ -51,74 +114,20 @@ function valorEnURL(valor) {
       return false;
     }
   }
-  
-// Función cambio de lenguaje 
-
-let textsToChange = '';
-
-const changeLanguage = async language => {
-    const requestJson = await fetch(`/${language}/${language}.json`);
-    const texts = await requestJson.json();
-    //console.log(texts)
-    //console.log(textsToChange)
-    for(const textToChange of textsToChange){
-       
-       const section = textToChange.dataset.section;
-       const value = textToChange.dataset.value; 
-       
-       textToChange.innerHTML = texts[section][value];
-    }
-}
-
-// Funcion para gestionar las URL /en/ y /es/ en navbar y menú lateal
-
-document.addEventListener('DOMContentLoaded', async function() {
-    const enlaces = document.querySelectorAll("[data-link]"); 
-    
-    enlaces.forEach(function(enlace) {
-        enlace.addEventListener('click', function(event) {
-        
-            const link = enlace.dataset.link;
-            
-            if (valorEnURL('/es/')) {
-                window.location.href = `/es/${link}`
-            }
-            else if (valorEnURL('/en/')){
-                window.location.href = `/en/${link}`
-            }
-
-        });
-    })
-});
 
 
-// Funcion para cambiar navbar(includes),layouts y menus laterales(includes)
 
-document.addEventListener('DOMContentLoaded', async function() {
-    textsToChange = document.querySelectorAll("[data-section]")
-
-    if (valorEnURL('/en/')) {  
-        changeLanguage('en')
-    } else {              
-        changeLanguage('es')
-    }
-
-    languageBottons();
-    readCSVFile();
-      
-});
 
 
 function languageBottons(){
 
-    // Funcion boton Spanish de navbar
-  
+    // Funcion boton Spanish de navbar  
     var spanish = document.querySelector('.navbar-item[data-language="es"]');
 
 
     spanish.addEventListener('click', function(event) {
-        const nuevoValor = 'es';
-        const valorBuscado = 'en';
+        const nuevoValor = '/es/';
+        const valorBuscado = '/en/';
         
         // Evitar el comportamiento predeterminado del enlace
         event.preventDefault();
@@ -143,8 +152,8 @@ function languageBottons(){
     var english = document.querySelector('.navbar-item[data-language="en"]');
 
     english.addEventListener('click', function(event) {
-        const nuevoValor = 'en';
-        const valorBuscado = 'es';        
+        const nuevoValor = '/en/';
+        const valorBuscado = '/es/';        
         // Evitar el comportamiento predeterminado del enlace
         event.preventDefault();
         
@@ -181,7 +190,7 @@ function readCSVFile(){
     else if (url.split('/').length <= 5){
         page = "index";
     }
-    console.log(page)   
+       
 
     var lang_index;
     if (valorEnURL('/en/')) {  
