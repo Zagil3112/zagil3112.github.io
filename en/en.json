@@ -8,6 +8,9 @@
     "voyager_layout":{
         "subtitle":"Aeronautics and Astronautics Research Group"
     },
+    "deltav_layout":{
+        "subtitle":"Rocketry and Propulsion Research Group"
+    },
     "menu_voyager":{
         "Informacion": "Information",
         "Nosotros":"About us",
@@ -19,6 +22,15 @@
         "Aero":"Aeronautics",
         "Data":"Comms and Data analysis",
         "Control":"Control and Orbital Mechanics"
-    }
-
+    },
+    "menu_deltav":{
+        "Informacion": "Information",
+        "Nosotros":"About us",
+        "Contacto":"Contact",
+        "Logros":"Achievements",
+        "Competencias":"Competitions",
+        "Publicaciones":"Papers",
+        "Proyectos":"Research projects",
+        "Solid":"Solid rocket propellants",
+        "Turbina":"Boeing Turbine"}
 }

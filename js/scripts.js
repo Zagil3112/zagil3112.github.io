@@ -187,9 +187,18 @@ function readCSVFile(){
     if (url.indexOf("voyager") !== -1) {
         page = "voyager";
     }
+    else if (url.indexOf("deltav")!== -1){
+        page = "deltav";
+    }
+    else if (url.indexOf("inprogress")!== -1){
+        page = "inprogress";
+    }
+
     else if (url.split('/').length <= 5){
         page = "index";
     }
+
+    console.log(url,page)
        
 
     var lang_index;
